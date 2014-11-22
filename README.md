@@ -21,7 +21,7 @@ console.log(res);
 ## Command Line
 
 ```sh
-cat test/fixtures/callgraph.csv | node rjs test/fixtures/jit.map
+cat test/fixtures/callgraph.csv | rjs test/fixtures/jit.map
 ```
 
 ## Installation
