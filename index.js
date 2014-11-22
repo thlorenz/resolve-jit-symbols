@@ -5,13 +5,13 @@
  * 
  * @name JITResolver
  * @function
- * @param {String} map with space separated HexAddres, Size, Symbol on each line
+ * @param {String|Array.<String>} map either a string or lines with space separated HexAddres, Size, Symbol on each line
  * @return {Object} the initialized JIT resolver
  */
 function JITResolver(map) {
   if (!(this instanceof JITResolver)) return new JITResolver(map);
   
-  var lines = map.split('\n')
+  var lines = Array.isArray(map) ? map : map.split('\n')
   this._addresses = lines
     .reduce(function processLine(acc, x) {
       if (!x.trim().length) return acc;

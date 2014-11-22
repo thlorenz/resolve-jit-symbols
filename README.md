@@ -63,8 +63,10 @@ Needs tests.
 <td class="name"><code>map</code></td>
 <td class="type">
 <span class="param-type">String</span>
+|
+<span class="param-type">Array.&lt;String></span>
 </td>
-<td class="description last"><p>with space separated HexAddres, Size, Symbol on each line</p></td>
+<td class="description last"><p>either a string or lines with space separated HexAddres, Size, Symbol on each line</p></td>
 </tr>
 </tbody>
 </table>
@@ -112,6 +114,8 @@ Type
 <td class="name"><code>hexAddress</code></td>
 <td class="type">
 <span class="param-type">String</span>
+|
+<span class="param-type">Number</span>
 </td>
 <td class="description last"><p>the hexadecimal address of the address to check</p></td>
 </tr>

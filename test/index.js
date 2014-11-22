@@ -52,3 +52,19 @@ test('\nresolving from string', function (t) {
   t.equal(resolver.resolve(0x48852ffd485a), null, 'returns null for non-existing symbol')
   t.end()
 })
+
+test('\nresolving from lines', function (t) {
+  var resolver = jitResolver(map.split('\n'));
+
+  t.deepEqual(
+      resolver.resolve(0x38852ffd485a)
+    , { address: '38852ffd4640',
+        size: '54c',
+        decimalAddress: 62144686933568,
+        symbol: 'LazyCompile:*go' }
+    , 'correctly resolves existing symbol when hex passed as number'
+  )
+
+  t.equal(resolver.resolve(0x48852ffd485a), null, 'returns null for non-existing symbol')
+  t.end()
+})
