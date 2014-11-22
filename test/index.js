@@ -68,3 +68,13 @@ test('\nresolving from lines', function (t) {
   t.equal(resolver.resolve(0x48852ffd485a), null, 'returns null for non-existing symbol')
   t.end()
 })
+
+test('\nresolving an entire stack', function (t) {
+  var stack = fs.readFileSync(__dirname + '/fixtures/callgraph.csv', 'utf8')
+    , expected = fs.readFileSync(__dirname + '/fixtures/callgraph-resolved.csv', 'utf8')
+
+  var resolver = jitResolver(map);
+  var s = resolver.resolveMulti(stack);
+  t.equal(s, expected, 'adds resolved symbols correctly')
+  t.end()
+})

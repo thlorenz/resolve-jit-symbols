@@ -1,11 +1,12 @@
 'use strict';
+var hexAddressRegex = /0x((\d|[abcdefABCDEF]){4}){2,4}/;
 
 /**
  * Instantiates a JIT resolver for the given map.
  * 
  * @name JITResolver
  * @function
- * @param {String|Array.<String>} map either a string or lines with space separated HexAddres, Size, Symbol on each line
+ * @param {String|Array.<String>} map either a string or lines with space separated HexAddress, Size, Symbol on each line
  * @return {Object} the initialized JIT resolver
  */
 function JITResolver(map) {
@@ -48,8 +49,7 @@ var proto = JITResolver.prototype;
  */
 proto.resolve = function resolve(hexAddress) {
   var match = null;
-  if (typeof hexAddress === 'number') hexAddress = hexAddress.toString(16);
-  var a = parseInt(hexAddress, 16);
+  var a = typeof hexAddress === 'number' ? hexAddress : parseInt(hexAddress, 16);
 
   for (var i = 0; i < this._len; i++) {
     // once we hit a larger address that means our symbol/function that this
@@ -60,4 +60,40 @@ proto.resolve = function resolve(hexAddress) {
     }
   }
   return match;
+}
+
+function defaultGetHexAddress(line) {
+  var m = line.match(hexAddressRegex);
+  return m && m[0];
+}
+
+/**
+ * Resolves all symbols in a given stack and replaces them accordingly
+ * 
+ * @name JITResolver::resolveMulti
+ * @function
+ * @param {Array.<String>|String} stack string of stack or lines of stack
+ * @param {function=} getHexAddress allows overriding the function used to find a hex address on each line
+ * @return {Array.<String>|String} the stack with symbols resolved in the same format that the stack was given, either as lines or one string
+ */
+proto.resolveMulti = function resolveMulti(stack, getHexAddress) {
+  getHexAddress = getHexAddress || defaultGetHexAddress;
+  var self = this;
+
+  var isLines = Array.isArray(stack)
+  var lines = isLines ? stack : stack.split('\n')
+
+  function processLine(line) {
+    var address = getHexAddress(line);
+    if (!address) return line;
+
+    var resolved = self.resolve(address);
+    if (!resolved) return line;
+
+    return line.replace(address, resolved.symbol);
+  }
+  
+  var processedLines = lines.map(processLine);
+
+  return isLines ? processedLines : processedLines.join('\n');
 }
