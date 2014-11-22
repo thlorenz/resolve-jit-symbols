@@ -1,0 +1,146 @@
+Running Time,Self,,Symbol Name
+69.0ms  100.0%,0, ,Main Thread  0x1261fe
+69.0ms  100.0%,0, , start
+69.0ms  100.0%,0, ,  node::Start(int, char**)
+67.0ms   97.1%,0, ,   uv_run
+67.0ms   97.1%,0, ,    uv__run_timers
+67.0ms   97.1%,0, ,     node::TimerWrap::OnTimeout(uv_timer_s*)
+67.0ms   97.1%,0, ,      node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)
+67.0ms   97.1%,0, ,       v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)
+67.0ms   97.1%,0, ,        v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)
+67.0ms   97.1%,0, ,         Stub:JSEntryStub
+67.0ms   97.1%,0, ,          Builtin:JSEntryTrampoline
+67.0ms   97.1%,0, ,           LazyCompile:listOnTimeout
+7.0ms   10.1%,7, ,            LazyCompile:*go
+7.0ms   10.1%,0, ,            LazyCompile:*go
+7.0ms   10.1%,0, ,             Stub:CEntryStub
+7.0ms   10.1%,0, ,              v8::internal::Runtime_AllocateInTargetSpace(int, v8::internal::Object**, v8::internal::Isolate*)
+7.0ms   10.1%,0, ,               v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationSpace)
+7.0ms   10.1%,0, ,                v8::internal::Heap::CollectGarbage(v8::internal::GarbageCollector, char const*, char const*, v8::GCCallbackFlags)
+7.0ms   10.1%,0, ,                 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags)
+7.0ms   10.1%,0, ,                  v8::internal::Heap::Scavenge()
+3.0ms    4.3%,0, ,                   v8::internal::StoreBuffer::IteratePointersToNewSpace(void (*)(v8::internal::HeapObject**, v8::internal::HeapObject*), bool)
+3.0ms    4.3%,0, ,                    v8::internal::StoreBuffer::PrepareForIteration()
+3.0ms    4.3%,3, ,                     v8::internal::StoreBuffer::Compact()
+3.0ms    4.3%,3, ,                   v8::internal::HeapObjectIterator::Next()
+1.0ms    1.4%,0, ,                   _pthread_mutex_lock
+1.0ms    1.4%,1, ,                    pthread_threadid_np
+4.0ms    5.7%,4, ,            Stub:RecordWriteStub
+4.0ms    5.7%,0, ,            Stub:StoreBufferOverflowStub
+4.0ms    5.7%,0, ,             v8::internal::StoreBuffer::StoreBufferOverflow(v8::internal::Isolate*)
+4.0ms    5.7%,4, ,              v8::internal::StoreBuffer::Compact()
+3.0ms    4.3%,3, ,            LazyCompile:*go
+3.0ms    4.3%,3, ,            LazyCompile:*go
+2.0ms    2.8%,2, ,            LazyCompile:*go
+2.0ms    2.8%,2, ,            LazyCompile:*go
+2.0ms    2.8%,2, ,            LazyCompile:*go
+2.0ms    2.8%,2, ,            Stub:CompareICStub
+2.0ms    2.8%,2, ,            LazyCompile:*go
+2.0ms    2.8%,0, ,            LazyCompile:~go
+1.0ms    1.4%,0, ,             Builtin:InOptimizationQueue
+1.0ms    1.4%,0, ,              Stub:CEntryStub
+1.0ms    1.4%,0, ,               v8::internal::Runtime_TryInstallOptimizedCode(int, v8::internal::Object**, v8::internal::Isolate*)
+1.0ms    1.4%,0, ,                v8::internal::OptimizingCompilerThread::InstallOptimizedFunctions()
+1.0ms    1.4%,0, ,                 v8::internal::Compiler::GetConcurrentlyOptimizedCode(v8::internal::OptimizedCompileJob*)
+1.0ms    1.4%,0, ,                  v8::internal::OptimizedCompileJob::GenerateCode()
+1.0ms    1.4%,0, ,                   v8::internal::LChunk::Codegen()
+1.0ms    1.4%,0, ,                    v8::internal::LCodeGen::GenerateCode()
+1.0ms    1.4%,0, ,                     v8::internal::LCodeGen::GenerateJumpTable()
+1.0ms    1.4%,1, ,                      v8::internal::LCodeGenBase::Comment(char const*, ...)
+1.0ms    1.4%,1, ,             LazyCompile:*runWithoutstack
+2.0ms    2.8%,2, ,            LazyCompile:*go
+2.0ms    2.8%,2, ,            LazyCompile:*go
+2.0ms    2.8%,2, ,            LazyCompile:*go
+2.0ms    2.8%,2, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,0, ,            LazyCompile:~go
+1.0ms    1.4%,0, ,             Builtin:ArgumentsAdaptorTrampoline
+1.0ms    1.4%,0, ,              Builtin:CompileLazy
+1.0ms    1.4%,0, ,               Stub:CEntryStub
+1.0ms    1.4%,0, ,                v8::internal::Runtime_CompileLazy(int, v8::internal::Object**, v8::internal::Isolate*)
+1.0ms    1.4%,0, ,                 v8::internal::Compiler::GetLazyCode(v8::internal::Handle<v8::internal::JSFunction>)
+1.0ms    1.4%,0, ,                  v8::internal::GetUnoptimizedCodeCommon(v8::internal::CompilationInfo*)
+1.0ms    1.4%,0, ,                   v8::internal::Parser::Parse(v8::internal::CompilationInfo*, bool)
+1.0ms    1.4%,0, ,                    v8::internal::Parser::Parse()
+1.0ms    1.4%,0, ,                     v8::internal::Parser::ParseLazy()
+1.0ms    1.4%,0, ,                      v8::internal::Parser::ParseLazy(v8::internal::Utf16CharacterStream*)
+1.0ms    1.4%,0, ,                       v8::internal::Parser::ParseFunctionLiteral(v8::internal::AstRawString const*, v8::internal::Scanner::Location, bool, v8::internal::FunctionKind, int, v8::internal::FunctionLiteral::FunctionType, v8::internal::FunctionLiteral::ArityRestriction, bool*)
+1.0ms    1.4%,0, ,                        v8::internal::Parser::ParseEagerFunctionBody(v8::internal::AstRawString const*, int, v8::internal::Variable*, v8::internal::Token::Value, bool, bool*)
+1.0ms    1.4%,0, ,                         v8::internal::Parser::ParseSourceElements(v8::internal::ZoneList<v8::internal::Statement*>*, int, bool, bool, v8::internal::Scope**, bool*)
+1.0ms    1.4%,0, ,                          v8::internal::Parser::ParseStatement(v8::internal::ZoneList<v8::internal::AstRawString const*>*, bool*)
+1.0ms    1.4%,0, ,                           v8::internal::Parser::ParseReturnStatement(bool*)
+1.0ms    1.4%,0, ,                            v8::internal::ParserBase<v8::internal::ParserTraits>::ParseExpression(bool, bool*)
+1.0ms    1.4%,0, ,                             v8::internal::ParserBase<v8::internal::ParserTraits>::ParseAssignmentExpression(bool, bool*)
+1.0ms    1.4%,0, ,                              v8::internal::ParserBase<v8::internal::ParserTraits>::ParseConditionalExpression(bool, bool*)
+1.0ms    1.4%,0, ,                               v8::internal::ParserBase<v8::internal::ParserTraits>::ParseBinaryExpression(int, bool, bool*)
+1.0ms    1.4%,0, ,                                v8::internal::ParserBase<v8::internal::ParserTraits>::ParseUnaryExpression(bool*)
+1.0ms    1.4%,0, ,                                 v8::internal::ParserBase<v8::internal::ParserTraits>::ParsePostfixExpression(bool*)
+1.0ms    1.4%,0, ,                                  v8::internal::ParserBase<v8::internal::ParserTraits>::ParseLeftHandSideExpression(bool*)
+1.0ms    1.4%,0, ,                                   v8::internal::ParserBase<v8::internal::ParserTraits>::ParseMemberWithNewPrefixesExpression(bool*)
+1.0ms    1.4%,0, ,                                    v8::internal::ParserBase<v8::internal::ParserTraits>::ParseMemberExpression(bool*)
+1.0ms    1.4%,0, ,                                     v8::internal::ParserBase<v8::internal::ParserTraits>::ParsePrimaryExpression(bool*)
+1.0ms    1.4%,0, ,                                      v8::internal::Parser::ParseV8Intrinsic(bool*)
+1.0ms    1.4%,0, ,                                       v8::internal::ParserBase<v8::internal::ParserTraits>::ParseArguments(bool*)
+1.0ms    1.4%,0, ,                                        v8::internal::ParserBase<v8::internal::ParserTraits>::ParseAssignmentExpression(bool, bool*)
+1.0ms    1.4%,0, ,                                         v8::internal::ParserBase<v8::internal::ParserTraits>::ParseConditionalExpression(bool, bool*)
+1.0ms    1.4%,0, ,                                          v8::internal::ParserBase<v8::internal::ParserTraits>::ParseBinaryExpression(int, bool, bool*)
+1.0ms    1.4%,0, ,                                           v8::internal::ParserBase<v8::internal::ParserTraits>::ParseUnaryExpression(bool*)
+1.0ms    1.4%,0, ,                                            v8::internal::ParserBase<v8::internal::ParserTraits>::ParsePostfixExpression(bool*)
+1.0ms    1.4%,1, ,                                             v8::internal::ParserBase<v8::internal::ParserTraits>::ParseLeftHandSideExpression(bool*)
+1.0ms    1.4%,0, ,            LazyCompile:~go
+1.0ms    1.4%,0, ,             Builtin:ArgumentsAdaptorTrampoline
+1.0ms    1.4%,0, ,              LazyCompile:~b
+1.0ms    1.4%,0, ,               Stub:CEntryStub
+1.0ms    1.4%,0, ,                v8::internal::Runtime_Apply(int, v8::internal::Object**, v8::internal::Isolate*)
+1.0ms    1.4%,0, ,                 v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)
+1.0ms    1.4%,0, ,                  Stub:JSEntryStub
+1.0ms    1.4%,0, ,                   Builtin:JSEntryTrampoline
+1.0ms    1.4%,0, ,                    Builtin:ArgumentsAdaptorTrampoline
+1.0ms    1.4%,0, ,                     LazyCompile:~Console.log
+1.0ms    1.4%,0, ,                      Builtin:ArgumentsAdaptorTrampoline
+1.0ms    1.4%,0, ,                       LazyCompile:~Socket.write
+1.0ms    1.4%,0, ,                        Builtin:FunctionApply
+1.0ms    1.4%,0, ,                         Builtin:ArgumentsAdaptorTrampoline
+1.0ms    1.4%,0, ,                          LazyCompile:~Writable.write
+1.0ms    1.4%,0, ,                           LazyCompile:~writeOrBuffer
+1.0ms    1.4%,0, ,                            LazyCompile:~doWrite
+1.0ms    1.4%,0, ,                             LazyCompile:~Socket._write
+1.0ms    1.4%,0, ,                              LazyCompile:~Socket._writeGeneric
+1.0ms    1.4%,0, ,                               Stub:CEntryStub
+1.0ms    1.4%,0, ,                                v8::internal::StoreIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)
+1.0ms    1.4%,0, ,                                 v8::internal::StoreIC::Store(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::Object>, v8::internal::Object::StoreFromKeyed)
+1.0ms    1.4%,0, ,                                  v8::internal::StoreIC::UpdateCaches(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::Object::StoreFromKeyed)
+1.0ms    1.4%,0, ,                                   v8::internal::IC::ComputeHandler(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>)
+1.0ms    1.4%,0, ,                                    v8::internal::StoreIC::CompileHandler(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::CacheHolderFlag)
+1.0ms    1.4%,0, ,                                     v8::internal::CodeStub::GetCode()
+1.0ms    1.4%,0, ,                                      v8::internal::StoreFieldStub::GenerateCode()
+1.0ms    1.4%,0, ,                                       v8::internal::OptimizeGraph(v8::internal::HGraph*)
+1.0ms    1.4%,0, ,                                        v8::internal::HGraph::Optimize(v8::internal::BailoutReason*)
+1.0ms    1.4%,1, ,                                         void v8::internal::HGraph::Run<v8::internal::HDeadCodeEliminationPhase>()
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            Stub:RecordWriteStub
+1.0ms    1.4%,1, ,            Stub:CompareICStub
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            Stub:RecordWriteStub
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            Stub:CompareICStub
+1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            Stub:CompareICStub
+1.0ms    1.4%,1, ,            Stub:CompareICStub
+1.0ms    1.4%,1, ,            LazyCompile:*go
+2.0ms    2.8%,0, ,   v8::internal::Isolate::TearDown()
+2.0ms    2.8%,0, ,    v8::internal::Isolate::Deinit()
+1.0ms    1.4%,0, ,     v8::internal::Heap::TearDown()
+1.0ms    1.4%,0, ,      v8::internal::NewSpace::TearDown()
+1.0ms    1.4%,0, ,       v8::base::VirtualMemory::ReleaseRegion(void*, unsigned long)
+1.0ms    1.4%,0, ,        munmap
+1.0ms    1.4%,1, ,         __munmap
+1.0ms    1.4%,0, ,     v8::internal::Logger::TearDown()
+1.0ms    1.4%,0, ,      v8::internal::PerfBasicLogger::~PerfBasicLogger()
+1.0ms    1.4%,0, ,       fclose
+1.0ms    1.4%,1, ,        __close_nocancel
