@@ -1,0 +1,2115 @@
+38852ff06060 f5 Stub:CEntryStub
+38852ff061c0 1a5 Stub:CEntryStub
+38852ff063e0 42 Stub:StoreBufferOverflowStub
+38852ff064a0 11e Stub:StoreBufferOverflowStub
+38852ff06620 14 Stub:StubFailureTrampolineStub
+38852ff066a0 15 Stub:StubFailureTrampolineStub
+38852ff06720 162 Stub:ArrayNoArgumentConstructorStub_FAST_SMI_ELEMENTS
+38852ff06900 13e Stub:ArrayNoArgumentConstructorStub_FAST_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+38852ff06aa0 176 Stub:ArrayNoArgumentConstructorStub_FAST_HOLEY_SMI_ELEMENTS
+38852ff06c80 152 Stub:ArrayNoArgumentConstructorStub_FAST_HOLEY_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+38852ff06e40 13a Stub:ArrayNoArgumentConstructorStub_FAST_DOUBLE_ELEMENTS
+38852ff06fe0 13a Stub:ArrayNoArgumentConstructorStub_FAST_HOLEY_DOUBLE_ELEMENTS
+38852ff07180 152 Stub:ArrayNoArgumentConstructorStub_FAST_ELEMENTS
+38852ff07340 152 Stub:ArrayNoArgumentConstructorStub_FAST_HOLEY_ELEMENTS
+38852ff07500 1de Stub:ArraySingleArgumentConstructorStub_FAST_SMI_ELEMENTS
+38852ff07740 1b6 Stub:ArraySingleArgumentConstructorStub_FAST_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+38852ff07960 1f2 Stub:ArraySingleArgumentConstructorStub_FAST_HOLEY_SMI_ELEMENTS
+38852ff07bc0 1ca Stub:ArraySingleArgumentConstructorStub_FAST_HOLEY_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+38852ff07e00 1ce Stub:ArraySingleArgumentConstructorStub_FAST_DOUBLE_ELEMENTS
+38852ff08040 1ce Stub:ArraySingleArgumentConstructorStub_FAST_HOLEY_DOUBLE_ELEMENTS
+38852ff08280 1ca Stub:ArraySingleArgumentConstructorStub_FAST_ELEMENTS
+38852ff084c0 1ca Stub:ArraySingleArgumentConstructorStub_FAST_HOLEY_ELEMENTS
+38852ff08700 1be Stub:ArrayNArgumentsConstructorStub_FAST_SMI_ELEMENTS
+38852ff08920 196 Stub:ArrayNArgumentsConstructorStub_FAST_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+38852ff08b20 1d2 Stub:ArrayNArgumentsConstructorStub_FAST_HOLEY_SMI_ELEMENTS
+38852ff08d60 1aa Stub:ArrayNArgumentsConstructorStub_FAST_HOLEY_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+38852ff08f80 1c2 Stub:ArrayNArgumentsConstructorStub_FAST_DOUBLE_ELEMENTS
+38852ff091c0 1c2 Stub:ArrayNArgumentsConstructorStub_FAST_HOLEY_DOUBLE_ELEMENTS
+38852ff09400 176 Stub:ArrayNArgumentsConstructorStub_FAST_ELEMENTS
+38852ff095e0 176 Stub:ArrayNArgumentsConstructorStub_FAST_HOLEY_ELEMENTS
+38852ff097c0 a1d Stub:RecordWriteStub
+38852ff0a240 9f4 Stub:RecordWriteStub
+38852ff0aca0 1d2 Stub:CreateAllocationSiteStub
+38852ff0aee0 32 Stub:BinaryOpICStub(BIT_OR:None*None->None)
+38852ff0af80 32 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:None*None->None)
+38852ff0b020 32 Stub:BinaryOpICStub(BIT_OR_ReuseRight:None*None->None)
+38852ff0b0c0 32 Stub:BinaryOpICStub(BIT_XOR:None*None->None)
+38852ff0b160 32 Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:None*None->None)
+38852ff0b200 32 Stub:BinaryOpICStub(BIT_XOR_ReuseRight:None*None->None)
+38852ff0b2a0 32 Stub:BinaryOpICStub(BIT_AND:None*None->None)
+38852ff0b340 32 Stub:BinaryOpICStub(BIT_AND_ReuseLeft:None*None->None)
+38852ff0b3e0 32 Stub:BinaryOpICStub(BIT_AND_ReuseRight:None*None->None)
+38852ff0b480 32 Stub:BinaryOpICStub(SHL:None*None->None)
+38852ff0b520 32 Stub:BinaryOpICStub(SHL_ReuseLeft:None*None->None)
+38852ff0b5c0 32 Stub:BinaryOpICStub(SHL_ReuseRight:None*None->None)
+38852ff0b660 32 Stub:BinaryOpICStub(SAR:None*None->None)
+38852ff0b700 32 Stub:BinaryOpICStub(SAR_ReuseLeft:None*None->None)
+38852ff0b7a0 32 Stub:BinaryOpICStub(SAR_ReuseRight:None*None->None)
+38852ff0b840 32 Stub:BinaryOpICStub(SHR:None*None->None)
+38852ff0b8e0 32 Stub:BinaryOpICStub(SHR_ReuseLeft:None*None->None)
+38852ff0b980 32 Stub:BinaryOpICStub(SHR_ReuseRight:None*None->None)
+38852ff0ba20 32 Stub:BinaryOpICStub(ROR:None*None->None)
+38852ff0bac0 32 Stub:BinaryOpICStub(ROR_ReuseLeft:None*None->None)
+38852ff0bb60 32 Stub:BinaryOpICStub(ROR_ReuseRight:None*None->None)
+38852ff0bc00 32 Stub:BinaryOpICStub(ADD:None*None->None)
+38852ff0bca0 32 Stub:BinaryOpICStub(ADD_ReuseLeft:None*None->None)
+38852ff0bd40 32 Stub:BinaryOpICStub(ADD_ReuseRight:None*None->None)
+38852ff0bde0 32 Stub:BinaryOpICStub(SUB:None*None->None)
+38852ff0be80 32 Stub:BinaryOpICStub(SUB_ReuseLeft:None*None->None)
+38852ff0bf20 32 Stub:BinaryOpICStub(SUB_ReuseRight:None*None->None)
+38852ff0bfc0 32 Stub:BinaryOpICStub(MUL:None*None->None)
+38852ff0c060 32 Stub:BinaryOpICStub(MUL_ReuseLeft:None*None->None)
+38852ff0c100 32 Stub:BinaryOpICStub(MUL_ReuseRight:None*None->None)
+38852ff0c1a0 32 Stub:BinaryOpICStub(DIV:None*None->None)
+38852ff0c240 32 Stub:BinaryOpICStub(DIV_ReuseLeft:None*None->None)
+38852ff0c2e0 32 Stub:BinaryOpICStub(DIV_ReuseRight:None*None->None)
+38852ff0c380 32 Stub:BinaryOpICStub(MOD:None*None->None)
+38852ff0c420 32 Stub:BinaryOpICStub(MOD_ReuseLeft:None*None->None)
+38852ff0c4c0 32 Stub:BinaryOpICStub(MOD_ReuseRight:None*None->None)
+38852ff0c560 114 Stub:BinaryOpICStub(ADD:Int32*Int32->Int32)
+38852ff0c6e0 140 Stub:BinaryOpICStub(ADD_ReuseLeft:Int32*Int32->Int32)
+38852ff0c880 1ae Stub:BinaryOpICStub(ADD:Int32*Int32->Number)
+38852ff0caa0 1d6 Stub:BinaryOpICStub(ADD_ReuseLeft:Int32*Int32->Number)
+38852ff0cce0 18e Stub:BinaryOpICStub(ADD:Int32*Number->Number)
+38852ff0cee0 1b6 Stub:BinaryOpICStub(ADD_ReuseLeft:Int32*Number->Number)
+38852ff0d100 1b2 Stub:BinaryOpICStub(ADD_ReuseRight:Int32*Number->Number)
+38852ff0d320 cc Stub:BinaryOpICStub(ADD:Int32*Smi->Int32)
+38852ff0d460 fc Stub:BinaryOpICStub(ADD_ReuseLeft:Int32*Smi->Int32)
+38852ff0d5c0 cc Stub:BinaryOpICStub(ADD_ReuseRight:Int32*Smi->Int32)
+38852ff0d700 192 Stub:BinaryOpICStub(ADD:Number*Int32->Number)
+38852ff0d900 1b6 Stub:BinaryOpICStub(ADD_ReuseLeft:Number*Int32->Number)
+38852ff0db20 1b6 Stub:BinaryOpICStub(ADD_ReuseRight:Number*Int32->Number)
+38852ff0dd40 152 Stub:BinaryOpICStub(ADD:Number*Number->Number)
+38852ff0df00 17a Stub:BinaryOpICStub(ADD_ReuseLeft:Number*Number->Number)
+38852ff0e0e0 176 Stub:BinaryOpICStub(ADD_ReuseRight:Number*Number->Number)
+38852ff0e2c0 136 Stub:BinaryOpICStub(ADD:Number*Smi->Number)
+38852ff0e460 15e Stub:BinaryOpICStub(ADD_ReuseLeft:Number*Smi->Number)
+38852ff0e620 136 Stub:BinaryOpICStub(ADD_ReuseRight:Number*Smi->Number)
+38852ff0e7c0 b8 Stub:BinaryOpICStub(ADD:Smi*Int32->Int32)
+38852ff0e8e0 b8 Stub:BinaryOpICStub(ADD_ReuseLeft:Smi*Int32->Int32)
+38852ff0ea00 172 Stub:BinaryOpICStub(ADD:Smi*Int32->Number)
+38852ff0ebe0 136 Stub:BinaryOpICStub(ADD:Smi*Number->Number)
+38852ff0ed80 136 Stub:BinaryOpICStub(ADD_ReuseLeft:Smi*Number->Number)
+38852ff0ef20 15a Stub:BinaryOpICStub(ADD_ReuseRight:Smi*Number->Number)
+38852ff0f0e0 78 Stub:BinaryOpICStub(ADD_ReuseLeft:Smi*Smi->Int32)
+38852ff0f1c0 6c Stub:BinaryOpICStub(ADD_ReuseRight:Smi*Smi->Smi)
+38852ff0f2a0 56 Stub:DoubleToIStub
+38852ff0f360 58 Stub:DoubleToIStub
+38852ff0f420 130 Stub:BinaryOpICStub(BIT_AND:Int32*Int32->Int32)
+38852ff0f5c0 15c Stub:BinaryOpICStub(BIT_AND_ReuseLeft:Int32*Int32->Int32)
+38852ff0f780 158 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Int32*Int32->Int32)
+38852ff0f940 130 Stub:BinaryOpICStub(BIT_AND:Int32*Int32->Smi)
+38852ff0fae0 130 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Int32*Int32->Smi)
+38852ff0fc80 d8 Stub:BinaryOpICStub(BIT_AND:Int32*Smi->Int32)
+38852ff0fdc0 d8 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Int32*Smi->Int32)
+38852ff0ff00 d8 Stub:BinaryOpICStub(BIT_AND:Int32*Smi->Smi)
+38852ff10040 d8 Stub:BinaryOpICStub(BIT_AND_ReuseLeft:Int32*Smi->Smi)
+38852ff10180 d8 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Int32*Smi->Smi)
+38852ff102c0 158 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Number*Int32->Int32)
+38852ff10480 d8 Stub:BinaryOpICStub(BIT_AND:Number*Smi->Smi)
+38852ff105c0 d8 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Number*Smi->Smi)
+38852ff10700 d8 Stub:BinaryOpICStub(BIT_AND:Smi*Int32->Int32)
+38852ff10840 d8 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Smi*Int32->Smi)
+38852ff10980 d8 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Smi*Number->Smi)
+38852ff10ac0 5c Stub:BinaryOpICStub(BIT_AND:Smi*Smi->Smi)
+38852ff10b80 5c Stub:BinaryOpICStub(BIT_AND_ReuseLeft:Smi*Smi->Smi)
+38852ff10c40 5c Stub:BinaryOpICStub(BIT_AND_ReuseRight:Smi*Smi->Smi)
+38852ff10d00 15c Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Int32*Int32->Int32)
+38852ff10ec0 158 Stub:BinaryOpICStub(BIT_OR_ReuseRight:Int32*Int32->Int32)
+38852ff11080 130 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Int32*Int32->Smi)
+38852ff11220 d8 Stub:BinaryOpICStub(BIT_OR:Int32*Smi->Int32)
+38852ff11360 104 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Int32*Smi->Int32)
+38852ff114e0 d8 Stub:BinaryOpICStub(BIT_OR_ReuseRight:Int32*Smi->Int32)
+38852ff11620 d8 Stub:BinaryOpICStub(BIT_OR:Int32*Smi->Smi)
+38852ff11760 d8 Stub:BinaryOpICStub(BIT_OR_ReuseRight:Int32*Smi->Smi)
+38852ff118a0 d8 Stub:BinaryOpICStub(BIT_OR:Number*Smi->Int32)
+38852ff119e0 104 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Number*Smi->Int32)
+38852ff11b60 d8 Stub:BinaryOpICStub(BIT_OR_ReuseRight:Number*Smi->Int32)
+38852ff11ca0 d8 Stub:BinaryOpICStub(BIT_OR:Number*Smi->Smi)
+38852ff11de0 d8 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Number*Smi->Smi)
+38852ff11f20 d8 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Smi*Int32->Int32)
+38852ff12060 100 Stub:BinaryOpICStub(BIT_OR_ReuseRight:Smi*Int32->Int32)
+38852ff121c0 d8 Stub:BinaryOpICStub(BIT_OR_ReuseRight:Smi*Int32->Smi)
+38852ff12300 5c Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Smi*Smi->Smi)
+38852ff123c0 5c Stub:BinaryOpICStub(BIT_OR_ReuseRight:Smi*Smi->Smi)
+38852ff12480 130 Stub:BinaryOpICStub(BIT_XOR:Int32*Int32->Int32)
+38852ff12620 15c Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Int32*Int32->Int32)
+38852ff127e0 158 Stub:BinaryOpICStub(BIT_XOR_ReuseRight:Int32*Int32->Int32)
+38852ff129a0 130 Stub:BinaryOpICStub(BIT_XOR:Int32*Int32->Smi)
+38852ff12b40 130 Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Int32*Int32->Smi)
+38852ff12ce0 130 Stub:BinaryOpICStub(BIT_XOR:Int32*Number->Smi)
+38852ff12e80 d8 Stub:BinaryOpICStub(BIT_XOR:Int32*Smi->Int32)
+38852ff12fc0 104 Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Int32*Smi->Int32)
+38852ff13140 d8 Stub:BinaryOpICStub(BIT_XOR_ReuseRight:Int32*Smi->Int32)
+38852ff13280 130 Stub:BinaryOpICStub(BIT_XOR:Number*Int32->Int32)
+38852ff13420 d8 Stub:BinaryOpICStub(BIT_XOR:Number*Smi->Int32)
+38852ff13560 d8 Stub:BinaryOpICStub(BIT_XOR:Number*Smi->Smi)
+38852ff136a0 d8 Stub:BinaryOpICStub(BIT_XOR:Smi*Int32->Int32)
+38852ff137e0 d8 Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Smi*Int32->Int32)
+38852ff13920 d8 Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Smi*Int32->Smi)
+38852ff13a60 5c Stub:BinaryOpICStub(BIT_XOR:Smi*Smi->Smi)
+38852ff13b20 5c Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Smi*Smi->Smi)
+38852ff13be0 5c Stub:BinaryOpICStub(BIT_XOR_ReuseRight:Smi*Smi->Smi)
+38852ff13ca0 15c Stub:BinaryOpICStub(DIV:Int32*Int32->Int32)
+38852ff13e60 1b2 Stub:BinaryOpICStub(DIV:Int32*Int32->Number)
+38852ff14080 192 Stub:BinaryOpICStub(DIV:Int32*Number->Number)
+38852ff14280 1b6 Stub:BinaryOpICStub(DIV_ReuseLeft:Int32*Number->Number)
+38852ff144a0 104 Stub:BinaryOpICStub(DIV:Int32*Smi->Int32)
+38852ff14620 176 Stub:BinaryOpICStub(DIV:Int32*Smi->Number)
+38852ff14800 192 Stub:BinaryOpICStub(DIV:Number*Int32->Number)
+38852ff14a00 1ba Stub:BinaryOpICStub(DIV_ReuseLeft:Number*Int32->Number)
+38852ff14c20 156 Stub:BinaryOpICStub(DIV:Number*Number->Number)
+38852ff14de0 17a Stub:BinaryOpICStub(DIV_ReuseLeft:Number*Number->Number)
+38852ff14fc0 17a Stub:BinaryOpICStub(DIV_ReuseRight:Number*Number->Number)
+38852ff151a0 13a Stub:BinaryOpICStub(DIV:Number*Smi->Number)
+38852ff15340 15e Stub:BinaryOpICStub(DIV_ReuseLeft:Number*Smi->Number)
+38852ff15500 100 Stub:BinaryOpICStub(DIV:Smi*Int32->Int32)
+38852ff15660 176 Stub:BinaryOpICStub(DIV:Smi*Int32->Number)
+38852ff15840 176 Stub:BinaryOpICStub(DIV_ReuseLeft:Smi*Int32->Number)
+38852ff15a20 13a Stub:BinaryOpICStub(DIV:Smi*Number->Number)
+38852ff15bc0 13a Stub:BinaryOpICStub(DIV_ReuseLeft:Smi*Number->Number)
+38852ff15d60 15e Stub:BinaryOpICStub(DIV_ReuseRight:Smi*Number->Number)
+38852ff15f20 11e Stub:BinaryOpICStub(DIV:Smi*Smi->Number)
+38852ff160a0 11e Stub:BinaryOpICStub(DIV_ReuseLeft:Smi*Smi->Number)
+38852ff16220 11e Stub:BinaryOpICStub(DIV_ReuseRight:Smi*Smi->Number)
+38852ff163a0 a8 Stub:BinaryOpICStub(DIV:Smi*Smi->Smi)
+38852ff164c0 a8 Stub:BinaryOpICStub(DIV_ReuseLeft:Smi*Smi->Smi)
+38852ff165e0 a8 Stub:BinaryOpICStub(DIV_ReuseRight:Smi*Smi->Smi)
+38852ff16700 183 Stub:BinaryOpICStub(MOD_ReuseLeft:Number*Smi->Number)
+38852ff16900 a0 Stub:BinaryOpICStub(MOD:Smi*Smi->Smi)
+38852ff16a00 a0 Stub:BinaryOpICStub(MOD_ReuseLeft:Smi*Smi->Smi)
+38852ff16b00 13c Stub:BinaryOpICStub(MUL:Int32*Int32->Int32)
+38852ff16ca0 1ae Stub:BinaryOpICStub(MUL:Int32*Int32->Number)
+38852ff16ec0 18e Stub:BinaryOpICStub(MUL:Int32*Number->Number)
+38852ff170c0 1b6 Stub:BinaryOpICStub(MUL_ReuseLeft:Int32*Number->Number)
+38852ff172e0 e0 Stub:BinaryOpICStub(MUL:Int32*Smi->Int32)
+38852ff17420 10c Stub:BinaryOpICStub(MUL_ReuseLeft:Int32*Smi->Int32)
+38852ff175a0 172 Stub:BinaryOpICStub(MUL:Int32*Smi->Number)
+38852ff17780 192 Stub:BinaryOpICStub(MUL:Number*Int32->Number)
+38852ff17980 1b6 Stub:BinaryOpICStub(MUL_ReuseLeft:Number*Int32->Number)
+38852ff17ba0 1b6 Stub:BinaryOpICStub(MUL_ReuseRight:Number*Int32->Number)
+38852ff17dc0 152 Stub:BinaryOpICStub(MUL:Number*Number->Number)
+38852ff17f80 17a Stub:BinaryOpICStub(MUL_ReuseLeft:Number*Number->Number)
+38852ff18160 136 Stub:BinaryOpICStub(MUL:Number*Smi->Number)
+38852ff18300 15e Stub:BinaryOpICStub(MUL_ReuseLeft:Number*Smi->Number)
+38852ff184c0 136 Stub:BinaryOpICStub(MUL_ReuseRight:Number*Smi->Number)
+38852ff18660 e0 Stub:BinaryOpICStub(MUL:Smi*Int32->Int32)
+38852ff187a0 e0 Stub:BinaryOpICStub(MUL_ReuseLeft:Smi*Int32->Int32)
+38852ff188e0 172 Stub:BinaryOpICStub(MUL:Smi*Int32->Number)
+38852ff18ac0 136 Stub:BinaryOpICStub(MUL:Smi*Number->Number)
+38852ff18c60 136 Stub:BinaryOpICStub(MUL_ReuseLeft:Smi*Number->Number)
+38852ff18e00 15a Stub:BinaryOpICStub(MUL_ReuseRight:Smi*Number->Number)
+38852ff18fc0 88 Stub:BinaryOpICStub(MUL:Smi*Smi->Int32)
+38852ff190c0 11a Stub:BinaryOpICStub(MUL:Smi*Smi->Number)
+38852ff19240 11a Stub:BinaryOpICStub(MUL_ReuseLeft:Smi*Smi->Number)
+38852ff193c0 84 Stub:BinaryOpICStub(MUL:Smi*Smi->Smi)
+38852ff194c0 84 Stub:BinaryOpICStub(MUL_ReuseLeft:Smi*Smi->Smi)
+38852ff195c0 84 Stub:BinaryOpICStub(MUL_ReuseRight:Smi*Smi->Smi)
+38852ff196c0 d8 Stub:BinaryOpICStub(SAR_ReuseRight:Int32*Smi->Int32)
+38852ff19800 d8 Stub:BinaryOpICStub(SAR:Int32*Smi->Smi)
+38852ff19940 d8 Stub:BinaryOpICStub(SAR_ReuseRight:Int32*Smi->Smi)
+38852ff19a80 e0 Stub:BinaryOpICStub(SAR:Number*Smi->Smi)
+38852ff19bc0 e0 Stub:BinaryOpICStub(SAR_ReuseRight:Number*Smi->Smi)
+38852ff19d00 64 Stub:BinaryOpICStub(SAR_ReuseLeft:Smi*Smi->Smi)
+38852ff19de0 64 Stub:BinaryOpICStub(SAR_ReuseRight:Smi*Smi->Smi)
+38852ff19ec0 d8 Stub:BinaryOpICStub(SHL:Int32*Smi->Int32)
+38852ff1a000 d8 Stub:BinaryOpICStub(SHL_ReuseRight:Int32*Smi->Int32)
+38852ff1a140 d8 Stub:BinaryOpICStub(SHL:Int32*Smi->Smi)
+38852ff1a280 d8 Stub:BinaryOpICStub(SHL_ReuseRight:Int32*Smi->Smi)
+38852ff1a3c0 e0 Stub:BinaryOpICStub(SHL_ReuseRight:Number*Smi->Smi)
+38852ff1a500 64 Stub:BinaryOpICStub(SHL:Smi*Smi->Int32)
+38852ff1a5e0 64 Stub:BinaryOpICStub(SHL_ReuseLeft:Smi*Smi->Int32)
+38852ff1a6c0 64 Stub:BinaryOpICStub(SHL_ReuseRight:Smi*Smi->Int32)
+38852ff1a7a0 64 Stub:BinaryOpICStub(SHL:Smi*Smi->Smi)
+38852ff1a880 64 Stub:BinaryOpICStub(SHL_ReuseLeft:Smi*Smi->Smi)
+38852ff1a960 64 Stub:BinaryOpICStub(SHL_ReuseRight:Smi*Smi->Smi)
+38852ff1aa40 f0 Stub:BinaryOpICStub(SHR:Int32*Smi->Smi)
+38852ff1aba0 f0 Stub:BinaryOpICStub(SHR_ReuseLeft:Int32*Smi->Smi)
+38852ff1ad00 f0 Stub:BinaryOpICStub(SHR_ReuseRight:Int32*Smi->Smi)
+38852ff1ae60 f0 Stub:BinaryOpICStub(SHR:Number*Smi->Smi)
+38852ff1afc0 f0 Stub:BinaryOpICStub(SHR_ReuseLeft:Number*Smi->Smi)
+38852ff1b120 192 Stub:BinaryOpICStub(SHR_ReuseRight:Number*Smi->Int32)
+38852ff1b320 7c Stub:BinaryOpICStub(SHR:Smi*Smi->Smi)
+38852ff1b400 7c Stub:BinaryOpICStub(SHR_ReuseLeft:Smi*Smi->Smi)
+38852ff1b4e0 7c Stub:BinaryOpICStub(SHR_ReuseRight:Smi*Smi->Smi)
+38852ff1b5c0 114 Stub:BinaryOpICStub(SUB:Int32*Int32->Int32)
+38852ff1b740 140 Stub:BinaryOpICStub(SUB_ReuseLeft:Int32*Int32->Int32)
+38852ff1b8e0 18e Stub:BinaryOpICStub(SUB:Int32*Number->Number)
+38852ff1bae0 1b2 Stub:BinaryOpICStub(SUB_ReuseRight:Int32*Number->Number)
+38852ff1bd00 fc Stub:BinaryOpICStub(SUB_ReuseLeft:Int32*Smi->Int32)
+38852ff1be60 cc Stub:BinaryOpICStub(SUB_ReuseRight:Int32*Smi->Int32)
+38852ff1bfa0 192 Stub:BinaryOpICStub(SUB:Number*Int32->Number)
+38852ff1c1a0 1b6 Stub:BinaryOpICStub(SUB_ReuseLeft:Number*Int32->Number)
+38852ff1c3c0 152 Stub:BinaryOpICStub(SUB:Number*Number->Number)
+38852ff1c580 17a Stub:BinaryOpICStub(SUB_ReuseLeft:Number*Number->Number)
+38852ff1c760 176 Stub:BinaryOpICStub(SUB_ReuseRight:Number*Number->Number)
+38852ff1c940 136 Stub:BinaryOpICStub(SUB:Number*Smi->Number)
+38852ff1cae0 15e Stub:BinaryOpICStub(SUB_ReuseLeft:Number*Smi->Number)
+38852ff1cca0 136 Stub:BinaryOpICStub(SUB_ReuseRight:Number*Smi->Number)
+38852ff1ce40 b8 Stub:BinaryOpICStub(SUB:Smi*Int32->Int32)
+38852ff1cf60 136 Stub:BinaryOpICStub(SUB:Smi*Number->Number)
+38852ff1d100 136 Stub:BinaryOpICStub(SUB_ReuseLeft:Smi*Number->Number)
+38852ff1d2a0 15a Stub:BinaryOpICStub(SUB_ReuseRight:Smi*Number->Number)
+38852ff1d460 6c Stub:BinaryOpICStub(SUB:Smi*Smi->Smi)
+38852ff1d540 6c Stub:BinaryOpICStub(SUB_ReuseLeft:Smi*Smi->Smi)
+38852ff1d620 6c Stub:BinaryOpICStub(SUB_ReuseRight:Smi*Smi->Smi)
+38852ff1d700 a0 Stub:BinaryOpICStub(MOD:Smi*2->Smi)
+38852ff1d800 a0 Stub:BinaryOpICStub(MOD:Smi*4->Smi)
+38852ff1d900 a0 Stub:BinaryOpICStub(MOD_ReuseLeft:Smi*4->Smi)
+38852ff1da00 a0 Stub:BinaryOpICStub(MOD:Smi*8->Smi)
+38852ff1db00 a0 Stub:BinaryOpICStub(MOD_ReuseLeft:Smi*16->Smi)
+38852ff1dc00 a0 Stub:BinaryOpICStub(MOD:Smi*32->Smi)
+38852ff1dd00 a8 Stub:BinaryOpICStub(MOD:Smi*2048->Smi)
+38852ff1de20 ec Stub:JSEntryStub
+38852ff1df80 ec Stub:JSConstructEntryStub
+38852ff1e0e0 10 Builtin:Illegal
+38852ff1e160 10 Builtin:EmptyFunction
+38852ff1e1e0 10 Builtin:ArrayPush
+38852ff1e260 10 Builtin:ArrayPop
+38852ff1e2e0 10 Builtin:ArrayShift
+38852ff1e360 10 Builtin:ArrayUnshift
+38852ff1e3e0 10 Builtin:ArraySlice
+38852ff1e460 10 Builtin:ArraySplice
+38852ff1e4e0 10 Builtin:ArrayConcat
+38852ff1e560 15 Builtin:HandleApiCall
+38852ff1e5e0 15 Builtin:HandleApiCallConstruct
+38852ff1e660 10 Builtin:HandleApiCallAsFunction
+38852ff1e6e0 10 Builtin:HandleApiCallAsConstructor
+38852ff1e760 10 Builtin:StrictModePoisonPill
+38852ff1e7e0 10 Builtin:GeneratorPoisonPill
+38852ff1e860 fb Builtin:ArgumentsAdaptorTrampoline
+38852ff1e9c0 54 Builtin:InOptimizationQueue
+38852ff1ea80 212 Builtin:JSConstructStubGeneric
+38852ff1ed00 1a2 Builtin:JSConstructStubApi
+38852ff1ef20 67 Builtin:JSEntryTrampoline
+38852ff1f000 62 Stub:CallConstructStub
+38852ff1f0e0 52 Builtin:JSConstructEntryTrampoline
+38852ff1f1a0 38 Builtin:CompileLazy
+38852ff1f240 44 Builtin:CompileOptimized
+38852ff1f300 44 Builtin:CompileOptimizedConcurrent
+38852ff1f3c0 6b Builtin:NotifyDeoptimized
+38852ff1f4a0 6f Builtin:NotifySoftDeoptimized
+38852ff1f580 6b Builtin:NotifyLazyDeoptimized
+38852ff1f660 5a Builtin:NotifyStubFailure
+38852ff1f720 5a Builtin:NotifyStubFailureSaveDoubles
+38852ff1f7e0 15 Builtin:LoadIC_Miss
+38852ff1f860 15 Builtin:KeyedLoadIC_Miss
+38852ff1f8e0 16 Builtin:StoreIC_Miss
+38852ff1f960 16 Builtin:KeyedStoreIC_Miss
+38852ff1f9e0 23 Builtin:LoadIC_Getter_ForDeopt
+38852ff1fa80 15 Builtin:KeyedLoadIC_Initialize
+38852ff1fb00 15 Builtin:KeyedLoadIC_PreMonomorphic
+38852ff1fb80 368 Stub:NameDictionaryLookupStub
+38852ff1ff60 382 Builtin:KeyedLoadIC_Generic
+38852ff20360 23c Builtin:KeyedLoadIC_String
+38852ff20600 25 Builtin:StoreIC_Setter_ForDeopt
+38852ff206a0 16 Builtin:KeyedStoreIC_Initialize
+38852ff20720 16 Builtin:KeyedStoreIC_PreMonomorphic
+38852ff207a0 69a Stub:RecordWriteStub
+38852ff20ea0 688 Stub:RecordWriteStub
+38852ff215a0 676 Stub:RecordWriteStub
+38852ff21c80 2b0 Stub:RecordWriteStub
+38852ff21fa0 687 Stub:RecordWriteStub
+38852ff226a0 a70 Builtin:KeyedStoreIC_Generic
+38852ff23180 16 Builtin:KeyedStoreIC_Initialize_Strict
+38852ff23200 16 Builtin:KeyedStoreIC_PreMonomorphic_Strict
+38852ff23280 a70 Builtin:KeyedStoreIC_Generic_Strict
+38852ff23d60 676 Stub:RecordWriteStub
+38852ff24440 12e Builtin:KeyedStoreIC_SloppyArguments
+38852ff245e0 16c Builtin:FunctionCall
+38852ff247c0 172 Builtin:FunctionApply
+38852ff249a0 13e Stub:InternalArrayNoArgumentConstructorStub
+38852ff24b40 1b6 Stub:InternalArraySingleArgumentConstructorStub
+38852ff24d60 162 Stub:InternalArrayNArgumentsConstructorStub
+38852ff24f40 13e Stub:InternalArrayNoArgumentConstructorStub
+38852ff250e0 1b6 Stub:InternalArraySingleArgumentConstructorStub
+38852ff25300 162 Stub:InternalArrayNArgumentsConstructorStub
+38852ff254e0 6e Stub:InternalArrayConstructorStub
+38852ff255c0 14 Builtin:InternalArrayCode
+38852ff25640 1d2 Stub:ArrayConstructorStub_Any
+38852ff25880 18 Builtin:ArrayCode
+38852ff25900 17c Builtin:StringConstructCode
+38852ff25ae0 4c Builtin:OnStackReplacement
+38852ff25ba0 e Builtin:InterruptCheck
+38852ff25c20 3f Builtin:OsrAfterStackCheck
+38852ff25cc0 e Builtin:StackCheck
+38852ff25d40 67 Builtin:MarkCodeAsExecutedOnce
+38852ff25e20 5e Builtin:MarkCodeAsExecutedTwice
+38852ff25ee0 5e Builtin:MakeQuadragenarianCodeYoungAgainOddMarking
+38852ff25fa0 5e Builtin:MakeQuadragenarianCodeYoungAgainEvenMarking
+38852ff26060 5e Builtin:MakeQuinquagenarianCodeYoungAgainOddMarking
+38852ff26120 5e Builtin:MakeQuinquagenarianCodeYoungAgainEvenMarking
+38852ff261e0 5e Builtin:MakeSexagenarianCodeYoungAgainOddMarking
+38852ff262a0 5e Builtin:MakeSexagenarianCodeYoungAgainEvenMarking
+38852ff26360 5e Builtin:MakeSeptuagenarianCodeYoungAgainOddMarking
+38852ff26420 5e Builtin:MakeSeptuagenarianCodeYoungAgainEvenMarking
+38852ff264e0 5e Builtin:MakeOctogenarianCodeYoungAgainOddMarking
+38852ff265a0 5e Builtin:MakeOctogenarianCodeYoungAgainEvenMarking
+38852ff26660 15 Builtin:LoadIC_Slow
+38852ff266e0 15 Builtin:KeyedLoadIC_Slow
+38852ff26760 16 Builtin:StoreIC_Slow
+38852ff267e0 16 Builtin:KeyedStoreIC_Slow
+38852ff26860 36c Stub:NameDictionaryLookupStub
+38852ff26c40 b3 Builtin:LoadIC_Normal
+38852ff26d60 37f Stub:NameDictionaryLookupStub
+38852ff27140 f9 Builtin:StoreIC_Normal
+38852ff272a0 54 Builtin:Return_DebugBreak
+38852ff27360 50 Builtin:CallFunctionStub_DebugBreak
+38852ff27420 74 Builtin:CallConstructStub_DebugBreak
+38852ff27500 78 Builtin:CallConstructStub_Recording_DebugBreak
+38852ff275e0 52 Builtin:CallICStub_DebugBreak
+38852ff276a0 52 Builtin:LoadIC_DebugBreak
+38852ff27760 52 Builtin:KeyedLoadIC_DebugBreak
+38852ff27820 54 Builtin:StoreIC_DebugBreak
+38852ff278e0 54 Builtin:KeyedStoreIC_DebugBreak
+38852ff279a0 50 Builtin:CompareNilIC_DebugBreak
+38852ff27a60 52 Builtin:Slot_DebugBreak
+38852ff27b20 1 Builtin:PlainReturn_LiveEdit
+38852ff27ba0 29 Builtin:FrameDropper_LiveEdit
+38852ff27c40 15 LoadInitialize:0
+38852ff27cc0 15 LoadInitialize:0
+38852ff27d40 67c Stub:RecordWriteStub
+38852ff28420 187 Stub:CallConstructStub_Recording
+38852ff28620 2d4 Script:~native runtime.js
+38852ff28960 15 LoadPreMonomorphic:0
+38852ff289e0 15 LoadPreMonomorphic:0
+38852ff28a60 31 Stub:CompareNilICStub(NullValue)(None)
+38852ff28b00 8a Stub:CallFunctionStub_Args1
+38852ff28c00 8a Stub:CallFunctionStub_Args2
+38852ff28d00 aa8 LazyCompile:EQUALS native runtime.js:9
+38852ff29820 19c LazyCompile:~STRICT_EQUALS native runtime.js:56
+38852ff29a20 b4 Stub:StringCompareStub
+38852ff29b40 47 Stub:CompareICStub
+38852ff29c00 4dc LazyCompile:COMPARE native runtime.js:67
+38852ff2a140 391 Stub:StringAddStub_CheckBoth
+38852ff2a540 354 LazyCompile:ADD native runtime.js:99
+38852ff2a900 154 LazyCompile:SUB native runtime.js:137
+38852ff2aac0 154 LazyCompile:MUL native runtime.js:142
+38852ff2ac80 154 LazyCompile:DIV native runtime.js:147
+38852ff2ae40 154 LazyCompile:MOD native runtime.js:152
+38852ff2b000 154 LazyCompile:BIT_OR native runtime.js:157
+38852ff2b1c0 20c LazyCompile:BIT_AND native runtime.js:162
+38852ff2b440 154 LazyCompile:BIT_XOR native runtime.js:174
+38852ff2b600 154 LazyCompile:SHL native runtime.js:179
+38852ff2b7c0 20c LazyCompile:SAR native runtime.js:184
+38852ff2ba40 154 LazyCompile:SHR native runtime.js:196
+38852ff2bc00 e4 LazyCompile:DELETE native runtime.js:201
+38852ff2bd60 54c Stub:FastCloneShallowArrayStub
+38852ff2c320 695 Stub:RecordWriteStub
+38852ff2ca20 fb Stub:StoreArrayLiteralElementStub
+38852ff2cb80 1ac LazyCompile:IN native runtime.js:204
+38852ff2cda0 47 Stub:CompareICStub
+38852ff2ce60 31 Stub:ToBooleanStub(None)
+38852ff2cf00 2f4 LazyCompile:INSTANCE_OF native runtime.js:211
+38852ff2d260 d4 LazyCompile:FILTER_KEY native runtime.js:229
+38852ff2d3a0 18e Stub:ArgumentsAccessStub_NewSloppyFast
+38852ff2d5a0 18c LazyCompile:CALL_NON_FUNCTION native runtime.js:234
+38852ff2d7a0 18c LazyCompile:CALL_NON_FUNCTION_AS_CONSTRUCTOR native runtime.js:241
+38852ff2d9a0 65 Stub:ArgumentsAccessStub_ReadElement
+38852ff2da80 f4 LazyCompile:~CALL_FUNCTION_PROXY native runtime.js:248
+38852ff2dbe0 d4 LazyCompile:~CALL_FUNCTION_PROXY_AS_CONSTRUCTOR native runtime.js:254
+38852ff2dd20 94 LazyCompile:TO_OBJECT native runtime.js:284
+38852ff2de20 94 LazyCompile:TO_NUMBER native runtime.js:287
+38852ff2df20 94 LazyCompile:TO_STRING native runtime.js:290
+38852ff2e020 56 Stub:DoubleToIStub
+38852ff2e0e0 19b Stub:NumberToStringStub
+38852ff2e2e0 2bc LazyCompile:STRING_ADD_LEFT native runtime.js:112
+38852ff2e600 2cc LazyCompile:STRING_ADD_RIGHT native runtime.js:124
+38852ff2e940 47 Stub:CompareICStub
+38852ff2ea00 47 Stub:CompareICStub
+38852ff2eac0 47 Stub:CompareICStub
+38852ff2eb80 51c LazyCompile:APPLY_PREPARE native runtime.js:259
+38852ff2f100 cc LazyCompile:STACK_OVERFLOW native runtime.js:281
+38852ff2f240 131 Stub:CallICStub(args(0), FUNCTION, 
+38852ff2f3e0 137 Stub:CallICStub(args(12), FUNCTION, 
+38852ff2f580 13d Stub:CallICStub(args(38), FUNCTION, 
+38852ff2f720 137 Stub:CallICStub(args(3), FUNCTION, 
+38852ff2f8c0 7ac Script:~native v8natives.js
+38852ff300e0 137 Stub:CallICStub(args(10), FUNCTION, 
+38852ff30280 26c LazyCompile:~SetUpGlobal native v8natives.js:114
+38852ff30560 90 Stub:ArrayConstructorStub_More_Than_One
+38852ff30660 11a Stub:CallIC_ArrayStub(args(10), FUNCTION,  (Array)
+38852ff307e0 270 LazyCompile:~InstallFunctions native v8natives.js:4
+38852ff30ac0 5d Stub:CompareICStub
+38852ff30b80 64 Stub:BinaryOpICStub(SAR:Smi*Smi->Smi)
+38852ff30c60 5d Stub:CompareICStub
+38852ff30d20 90 Stub:LoadFastElementStub
+38852ff30e20 25 KeyedLoadIC:
+38852ff30ec0 6c Stub:BinaryOpICStub(ADD:Smi*Smi->Smi)
+38852ff30fa0 10 Stub:LoadFieldStub
+38852ff31020 25 LoadIC:length
+38852ff310c0 11a Stub:CallIC_ArrayStub(args(12), FUNCTION,  (Array)
+38852ff31240 120 Stub:CallIC_ArrayStub(args(38), FUNCTION,  (Array)
+38852ff313c0 a2 Stub:ToNumberStub
+38852ff314e0 3cc LazyCompile:~SetUpLockedPrototype native v8natives.js:45
+38852ff31920 5c Stub:ToBooleanStub(SpecObject)
+38852ff319e0 6c Stub:BinaryOpICStub(ADD_ReuseLeft:Smi*Smi->Smi)
+38852ff31ac0 25 LoadIC:length
+38852ff31b60 25 LoadIC:length
+38852ff31c00 13d Stub:CallICStub(args(20), FUNCTION, 
+38852ff31da0 137 Stub:CallICStub(args(4), FUNCTION, 
+38852ff31f40 13d Stub:CallICStub(args(30), FUNCTION, 
+38852ff320e0 604 LazyCompile:~SetUpObject native v8natives.js:1037
+38852ff32760 137 Stub:CallICStub(args(1), FUNCTION, 
+38852ff32900 1ae Stub:FastCloneShallowObjectStub
+38852ff32b20 184 LazyCompile:~ObjectConstructor native v8natives.js:1028
+38852ff32b20 184 LazyCompile:~ObjectConstructor native v8natives.js:1028
+38852ff32d20 120 Stub:CallIC_ArrayStub(args(20), FUNCTION,  (Array)
+38852ff32ea0 25 LoadIC:length
+38852ff32f40 25 LoadIC:length
+38852ff32fe0 114 LazyCompile:~InstallGetterSetter native v8natives.js:24
+38852ff33160 120 Stub:CallIC_ArrayStub(args(30), FUNCTION,  (Array)
+38852ff332e0 244 LazyCompile:~SetUpBoolean native v8natives.js:1098
+38852ff335a0 15c LazyCompile:~BooleanConstructor native v8natives.js:1075
+38852ff335a0 15c LazyCompile:~BooleanConstructor native v8natives.js:1075
+38852ff33760 1f4 LazyCompile:~ToBoolean native runtime.js:300
+38852ff339c0 11a Stub:CallIC_ArrayStub(args(4), FUNCTION,  (Array)
+38852ff33b40 1ee Stub:MathPowStub
+38852ff33da0 13d Stub:CallICStub(args(16), FUNCTION, 
+38852ff33f40 137 Stub:CallICStub(args(2), FUNCTION, 
+38852ff340e0 5dc LazyCompile:~SetUpNumber native v8natives.js:1217
+38852ff34720 17c LazyCompile:~NumberConstructor native v8natives.js:1109
+38852ff34720 17c LazyCompile:~NumberConstructor native v8natives.js:1109
+38852ff34900 55 Stub:CompareICStub
+38852ff349c0 2cc LazyCompile:ToNumber native runtime.js:307
+38852ff34d00 120 Stub:CallIC_ArrayStub(args(16), FUNCTION,  (Array)
+38852ff34e80 238 LazyCompile:~InstallConstants native v8natives.js:33
+38852ff35120 25 LoadIC:length
+38852ff351c0 1dc LazyCompile:~SetUpFunction native v8natives.js:1345
+38852ff35400 ea Stub:FastNewContextStub
+38852ff35560 19c LazyCompile:~FunctionConstructor native v8natives.js:1338
+38852ff35560 19c LazyCompile:~FunctionConstructor native v8natives.js:1338
+38852ff35760 3b4 Script:~native symbol.js
+38852ff35b80 ec LazyCompile:~InternalSymbol native symbol.js:25
+38852ff35ce0 14 Stub:LoadFieldStub
+38852ff35d60 25 LoadIC:for_intern
+38852ff35e00 38 KeyedLoadIC:Symbol.isConcatSpreadable
+38852ff35ea0 3c4 LazyCompile:~SetUpSymbol native symbol.js:59
+38852ff362e0 17c LazyCompile:~SymbolConstructor native symbol.js:4
+38852ff362e0 17c LazyCompile:~SymbolConstructor native symbol.js:4
+38852ff364c0 4c Stub:CompareNilICStub(NullValue)(Undefined)
+38852ff36580 25 LoadIC:length
+38852ff36620 25 LoadIC:length
+38852ff366c0 10c LazyCompile:~ExtendObject native symbol.js:78
+38852ff36840 11a Stub:CallIC_ArrayStub(args(2), FUNCTION,  (Array)
+38852ff369c0 11c Script:~native array.js
+38852ff36b40 6a6 Stub:RecordWriteStub
+38852ff37260 9f4 Stub:RecordWriteStub
+38852ff37cc0 a12 Stub:RecordWriteStub
+38852ff38740 26a Stub:FastNewClosureStub
+38852ff38a20 13d Stub:CallICStub(args(42), FUNCTION, 
+38852ff38bc0 137 Stub:CallICStub(args(6), FUNCTION, 
+38852ff38d60 e44 LazyCompile:~SetUpArray native array.js:1106
+38852ff39c20 1aa Stub:CallICStub(args(1), METHOD, 
+38852ff39e40 104 LazyCompile:~SetUpArray.c native array.js:1125
+38852ff39fc0 22c LazyCompile:~hasOwnProperty native v8natives.js:141
+38852ff3a260 50 Stub:ToBooleanStub(Bool)
+38852ff3a320 cc LazyCompile:ToName native runtime.js:343
+38852ff3a460 294 LazyCompile:ToString native runtime.js:328
+38852ff3a760 18 Stub:LoadConstantStub
+38852ff3a7e0 2e Stub:hasOwnProperty
+38852ff3a880 25 LoadIC:hasOwnProperty
+38852ff3a920 f Stub:ToName
+38852ff3a9a0 25 LoadIC:ToName
+38852ff3aa40 f Stub:ToString
+38852ff3aac0 25 LoadIC:ToString
+38852ff3ab60 18 Stub:LoadConstantStub
+38852ff3abe0 38 KeyedLoadIC:push
+38852ff3ac80 18 Stub:LoadConstantStub
+38852ff3ad00 120 Stub:CallIC_ArrayStub(args(42), FUNCTION,  (Array)
+38852ff3ae80 90 Stub:ArrayConstructorStub_None
+38852ff3af80 114 Stub:CallIC_ArrayStub(args(0), FUNCTION,  (Array)
+38852ff3b100 26 Stub:FunctionPrototypeStub
+38852ff3b1a0 25 LoadIC:prototype
+38852ff3b240 25 LoadIC:length
+38852ff3b2e0 25 LoadIC:length
+38852ff3b380 38 LoadPolymorphicIC:length
+38852ff3b420 11a Stub:CallIC_ArrayStub(args(6), FUNCTION,  (Array)
+38852ff3b5a0 1a4 Script:~native string.js
+38852ff3b7c0 13d Stub:CallICStub(args(72), FUNCTION, 
+38852ff3b960 71c LazyCompile:~SetUpString native string.js:621
+38852ff3c0e0 2c4 LazyCompile:~StringConstructor native string.js:2
+38852ff3c0e0 2c4 LazyCompile:~StringConstructor native string.js:2
+38852ff3c420 120 Stub:CallIC_ArrayStub(args(72), FUNCTION,  (Array)
+38852ff3c5a0 17e Stub:FastNewContextStub
+38852ff3c780 6a1 Stub:RecordWriteStub
+38852ff3cea0 45c Function:~ native uri.js:3
+38852ff3d360 b4 Script:~native uri.js
+38852ff3d480 84 Script:~native fdlibm.js
+38852ff3d580 18c Script:~native math.js
+38852ff3d780 5c LazyCompile:~MathConstructor native math.js:5
+38852ff3d840 13d Stub:CallICStub(args(70), FUNCTION, 
+38852ff3d9e0 804 LazyCompile:~SetUpMath native math.js:206
+38852ff3e260 120 Stub:CallIC_ArrayStub(args(70), FUNCTION,  (Array)
+38852ff3e3e0 124 Script:~native apinatives.js
+38852ff3e580 32c Script:~native date.js
+38852ff3e920 c0 Stub:ArrayConstructorStub_One
+38852ff3ea40 11a Stub:CallIC_ArrayStub(args(1), FUNCTION,  (Array)
+38852ff3ebc0 13d Stub:CallICStub(args(92), FUNCTION, 
+38852ff3ed60 8b4 LazyCompile:~SetUpDate native date.js:489
+38852ff3f680 1a4 Stub:CallICStub(args(0), METHOD, 
+38852ff3f8a0 16 StoreInitialize:0
+38852ff3f920 47 Stub:CompareICStub
+38852ff3f9e0 a74 LazyCompile:~DateConstructor native date.js:62
+38852ff3f9e0 a74 LazyCompile:~DateConstructor native date.js:62
+38852ff404c0 120 Stub:CallIC_ArrayStub(args(92), FUNCTION,  (Array)
+38852ff40640 1ac Script:~native regexp.js
+38852ff40860 137 Stub:CallICStub(args(8), FUNCTION, 
+38852ff40a00 26a Stub:FastNewClosureStub
+38852ff40ce0 8c8 LazyCompile:~SetUpRegExp native regexp.js:290
+38852ff41620 164 LazyCompile:~RegExpConstructor native regexp.js:55
+38852ff41620 164 LazyCompile:~RegExpConstructor native regexp.js:55
+38852ff41800 11a Stub:CallIC_ArrayStub(args(8), FUNCTION,  (Array)
+38852ff41980 33c LazyCompile:ToPrimitive native runtime.js:293
+38852ff41d20 5c Stub:DoubleToIStub
+38852ff41de0 49c Stub:BinaryOpWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+38852ff422e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+38852ff42360 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+38852ff423e0 84 LazyCompile:~RegExpMakeCaptureGetter native regexp.js:266
+38852ff424e0 f Stub:$RegExp
+38852ff42560 25 LoadIC:$RegExp
+38852ff42600 f Stub:RegExpMakeCaptureGetter
+38852ff42680 25 LoadIC:RegExpMakeCaptureGetter
+38852ff42720 114 Script:~native arraybuffer.js
+38852ff428a0 334 LazyCompile:~SetUpArrayBuffer native arraybuffer.js:53
+38852ff42c40 16c LazyCompile:~ArrayBufferConstructor native arraybuffer.js:4
+38852ff42c40 16c LazyCompile:~ArrayBufferConstructor native arraybuffer.js:4
+38852ff42e20 d4 LazyCompile:~InstallGetter native v8natives.js:18
+38852ff42f60 41c Script:~native typedarray.js
+38852ff433e0 304c LazyCompile:~SetupTypedArrays native typedarray.js:1358
+38852ff464a0 30c LazyCompile:~Uint8ArrayConstructor native typedarray.js:71
+38852ff464a0 30c LazyCompile:~Uint8ArrayConstructor native typedarray.js:71
+38852ff46820 30c LazyCompile:~Int8ArrayConstructor native typedarray.js:212
+38852ff46820 30c LazyCompile:~Int8ArrayConstructor native typedarray.js:212
+38852ff46ba0 30c LazyCompile:~Uint16ArrayConstructor native typedarray.js:353
+38852ff46ba0 30c LazyCompile:~Uint16ArrayConstructor native typedarray.js:353
+38852ff46f20 30c LazyCompile:~Int16ArrayConstructor native typedarray.js:494
+38852ff46f20 30c LazyCompile:~Int16ArrayConstructor native typedarray.js:494
+38852ff472a0 30c LazyCompile:~Uint32ArrayConstructor native typedarray.js:635
+38852ff472a0 30c LazyCompile:~Uint32ArrayConstructor native typedarray.js:635
+38852ff47620 30c LazyCompile:~Int32ArrayConstructor native typedarray.js:776
+38852ff47620 30c LazyCompile:~Int32ArrayConstructor native typedarray.js:776
+38852ff479a0 30c LazyCompile:~Float32ArrayConstructor native typedarray.js:917
+38852ff479a0 30c LazyCompile:~Float32ArrayConstructor native typedarray.js:917
+38852ff47d20 30c LazyCompile:~Float64ArrayConstructor native typedarray.js:1058
+38852ff47d20 30c LazyCompile:~Float64ArrayConstructor native typedarray.js:1058
+38852ff480a0 30c LazyCompile:~Uint8ClampedArrayConstructor native typedarray.js:1199
+38852ff480a0 30c LazyCompile:~Uint8ClampedArrayConstructor native typedarray.js:1199
+38852ff48420 13d Stub:CallICStub(args(32), FUNCTION, 
+38852ff485c0 56c LazyCompile:~SetupDataView native typedarray.js:1794
+38852ff48ba0 4ec LazyCompile:~DataViewConstructor native typedarray.js:1534
+38852ff48ba0 4ec LazyCompile:~DataViewConstructor native typedarray.js:1534
+38852ff49100 120 Stub:CallIC_ArrayStub(args(32), FUNCTION,  (Array)
+38852ff49280 cc Script:~native generator.js
+38852ff493c0 3fc LazyCompile:~SetUpGenerators native generator.js:33
+38852ff49820 104 LazyCompile:~GeneratorFunctionPrototypeConstructor native generator.js:21
+38852ff49820 104 LazyCompile:~GeneratorFunctionPrototypeConstructor native generator.js:21
+38852ff499a0 ef Stub:ArgumentsAccessStub_NewStrict
+38852ff49b00 18c LazyCompile:~GeneratorFunctionConstructor native generator.js:26
+38852ff49b00 18c LazyCompile:~GeneratorFunctionConstructor native generator.js:26
+38852ff49d00 d4 Function:~ native object-observe.js:97
+38852ff49e40 174 Script:~native object-observe.js
+38852ff4a020 1a8 LazyCompile:~TypeMapCreateFromList native object-observe.js:78
+38852ff4a240 94 LazyCompile:~TypeMapCreate native object-observe.js:69
+38852ff4a340 a4 LazyCompile:~nullProtoObject native object-observe.js:66
+38852ff4a460 b4 LazyCompile:~TypeMapAddType native object-observe.js:72
+38852ff4a580 f Stub:TypeMapAddType
+38852ff4a600 25 LoadIC:TypeMapAddType
+38852ff4a6a0 2fc LazyCompile:~SetupObjectObserve native object-observe.js:476
+38852ff4aa00 194 Script:~native collection.js
+38852ff4ac00 33c LazyCompile:~SetUpSet native collection.js:83
+38852ff4afa0 518 LazyCompile:~SetConstructor native collection.js:5
+38852ff4afa0 518 LazyCompile:~SetConstructor native collection.js:5
+38852ff4b520 35c LazyCompile:~SetUpMap native collection.js:186
+38852ff4b8e0 5f8 LazyCompile:~MapConstructor native collection.js:99
+38852ff4b8e0 5f8 LazyCompile:~MapConstructor native collection.js:99
+38852ff4bf40 194 Script:~native weak-collection.js
+38852ff4c140 294 LazyCompile:~SetUpWeakMap native weak-collection.js:78
+38852ff4c440 5f8 LazyCompile:~WeakMapConstructor native weak-collection.js:5
+38852ff4c440 5f8 LazyCompile:~WeakMapConstructor native weak-collection.js:5
+38852ff4caa0 274 LazyCompile:~SetUpWeakSet native weak-collection.js:151
+38852ff4cd80 518 LazyCompile:~WeakSetConstructor native weak-collection.js:92
+38852ff4cd80 518 LazyCompile:~WeakSetConstructor native weak-collection.js:92
+38852ff4d300 16c Script:~native collection-iterator.js
+38852ff4d4e0 284 LazyCompile:~SetUpSetIterator native collection-iterator.js:44
+38852ff4d7e0 7c LazyCompile:~SetIteratorConstructor native collection-iterator.js:3
+38852ff4d7e0 7c LazyCompile:~SetIteratorConstructor native collection-iterator.js:3
+38852ff4d8c0 1cc LazyCompile:~ExtendSetPrototype native collection-iterator.js:57
+38852ff4db00 284 LazyCompile:~SetUpMapIterator native collection-iterator.js:115
+38852ff4de00 7c LazyCompile:~MapIteratorConstructor native collection-iterator.js:67
+38852ff4de00 7c LazyCompile:~MapIteratorConstructor native collection-iterator.js:67
+38852ff4dee0 1cc LazyCompile:~ExtendMapPrototype native collection-iterator.js:128
+38852ff4e120 1a2 Stub:FastNewContextStub
+38852ff4e340 924 Function:~ native promise.js:18
+38852ff4ece0 294 Script:~native promise.js
+38852ff4efe0 16 StorePreMonomorphic:0
+38852ff4f060 137 Stub:CallICStub(args(7), FUNCTION, 
+38852ff4f200 137 Stub:CallICStub(args(14), FUNCTION, 
+38852ff4f3a0 137 Stub:CallICStub(args(5), FUNCTION, 
+38852ff4f540 16 StoreInitialize:0
+38852ff4f5c0 e64 Script:~native messages.js
+38852ff504a0 ac LazyCompile:~ native messages.js:261
+38852ff504a0 ac LazyCompile:~ native messages.js:261
+38852ff505c0 11a Stub:CallIC_ArrayStub(args(7), FUNCTION,  (Array)
+38852ff50740 11a Stub:CallIC_ArrayStub(args(14), FUNCTION,  (Array)
+38852ff508c0 25 LoadIC:length
+38852ff50960 25 LoadIC:prototype
+38852ff50a00 11a Stub:CallIC_ArrayStub(args(5), FUNCTION,  (Array)
+38852ff50b80 25 LoadIC:prototype
+38852ff50c20 11a Stub:CallIC_ArrayStub(args(3), FUNCTION,  (Array)
+38852ff50da0 25 LoadIC:prototype
+38852ff50e40 1b4 LazyCompile:~SetUpError native messages.js:848
+38852ff51060 334 LazyCompile:~SetUpError.a native messages.js:849
+38852ff51400 3f5 Stub:BinaryOpWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff51860 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff518e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff51960 70 Stub:CompareICStub
+38852ff51a40 5c LazyCompile:~d native messages.js:855
+38852ff51b00 214 LazyCompile: native messages.js:865
+38852ff51b00 214 LazyCompile: native messages.js:865
+38852ff51d80 113 Stub:CallApiGetterStub
+38852ff51f00 33 Stub:name
+38852ff51fa0 25 LoadIC:name
+38852ff52040 f Stub:global
+38852ff520c0 25 LoadIC:global
+38852ff52160 f Stub:builtins
+38852ff521e0 25 LoadIC:builtins
+38852ff52280 16c LazyCompile:~captureStackTrace native messages.js:842
+38852ff52460 16 StorePreMonomorphic:0
+38852ff524e0 4a8 LazyCompile:~defineProperty native v8natives.js:838
+38852ff52a00 844 LazyCompile:~ToPropertyDescriptor native v8natives.js:269
+38852ff532c0 1a4 LazyCompile:~PropertyDescriptor native v8natives.js:318
+38852ff534e0 25 LoadIC:ToName
+38852ff53580 8c LazyCompile:~$Array.get_ native v8natives.js:379
+38852ff53680 70 Stub:CompareICStub
+38852ff53760 8c LazyCompile:~$Array.set_ native v8natives.js:389
+38852ff53860 8c LazyCompile:~ native v8natives.js:399
+38852ff53960 ec LazyCompile:~IsInconsistentDescriptor native v8natives.js:230
+38852ff53ac0 10c LazyCompile:~IsAccessorDescriptor native v8natives.js:218
+38852ff53c40 74 LazyCompile:~$Array.set_ native v8natives.js:396
+38852ff53d20 10c LazyCompile:~IsDataDescriptor native v8natives.js:222
+38852ff53ea0 74 LazyCompile:~$Array.enumerable_ native v8natives.js:356
+38852ff53f80 74 LazyCompile:~$Array.configurable_ native v8natives.js:376
+38852ff54060 204 LazyCompile:~DefineOwnProperty native v8natives.js:713
+38852ff542e0 1ea4 LazyCompile:~DefineObjectProperty native v8natives.js:490
+38852ff56200 29c LazyCompile:ToObject native runtime.js:346
+38852ff56500 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff565c0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff56680 28c LazyCompile:~ConvertDescriptorArrayToDescriptor native v8natives.js:409
+38852ff56980 67c Stub:RecordWriteStub
+38852ff57060 b3 Stub:value_
+38852ff57180 25 StoreIC:value_
+38852ff57220 b3 Stub:hasValue_
+38852ff57340 25 StoreIC:hasValue_
+38852ff573e0 b3 Stub:writable_
+38852ff57500 25 StoreIC:writable_
+38852ff575a0 b3 Stub:hasWritable_
+38852ff576c0 25 StoreIC:hasWritable_
+38852ff57760 b3 Stub:enumerable_
+38852ff57880 25 StoreIC:enumerable_
+38852ff57920 b3 Stub:hasEnumerable_
+38852ff57a40 25 StoreIC:hasEnumerable_
+38852ff57ae0 b3 Stub:configurable_
+38852ff57c00 25 StoreIC:configurable_
+38852ff57ca0 b3 Stub:hasConfigurable_
+38852ff57dc0 25 StoreIC:hasConfigurable_
+38852ff57e60 b3 Stub:get_
+38852ff57f80 25 StoreIC:get_
+38852ff58020 b3 Stub:hasGetter_
+38852ff58140 25 StoreIC:hasGetter_
+38852ff581e0 b3 Stub:set_
+38852ff58300 25 StoreIC:set_
+38852ff583a0 b3 Stub:hasSetter_
+38852ff584c0 25 StoreIC:hasSetter_
+38852ff58560 a8 Stub:LoadFastElementStub
+38852ff58680 25 KeyedLoadIC:
+38852ff58720 8c LazyCompile:~$Array.enumerable_ native v8natives.js:349
+38852ff58820 8c LazyCompile:~$Array.configurable_ native v8natives.js:369
+38852ff58920 8c LazyCompile:~$Array.writable_ native v8natives.js:359
+38852ff58a20 a0a Stub:RecordWriteStub
+38852ff594a0 64 Stub:StoreFieldStub
+38852ff59580 25 StoreIC:configurable_
+38852ff59620 64 Stub:StoreFieldStub
+38852ff59700 25 StoreIC:hasConfigurable_
+38852ff597a0 124 LazyCompile:~IsGenericDescriptor native v8natives.js:226
+38852ff59940 18 Stub:LoadConstantStub
+38852ff599c0 2e Stub:hasGetter
+38852ff59a60 25 LoadIC:hasGetter
+38852ff59b00 10 Stub:LoadFieldStub
+38852ff59b80 25 LoadIC:hasGetter_
+38852ff59c20 18 Stub:LoadConstantStub
+38852ff59ca0 2e Stub:hasValue
+38852ff59d40 25 LoadIC:hasValue
+38852ff59de0 10 Stub:LoadFieldStub
+38852ff59e60 25 LoadIC:hasValue_
+38852ff59f00 18 Stub:LoadConstantStub
+38852ff59f80 2e Stub:hasWritable
+38852ff5a020 25 LoadIC:hasWritable
+38852ff5a0c0 10 Stub:LoadFieldStub
+38852ff5a140 25 LoadIC:hasWritable_
+38852ff5a1e0 1f0 Stub:CompareICStub
+38852ff5a440 74 LazyCompile:~$Array.get_ native v8natives.js:386
+38852ff5a520 74 LazyCompile:~$Array.writable_ native v8natives.js:366
+38852ff5a600 74 LazyCompile:~$Array.writable_ native v8natives.js:363
+38852ff5a6e0 5c Stub:BinaryOpICStub(BIT_OR:Smi*Smi->Smi)
+38852ff5a7a0 74 LazyCompile:~$Array.get_ native v8natives.js:383
+38852ff5a880 10 Stub:LoadFieldStub
+38852ff5a900 25 LoadIC:configurable_
+38852ff5a9a0 f Stub:IsAccessorDescriptor
+38852ff5aa20 25 LoadIC:IsAccessorDescriptor
+38852ff5aac0 74 LazyCompile:~$Array.set_ native v8natives.js:393
+38852ff5aba0 74 LazyCompile:~ native v8natives.js:406
+38852ff5ac80 74 LazyCompile:~ native v8natives.js:403
+38852ff51b00 214 LazyCompile: native messages.js:865
+38852ff5ad60 f Stub:$Error
+38852ff5ade0 25 LoadIC:$Error
+38852ff5ae80 f Stub:captureStackTrace
+38852ff5af00 25 LoadIC:captureStackTrace
+38852ff5afa0 f Stub:ObjectDefineProperty
+38852ff5b020 25 LoadIC:ObjectDefineProperty
+38852ff5b0c0 f Stub:StackTraceGetter
+38852ff5b140 25 LoadIC:StackTraceGetter
+38852ff5b1e0 64 Stub:StoreFieldStub
+38852ff5b2c0 25 StoreIC:get
+38852ff5b360 f Stub:StackTraceSetter
+38852ff5b3e0 25 LoadIC:StackTraceSetter
+38852ff5b480 64 Stub:StoreFieldStub
+38852ff5b560 25 StoreIC:set
+38852ff5b600 f Stub:ToPropertyDescriptor
+38852ff5b680 25 LoadIC:ToPropertyDescriptor
+38852ff5b720 f Stub:PropertyDescriptor
+38852ff5b7a0 25 LoadIC:PropertyDescriptor
+38852ff5b840 18 Stub:LoadConstantStub
+38852ff5b8c0 2e Stub:setConfigurable
+38852ff5b960 25 LoadIC:setConfigurable
+38852ff5ba00 f Stub:ToBoolean
+38852ff5ba80 25 LoadIC:ToBoolean
+38852ff5bb20 10 Stub:LoadFieldStub
+38852ff5bba0 25 LoadIC:configurable
+38852ff5bc40 25 LoadIC:get
+38852ff5bce0 18 Stub:LoadConstantStub
+38852ff5bd60 2e Stub:setGet
+38852ff5be00 25 LoadIC:setGet
+38852ff5bea0 64 Stub:StoreFieldStub
+38852ff5bf80 25 StoreIC:get_
+38852ff5c020 64 Stub:StoreFieldStub
+38852ff5c100 25 StoreIC:hasGetter_
+38852ff5c1a0 25 LoadIC:set
+38852ff5c240 18 Stub:LoadConstantStub
+38852ff5c2c0 2e Stub:setSet
+38852ff5c360 25 LoadIC:setSet
+38852ff5c400 64 Stub:StoreFieldStub
+38852ff5c4e0 25 StoreIC:set_
+38852ff5c580 64 Stub:StoreFieldStub
+38852ff5c660 25 StoreIC:hasSetter_
+38852ff5c700 f Stub:IsInconsistentDescriptor
+38852ff5c780 25 LoadIC:IsInconsistentDescriptor
+38852ff5c820 f Stub:IsDataDescriptor
+38852ff5c8a0 25 LoadIC:IsDataDescriptor
+38852ff5c940 f Stub:DefineOwnProperty
+38852ff5c9c0 25 LoadIC:DefineOwnProperty
+38852ff5ca60 f Stub:DefineObjectProperty
+38852ff5cae0 25 LoadIC:DefineObjectProperty
+38852ff5cb80 f Stub:ToObject
+38852ff5cc00 25 LoadIC:ToObject
+38852ff5cca0 f Stub:ConvertDescriptorArrayToDescriptor
+38852ff5cd20 25 LoadIC:ConvertDescriptorArrayToDescriptor
+38852ff5cdc0 18 Stub:LoadConstantStub
+38852ff5ce40 2e Stub:setValue
+38852ff5cee0 25 LoadIC:setValue
+38852ff5cf80 25 StoreIC:value_
+38852ff5d020 25 StoreIC:hasValue_
+38852ff5d0c0 18 Stub:LoadConstantStub
+38852ff5d140 2e Stub:setWritable
+38852ff5d1e0 25 LoadIC:setWritable
+38852ff5d280 64 Stub:StoreFieldStub
+38852ff5d360 25 StoreIC:writable_
+38852ff5d400 64 Stub:StoreFieldStub
+38852ff5d4e0 25 StoreIC:hasWritable_
+38852ff5d580 18 Stub:LoadConstantStub
+38852ff5d600 2e Stub:setEnumerable
+38852ff5d6a0 25 LoadIC:setEnumerable
+38852ff5d740 64 Stub:StoreFieldStub
+38852ff5d820 25 StoreIC:enumerable_
+38852ff5d8c0 64 Stub:StoreFieldStub
+38852ff5d9a0 25 StoreIC:hasEnumerable_
+38852ff5da40 25 LoadIC:setConfigurable
+38852ff5dae0 f Stub:IsGenericDescriptor
+38852ff5db60 25 LoadIC:IsGenericDescriptor
+38852ff5dc00 18 Stub:LoadConstantStub
+38852ff5dc80 2e Stub:isConfigurable
+38852ff5dd20 25 LoadIC:isConfigurable
+38852ff5ddc0 18 Stub:LoadConstantStub
+38852ff5de40 2e Stub:hasEnumerable
+38852ff5dee0 25 LoadIC:hasEnumerable
+38852ff5df80 10 Stub:LoadFieldStub
+38852ff5e000 25 LoadIC:hasEnumerable_
+38852ff5e0a0 18 Stub:LoadConstantStub
+38852ff5e120 2e Stub:isEnumerable
+38852ff5e1c0 25 LoadIC:isEnumerable
+38852ff5e260 10 Stub:LoadFieldStub
+38852ff5e2e0 25 LoadIC:enumerable_
+38852ff5e380 18 Stub:LoadConstantStub
+38852ff5e400 2e Stub:hasConfigurable
+38852ff5e4a0 25 LoadIC:hasConfigurable
+38852ff5e540 10 Stub:LoadFieldStub
+38852ff5e5c0 25 LoadIC:hasConfigurable_
+38852ff5e660 25 LoadIC:isConfigurable
+38852ff5e700 25 LoadIC:hasGetter
+38852ff5e7a0 18 Stub:LoadConstantStub
+38852ff5e820 2e Stub:getGet
+38852ff5e8c0 25 LoadIC:getGet
+38852ff5e960 10 Stub:LoadFieldStub
+38852ff5e9e0 25 LoadIC:get_
+38852ff5ea80 18 Stub:LoadConstantStub
+38852ff5eb00 2e Stub:hasSetter
+38852ff5eba0 25 LoadIC:hasSetter
+38852ff5ec40 10 Stub:LoadFieldStub
+38852ff5ecc0 25 LoadIC:hasSetter_
+38852ff5ed60 18 Stub:LoadConstantStub
+38852ff5ede0 2e Stub:getSet
+38852ff5ee80 25 LoadIC:getSet
+38852ff5ef20 10 Stub:LoadFieldStub
+38852ff5efa0 25 LoadIC:set_
+38852ff51b00 214 LazyCompile: native messages.js:865
+38852ff51b00 214 LazyCompile: native messages.js:865
+38852ff51b00 214 LazyCompile: native messages.js:865
+38852ff51b00 214 LazyCompile: native messages.js:865
+38852ff51b00 214 LazyCompile: native messages.js:865
+38852ff5f040 11c LazyCompile:~SetUpStackOverflowBoilerplate native messages.js:938
+38852ff5f1c0 ac LazyCompile:~MakeRangeError native messages.js:288
+38852ff5f2e0 f4 LazyCompile:~MakeGenericError native messages.js:254
+38852ff5f440 104 LazyCompile:~FormatMessage native messages.js:264
+38852ff5f5c0 6f0 LazyCompile:FormatString native messages.js:168
+38852ff5fd20 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff5fda0 25 LoadIC:length
+38852ff5fe40 4c Stub:CompareNilICStub(NullValue)(Generic)
+38852ff5ff00 114 Script:~native json.js
+38852ff60080 12c LazyCompile:~SetUpJSON native json.js:193
+38852ff60220 204 Script:~native array-iterator.js
+38852ff604a0 244 LazyCompile:~SetUpArrayIterator native array-iterator.js:56
+38852ff60760 1cc LazyCompile:~ExtendArrayPrototype native array-iterator.js:68
+38852ff609a0 e34 LazyCompile:~ExtendTypedArrayPrototypes native array-iterator.js:78
+38852ff61840 18c Script:~native string-iterator.js
+38852ff61a40 244 LazyCompile:~SetUpStringIterator native string-iterator.js:46
+38852ff61d00 10c LazyCompile:~ExtendStringPrototypeWithIterator native string-iterator.js:61
+38852ff61e80 2cc LazyCompile:~Instantiate native apinatives.js:10
+38852ff621c0 55 Stub:CompareICStub
+38852ff62280 4bc LazyCompile:InstantiateFunction native apinatives.js:31
+38852ff627a0 4c Stub:ToBooleanStub(Smi)
+38852ff62860 9ec Stub:RecordWriteStub
+38852ff632c0 5c Stub:DoubleToIStub
+38852ff63380 32a Stub:StoreFastElementStub
+38852ff63720 22 KeyedStoreIC:
+38852ff637c0 5a0 LazyCompile:ConfigureTemplateInstance native apinatives.js:63
+38852ff63dc0 44 Stub:ToBooleanStub(Undefined)
+38852ff63e80 25 KeyedLoadIC:
+38852ff63f20 f Stub:InstantiateFunction
+38852ff63fa0 25 LoadIC:InstantiateFunction
+38852ff64040 f Stub:kApiFunctionCache
+38852ff640c0 25 LoadIC:kApiFunctionCache
+38852ff64160 f Stub:ConfigureTemplateInstance
+38852ff641e0 25 LoadIC:ConfigureTemplateInstance
+38852ff64280 152 Stub:FastNewContextStub
+38852ff64440 93c Function:~ node.js:27
+38852ff64de0 b4 Script:~node.js
+38852ff64f00 68 Stub:ToBooleanStub(Undefined,SpecObject)
+38852ff64fe0 a8 Stub:LoadFastElementStub
+38852ff65100 25 KeyedLoadIC:
+38852ff651a0 f Stub:Instantiate
+38852ff65220 25 LoadIC:Instantiate
+38852ff652c0 1aa Stub:CallICStub(args(2), METHOD, 
+38852ff654e0 1be Stub:FastCloneShallowObjectStub
+38852ff65700 11d4 LazyCompile:~startup node.js:30
+38852ff66940 2dc LazyCompile:~NativeModule.require node.js:804
+38852ff66c80 9c LazyCompile:~NativeModule.getCached node.js:828
+38852ff66d80 c4 LazyCompile:~NativeModule.exists node.js:832
+38852ff66ec0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff66f40 fc LazyCompile:~NativeModule node.js:794
+38852ff670a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff67120 ac LazyCompile:~NativeModule.cache node.js:859
+38852ff67240 204 LazyCompile:~NativeModule.compile node.js:849
+38852ff674c0 9c LazyCompile:~NativeModule.getSource node.js:836
+38852ff675c0 d4 LazyCompile:~NativeModule.wrap node.js:840
+38852ff67700 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff67780 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff67800 dc LazyCompile:~runInThisContext node.js:789
+38852ff67940 11a Stub:FastNewContextStub
+38852ff67ac0 58c Function:~ events.js:1
+38852ff680c0 b4 Script:~events.js
+38852ff681e0 18 Stub:LoadConstantStub
+38852ff68260 25 LoadIC:getCached
+38852ff68300 14 Stub:LoadFieldStub
+38852ff68380 25 LoadIC:_cache
+38852ff68420 38 KeyedLoadIC:util
+38852ff684c0 18 Stub:LoadConstantStub
+38852ff68540 25 LoadIC:exists
+38852ff685e0 14 Stub:LoadFieldStub
+38852ff68660 25 LoadIC:_source
+38852ff68700 48a Stub:NameDictionaryLookupStub
+38852ff68c00 1d0 Stub:hasOwnProperty
+38852ff68e40 25 LoadIC:hasOwnProperty
+38852ff68ee0 25 LoadIC:moduleLoadList
+38852ff68f80 18 Stub:LoadConstantStub
+38852ff69000 2e Stub:push
+38852ff690a0 25 LoadIC:push
+38852ff69140 d1 Stub:filename
+38852ff69280 25 StoreIC:filename
+38852ff69320 d1 Stub:id
+38852ff69460 25 StoreIC:id
+38852ff69500 d1 Stub:exports
+38852ff69640 25 StoreIC:exports
+38852ff696e0 d1 Stub:loaded
+38852ff69820 25 StoreIC:loaded
+38852ff698c0 18 Stub:LoadConstantStub
+38852ff69940 2e Stub:cache
+38852ff699e0 25 LoadIC:cache
+38852ff69a80 25 LoadIC:_cache
+38852ff69b20 25 LoadIC:id
+38852ff69bc0 2e Stub:compile
+38852ff69c60 25 LoadIC:compile
+38852ff69d00 18 Stub:LoadConstantStub
+38852ff69d80 25 LoadIC:getSource
+38852ff69e20 25 LoadIC:id
+38852ff69ec0 25 LoadIC:_source
+38852ff69f60 38 KeyedLoadIC:util
+38852ff6a000 18 Stub:LoadConstantStub
+38852ff6a080 25 LoadIC:wrap
+38852ff6a120 25 LoadIC:wrapper
+38852ff6a1c0 25 LoadIC:wrapper
+38852ff6a260 25 LoadIC:filename
+38852ff6a300 25 StoreIC:filename
+38852ff6a3a0 306 Stub:FastNewContextStub
+38852ff6a720 112c Function:~ util.js:1
+38852ff6b8c0 b4 Script:~util.js
+38852ff6b9e0 2e Stub:runInThisContext
+38852ff6ba80 25 LoadIC:runInThisContext
+38852ff6bb20 25 LoadIC:exports
+38852ff6bbc0 25 LoadIC:require
+38852ff6bc60 25 LoadIC:filename
+38852ff6bd00 9f0 LazyCompile:~DoConstructRegExp native regexp.js:3
+38852ff6c760 62c LazyCompile:~charAt native string.js:23
+38852ff6ce00 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff6cec0 10 Stub:LoadFieldStub
+38852ff6cf40 25 LoadIC:length
+38852ff6cfe0 10e Stub:FastNewContextStub
+38852ff6d160 1bc LazyCompile:~exports.deprecate util.js:65
+38852ff6d380 9c LazyCompile:~isUndefined util.js:544
+38852ff6d480 23 Stub:global
+38852ff6d520 25 LoadIC:global
+38852ff6d5c0 b3 Stub:process
+38852ff6d6e0 25 LoadIC:process
+38852ff6d780 25 StoreIC:loaded
+38852ff6d820 25 LoadIC:exports
+38852ff6d8c0 1cc LazyCompile:~create native v8natives.js:829
+38852ff6db00 42c LazyCompile:~defineProperties native v8natives.js:873
+38852ff6dfa0 4cc LazyCompile:~GetOwnEnumerablePropertyNames native v8natives.js:855
+38852ff6e4e0 25 LoadIC:length
+38852ff6e580 74 LazyCompile:~$Array.enumerable_ native v8natives.js:353
+38852ff6e660 25 LoadIC:length
+38852ff6e700 1a4 LazyCompile:~__proto__ native v8natives.js:1022
+38852ff6e920 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff6e9e0 bc LazyCompile:~EventEmitter events.js:25
+38852ff6eb00 10e Stub:InstanceofStub
+38852ff6ec80 304 LazyCompile:~EventEmitter.init events.js:43
+38852ff6f000 114 LazyCompile:~getPrototypeOf native v8natives.js:724
+38852ff6f180 21f Stub:CompareICStub
+38852ff6f400 38 LoadPolymorphicIC:moduleLoadList
+38852ff6f4a0 26e Stub:FastNewContextStub
+38852ff6f780 a7c Function:~ tracing.js:1
+38852ff70260 b4 Script:~tracing.js
+38852ff70380 25 LoadIC:init
+38852ff70420 2e Stub:call
+38852ff704c0 25 LoadIC:call
+38852ff70560 b3 Stub:domain
+38852ff70680 25 StoreIC:domain
+38852ff70720 25 LoadIC:usingDomains
+38852ff707c0 2e Stub:_events
+38852ff70860 25 LoadIC:_events
+38852ff70900 2e Stub:_maxListeners
+38852ff709a0 25 LoadIC:_maxListeners
+38852ff70a40 f Stub:undefined
+38852ff70ac0 25 LoadIC:undefined
+38852ff70b60 b3 Stub:_maxListeners
+38852ff70c80 25 StoreIC:_maxListeners
+38852ff70d20 1aa Stub:CallICStub(args(3), METHOD, 
+38852ff70f40 744 LazyCompile:~addListener events.js:138
+38852ff71700 b4 LazyCompile:~isFunction util.js:570
+38852ff71820 10c LazyCompile:~isObject util.js:554
+38852ff719a0 25 LoadIC:isFunction
+38852ff71a40 25 LoadIC:_events
+38852ff71ae0 25 LoadIC:_events
+38852ff71b80 18 Stub:LoadConstantStub
+38852ff71c00 25 LoadIC:newListener
+38852ff71ca0 bf0 LazyCompile:~emit events.js:68
+38852ff72900 44 Stub:ToBooleanStub(Null)
+38852ff729c0 1b0 Stub:KeyedLoadSloppyArgumentsStub
+38852ff72be0 25 KeyedLoadIC:
+38852ff72c80 25 KeyedLoadIC:
+38852ff72d20 13c LazyCompile:~ tracing.js:57
+38852ff72ec0 25 LoadIC:_events
+38852ff72f60 38 KeyedLoadIC:removeListener
+38852ff73000 25 LoadIC:_events
+38852ff730a0 18 Stub:LoadConstantStub
+38852ff73120 25 LoadIC:isObject
+38852ff731c0 25 LoadIC:_events
+38852ff73260 38 KeyedLoadIC:removeListener
+38852ff73300 1aa Stub:CallICStub(args(4), METHOD, 
+38852ff73520 1fc LazyCompile:~nodeInitialization tracing.js:28
+38852ff73780 184 LazyCompile:~startup.processFatal node.js:231
+38852ff73980 25 LoadIC:exports
+38852ff73a20 25 LoadIC:ToObject
+38852ff73ac0 1fc LazyCompile:~startup.globalVariables node.js:173
+38852ff73d20 4b LoadPolymorphicIC:moduleLoadList
+38852ff73de0 1f6 Stub:FastNewContextStub
+38852ff74040 1864 Function:~ buffer.js:1
+38852ff75920 b4 Script:~buffer.js
+38852ff75a40 17c LazyCompile:~createPool buffer.js:40
+38852ff75c20 67 Stub:process
+38852ff75d00 25 LoadIC:process
+38852ff75da0 21f Stub:CompareICStub
+38852ff76020 23 Stub:process
+38852ff760c0 25 LoadIC:process
+38852ff76160 20d Stub:noDeprecation
+38852ff763e0 25 LoadIC:noDeprecation
+38852ff76480 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff76500 25c LazyCompile:~startup.globalTimeouts node.js:183
+38852ff767c0 d4 LazyCompile:~startup.globalConsole node.js:215
+38852ff76900 374 LazyCompile:~__defineGetter__ native v8natives.js:163
+38852ff76ce0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff76da0 ec LazyCompile:~startup.processAssert node.js:273
+38852ff76f00 43c LazyCompile:~startup.processConfig node.js:279
+38852ff773a0 44c LazyCompile:~split native string.js:400
+38852ff77860 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff77920 c1 Stub:CompareICStub
+38852ff77a60 674 LazyCompile:~join native array.js:272
+38852ff78140 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff78200 1138 LazyCompile:Join native array.js:75
+38852ff793a0 1b4 LazyCompile:~UseSparseVariant native array.js:63
+38852ff795c0 ec Stub:StoreFastElementStub
+38852ff79720 22 KeyedStoreIC:
+38852ff797c0 fc LazyCompile:~ToUint32 native runtime.js:365
+38852ff79920 f Stub:DoConstructRegExp
+38852ff799a0 25 LoadIC:DoConstructRegExp
+38852ff79a40 25 LoadIC:ToString
+38852ff79ae0 f Stub:StringCharAt
+38852ff79b60 25 LoadIC:StringCharAt
+38852ff79c00 337 Stub:SubStringStub
+38852ff79fa0 c14 LazyCompile:~replace native string.js:123
+38852ff7ac20 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff7ace0 21f Stub:CompareICStub
+38852ff7af60 4c Stub:CompareNilICStub(NullValue)(Null)
+38852ff7b020 25 LoadIC:lastIndex
+38852ff7b0c0 25 LoadIC:global
+38852ff7b160 40 Stub:StoreFieldStub
+38852ff7b200 25 StoreIC:lastIndex
+38852ff7b2a0 f Stub:lastMatchInfoOverride
+38852ff7b320 25 LoadIC:lastMatchInfoOverride
+38852ff7b3c0 f Stub:lastMatchInfo
+38852ff7b440 25 LoadIC:lastMatchInfo
+38852ff7b4e0 21c LazyCompile:~parse native json.js:28
+38852ff7b760 5d4 LazyCompile:~Revive native json.js:4
+38852ff7bda0 38 KeyedLoadIC:target_defaults
+38852ff7be40 f Stub:ObjectHasOwnProperty
+38852ff7bec0 25 LoadIC:ObjectHasOwnProperty
+38852ff7bf60 f Stub:Revive
+38852ff7bfe0 25 LoadIC:Revive
+38852ff7c080 f4 LazyCompile:~ node.js:291
+38852ff7c1e0 21f Stub:CompareICStub
+38852ff7c460 25 LoadIC:length
+38852ff7c500 254 LazyCompile:NonStringToString native runtime.js:336
+38852ff7c7c0 ec Stub:StoreFastElementStub
+38852ff7c920 22 KeyedStoreIC:
+38852ff7c9c0 1b2 Stub:FastNewContextStub
+38852ff7cbe0 634 LazyCompile:~startup.processNextTick node.js:298
+38852ff7d280 1dc LazyCompile:~startup.processStdio node.js:533
+38852ff7d4c0 25 LoadIC:setGet
+38852ff7d560 25 LoadIC:setEnumerable
+38852ff7d600 25 LoadIC:setConfigurable
+38852ff7d6a0 25 LoadIC:isEnumerable
+38852ff7d740 fc LazyCompile:~startup.processKillAndExit node.js:641
+38852ff7d8a0 254 LazyCompile:~startup.processSignalHandlers node.js:683
+38852ff7db60 10e Stub:CompareICStub
+38852ff7dce0 2ac LazyCompile:~startup.processChannel node.js:736
+38852ff7e000 fe Stub:FastNewContextStub
+38852ff7e160 1a4 LazyCompile:~startup.processRawDebug node.js:759
+38852ff7e380 2cc LazyCompile:~startup.resolveArgv0 node.js:768
+38852ff7e6c0 38c LazyCompile:~indexOf native string.js:54
+38852ff7eac0 5d Stub:CompareICStub
+38852ff7eb80 10e Stub:CompareICStub
+38852ff7ed00 68 Stub:ToBooleanStub(String)
+38852ff7ede0 162 Stub:FastNewContextStub
+38852ff7efc0 b54 Function:~ path.js:1
+38852ff7fb80 b4 Script:~path.js
+38852ff7fca0 23 Stub:global
+38852ff7fd40 38 LoadPolymorphicIC:global
+38852ff7fde0 67 Stub:process
+38852ff7fec0 25 LoadIC:process
+38852ff7ff60 23 Stub:process
+38852ff80000 38 LoadPolymorphicIC:process
+38852ff800a0 530 LazyCompile:~exports.resolve path.js:324
+38852ff80640 25 KeyedLoadIC:
+38852ff806e0 b4 LazyCompile:~isString util.js:534
+38852ff80800 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff80880 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff80900 25 LoadIC:isString
+38852ff809a0 53 Stub:charAt
+38852ff80a60 25 LoadIC:charAt
+38852ff80b00 25 LoadIC:length
+38852ff80ba0 25 LoadIC:length
+38852ff80c40 688 LazyCompile:~filter native array.js:836
+38852ff81340 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff81400 94 LazyCompile:~ path.js:346
+38852ff81500 3e4 LazyCompile:~normalizeArray path.js:31
+38852ff81960 25 LoadIC:length
+38852ff81a00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff81a80 22 KeyedStoreIC:
+38852ff81b20 206 Stub:FastNewContextStub
+38852ff81da0 d94 Function:~ module.js:1
+38852ff82ba0 b4 Script:~module.js
+38852ff82cc0 3f4 Function:~ vm.js:1
+38852ff83120 b4 Script:~vm.js
+38852ff83240 192 Stub:FastNewContextStub
+38852ff83440 72c Function:~ assert.js:1
+38852ff83be0 b4 Script:~assert.js
+38852ff83d00 2e Stub:runInThisContext
+38852ff83da0 25 LoadIC:runInThisContext
+38852ff83e40 17c LazyCompile:~exports.inherits util.js:632
+38852ff84020 f Stub:ObjectDefineProperties
+38852ff840a0 25 LoadIC:ObjectDefineProperties
+38852ff84140 f Stub:GetOwnEnumerablePropertyNames
+38852ff841c0 25 LoadIC:GetOwnEnumerablePropertyNames
+38852ff84260 f Stub:InternalArray
+38852ff842e0 25 LoadIC:InternalArray
+38852ff84380 2e Stub:push
+38852ff84420 25 LoadIC:push
+38852ff844c0 25 LoadIC:length
+38852ff84560 25 LoadIC:push
+38852ff84600 38 KeyedLoadIC:constructor
+38852ff846a0 38 LoadPolymorphicIC:configurable
+38852ff84740 25 LoadIC:setValue
+38852ff847e0 25 LoadIC:value
+38852ff84880 25 LoadIC:hasSetter
+38852ff84920 25 LoadIC:hasWritable
+38852ff849c0 74 LazyCompile:~$Array.configurable_ native v8natives.js:373
+38852ff84aa0 25 LoadIC:hasValue
+38852ff84b40 18 Stub:LoadConstantStub
+38852ff84bc0 2e Stub:getValue
+38852ff84c60 25 LoadIC:getValue
+38852ff84d00 25 LoadIC:value_
+38852ff84da0 38e Stub:FastNewContextStub
+38852ff851a0 343c Function:~ fs.js:1
+38852ff88640 b4 Script:~fs.js
+38852ff88760 364 Function:~ stream.js:1
+38852ff88b40 b4 Script:~stream.js
+38852ff88c60 90 Stub:super_
+38852ff88d60 25 StoreIC:super_
+38852ff88e00 23 Stub:Object
+38852ff88ea0 25 LoadIC:Object
+38852ff88f40 25 LoadIC:create
+38852ff88fe0 25 LoadIC:prototype
+38852ff89080 25 StoreIC:value
+38852ff89120 36 Stub:constructor
+38852ff891c0 25 StoreIC:constructor
+38852ff89260 25 LoadIC:setEnumerable
+38852ff89300 25 LoadIC:enumerable
+38852ff893a0 25 LoadIC:setWritable
+38852ff89440 25 LoadIC:writable
+38852ff894e0 18 Stub:LoadConstantStub
+38852ff89560 2e Stub:isWritable
+38852ff89600 25 LoadIC:isWritable
+38852ff896a0 25 LoadIC:writable_
+38852ff89740 2e Stub:prototype
+38852ff897e0 25 StoreIC:prototype
+38852ff89880 bfc Function:~ _stream_readable.js:1
+38852ff8a4e0 b4 Script:~_stream_readable.js
+38852ff8a600 39c LazyCompile:~exports.debuglog util.js:98
+38852ff8aa00 1a4 LazyCompile:~toUpperCase native string.js:521
+38852ff8ac20 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff8aca0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff8ad20 683 Stub:RecordWriteStub
+38852ff8b420 367 Stub:RegExpExecStub
+38852ff8b800 a2c LazyCompile:~test native regexp.js:154
+38852ff8c2a0 389 RegExp:\bSTREAM\b
+38852ff8c6a0 b2 Stub:super_
+38852ff8c7c0 38 StorePolymorphicIC:super_
+38852ff8c860 38 LoadPolymorphicIC:prototype
+38852ff8c900 2e Stub:prototype
+38852ff8c9a0 38 StorePolymorphicIC:prototype
+38852ff8ca40 21a Stub:FastNewContextStub
+38852ff8ccc0 8b4 Function:~ _stream_writable.js:1
+38852ff8d5e0 b4 Script:~_stream_writable.js
+38852ff8d700 b2 Stub:super_
+38852ff8d820 4b StorePolymorphicIC:super_
+38852ff8d8e0 4b LoadPolymorphicIC:prototype
+38852ff8d9a0 2e Stub:prototype
+38852ff8da40 4b StorePolymorphicIC:prototype
+38852ff8db00 3f8 Function:~ _stream_duplex.js:1
+38852ff8df60 b4 Script:~_stream_duplex.js
+38852ff8e080 5e LoadPolymorphicIC:prototype
+38852ff8e140 20c LazyCompile:~keys native v8natives.js:207
+38852ff8e3c0 25 LoadIC:length
+38852ff8e460 25 LoadIC:prototype
+38852ff8e500 38 KeyedLoadIC:write
+38852ff8e5a0 25 LoadIC:prototype
+38852ff8e640 18 Stub:LoadConstantStub
+38852ff8e6c0 38 KeyedLoadIC:cork
+38852ff8e760 136 Stub:FastNewContextStub
+38852ff8e900 3dc Function:~ _stream_transform.js:1
+38852ff8ed40 b4 Script:~_stream_transform.js
+38852ff8ee60 1fc Function:~ _stream_passthrough.js:1
+38852ff8f0c0 b4 Script:~_stream_passthrough.js
+38852ff8f1e0 46c Function:~ smalloc.js:1
+38852ff8f6c0 b4 Script:~smalloc.js
+38852ff8f7e0 38 LoadPolymorphicIC:enumerable
+38852ff8f880 38 LoadPolymorphicIC:value
+38852ff8f920 40 Stub:StoreFieldStub
+38852ff8f9c0 25 StoreIC:value_
+38852ff8fa60 25 StoreIC:hasValue_
+38852ff8fb00 25 LoadIC:setWritable
+38852ff8fba0 38 LoadPolymorphicIC:writable
+38852ff8fc40 25 StoreIC:writable_
+38852ff8fce0 25 StoreIC:hasWritable_
+38852ff8fd80 25 LoadIC:hasGetter
+38852ff8fe20 25 LoadIC:hasGetter_
+38852ff8fec0 25 LoadIC:hasSetter
+38852ff8ff60 25 LoadIC:hasSetter_
+38852ff90000 25 LoadIC:hasEnumerable
+38852ff900a0 25 LoadIC:hasEnumerable_
+38852ff90140 25 LoadIC:isEnumerable
+38852ff901e0 25 LoadIC:enumerable_
+38852ff90280 25 LoadIC:hasConfigurable
+38852ff90320 25 LoadIC:hasConfigurable_
+38852ff903c0 25 LoadIC:hasValue
+38852ff90460 25 LoadIC:hasValue_
+38852ff90500 25 LoadIC:hasWritable
+38852ff905a0 25 LoadIC:hasWritable_
+38852ff90640 25 LoadIC:isWritable
+38852ff906e0 25 LoadIC:writable_
+38852ff90780 25 LoadIC:hasValue
+38852ff90820 25 LoadIC:getValue
+38852ff908c0 25 LoadIC:value_
+38852ff90960 9b Stub:value_
+38852ff90a60 25 StoreIC:value_
+38852ff90b00 b3 Stub:hasValue_
+38852ff90c20 25 StoreIC:hasValue_
+38852ff90cc0 b3 Stub:writable_
+38852ff90de0 25 StoreIC:writable_
+38852ff90e80 b3 Stub:hasWritable_
+38852ff90fa0 25 StoreIC:hasWritable_
+38852ff91040 b3 Stub:enumerable_
+38852ff91160 25 StoreIC:enumerable_
+38852ff91200 b3 Stub:hasEnumerable_
+38852ff91320 25 StoreIC:hasEnumerable_
+38852ff913c0 b3 Stub:configurable_
+38852ff914e0 25 StoreIC:configurable_
+38852ff91580 b3 Stub:hasConfigurable_
+38852ff916a0 25 StoreIC:hasConfigurable_
+38852ff91740 b3 Stub:get_
+38852ff91860 25 StoreIC:get_
+38852ff91900 b3 Stub:hasGetter_
+38852ff91a20 25 StoreIC:hasGetter_
+38852ff91ac0 b3 Stub:set_
+38852ff91be0 25 StoreIC:set_
+38852ff91c80 b3 Stub:hasSetter_
+38852ff91da0 25 StoreIC:hasSetter_
+38852ff91e40 25 LoadIC:setEnumerable
+38852ff91ee0 25 StoreIC:enumerable_
+38852ff91f80 25 StoreIC:hasEnumerable_
+38852ff92020 25 LoadIC:setValue
+38852ff920c0 38 LoadPolymorphicIC:enumerable
+38852ff92160 38 LoadPolymorphicIC:value
+38852ff92200 38 LoadPolymorphicIC:writable
+38852ff922a0 4b LoadPolymorphicIC:enumerable
+38852ff92360 4b LoadPolymorphicIC:value
+38852ff92420 25 LoadIC:setConfigurable
+38852ff924c0 25 StoreIC:configurable_
+38852ff92560 25 StoreIC:hasConfigurable_
+38852ff92600 25 LoadIC:isConfigurable
+38852ff926a0 25 LoadIC:configurable_
+38852ff92740 100 Stub:MegamorphicLoadStub
+38852ff928a0 29c LazyCompile:NonNumberToNumber native runtime.js:318
+38852ff92ba0 1c4 Stub:CompareICStub
+38852ff92de0 f4 Stub:CompareICStub
+38852ff92f40 53 Stub:toUpperCase
+38852ff93000 25 LoadIC:toUpperCase
+38852ff930a0 23 Stub:RegExp
+38852ff93140 25 LoadIC:RegExp
+38852ff931e0 2e Stub:test
+38852ff93280 25 LoadIC:test
+38852ff93320 25 LoadIC:lastIndex
+38852ff933c0 25 LoadIC:global
+38852ff93460 f Stub:harmony_regexps
+38852ff934e0 25 LoadIC:harmony_regexps
+38852ff93580 25 LoadIC:source
+38852ff93620 25 LoadIC:length
+38852ff936c0 25 LoadIC:source
+38852ff93760 389 RegExp:\bMODULE\b
+38852ff93b60 25 StoreIC:lastIndex
+38852ff93c00 1aa Stub:CallICStub(args(5), METHOD, 
+38852ff93e20 48c LazyCompile:~Module._initPaths module.js:506
+38852ff94320 25 LoadIC:length
+38852ff943c0 38 LoadPolymorphicIC:charAt
+38852ff94460 53 Stub:split
+38852ff94520 25 LoadIC:split
+38852ff945c0 2e Stub:filter
+38852ff94660 25 LoadIC:filter
+38852ff94700 f Stub:ToUint32
+38852ff94780 25 LoadIC:ToUint32
+38852ff94820 25 LoadIC:length
+38852ff948c0 f Stub:$Array
+38852ff94940 25 LoadIC:$Array
+38852ff949e0 25 LoadIC:length
+38852ff94a80 2e Stub:splice
+38852ff94b20 25 LoadIC:splice
+38852ff94bc0 25 LoadIC:splice
+38852ff94c60 18 Stub:LoadConstantStub
+38852ff94ce0 2e Stub:join
+38852ff94d80 25 LoadIC:join
+38852ff94e20 f Stub:Join
+38852ff94ea0 25 LoadIC:Join
+38852ff94f40 f Stub:ConvertToString
+38852ff94fc0 25 LoadIC:ConvertToString
+38852ff95060 f Stub:visited_arrays
+38852ff950e0 25 LoadIC:visited_arrays
+38852ff95180 f Stub:UseSparseVariant
+38852ff95200 25 LoadIC:UseSparseVariant
+38852ff952a0 25 LoadIC:length
+38852ff95340 25 LoadIC:length
+38852ff953e0 2e Stub:length
+38852ff95480 25 StoreIC:length
+38852ff95520 134 LazyCompile:~Module.runMain module.js:499
+38852ff956c0 59c LazyCompile:Module._load module.js:273
+38852ff95cc0 304 LazyCompile:~Module._resolveFilename module.js:321
+38852ff96040 8b4 LazyCompile:~Module._resolveLookupPaths module.js:222
+38852ff96960 3ec LazyCompile:~substring native string.js:463
+38852ff96dc0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ff96e80 9e8 LazyCompile:~stringify native json.js:147
+38852ff978e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff97960 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff979e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff97a60 74 LazyCompile:~debugs.(anonymous function) util.js:110
+38852ff97b40 5a0 LazyCompile:~Module._findPath module.js:153
+38852ff98140 464 LazyCompile:~slice native string.js:366
+38852ff98620 5d Stub:CompareICStub
+38852ff986e0 4b LoadPolymorphicIC:charAt
+38852ff987a0 15c LazyCompile:~tryFile module.js:132
+38852ff98960 12c LazyCompile:statPath module.js:84
+38852ff98b00 10c LazyCompile:~fs.statSync fs.js:719
+38852ff98c80 21c LazyCompile:~nullCheck fs.js:103
+38852ff98f00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff98f80 7c LazyCompile:~exports._makeLong path.js:520
+38852ff99060 29c LazyCompile:~fs.Stats fs.js:117
+38852ff99360 c4 LazyCompile:~fs.Stats.isDirectory fs.js:155
+38852ff994a0 dc LazyCompile:~fs.Stats._checkModeProperty fs.js:151
+38852ff995e0 b20 LazyCompile:~realpathSync fs.js:1225
+38852ff9a160 27c LazyCompile:~start fs.js:1248
+38852ff9a440 1da Stub:RegExpConstructResultStub
+38852ff9a680 688 LazyCompile:~exec native regexp.js:107
+38852ff9ad80 2ee RegExp:^[\/]*
+38852ff9b0e0 25 KeyedLoadIC:
+38852ff9b180 22 KeyedStoreIC:
+38852ff9b220 25 KeyedLoadIC:
+38852ff9b2c0 25 LoadIC:lastIndex
+38852ff9b360 25 LoadIC:global
+38852ff9b400 40e RegExp:(.*?)(?:[\/]+|$)
+38852ff9b880 4c Stub:StoreGlobalStub
+38852ff9b940 4c Stub:StoreGlobalStub
+38852ff9ba00 25 StoreIC:lastMatchInfoOverride
+38852ff9baa0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff9bb20 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff9bba0 21f Stub:CompareICStub
+38852ff9be20 10c LazyCompile:~fs.lstatSync fs.js:714
+38852ff9bfa0 53 Stub:indexOf
+38852ff9c060 25 LoadIC:indexOf
+38852ff9c100 a8 Stub:dev
+38852ff9c220 25 StoreIC:dev
+38852ff9c2c0 a8 Stub:mode
+38852ff9c3e0 25 StoreIC:mode
+38852ff9c480 a8 Stub:nlink
+38852ff9c5a0 25 StoreIC:nlink
+38852ff9c640 a8 Stub:uid
+38852ff9c760 25 StoreIC:uid
+38852ff9c800 a8 Stub:gid
+38852ff9c920 25 StoreIC:gid
+38852ff9c9c0 a8 Stub:rdev
+38852ff9cae0 25 StoreIC:rdev
+38852ff9cb80 a8 Stub:blksize
+38852ff9cca0 25 StoreIC:blksize
+38852ff9cd40 a8 Stub:ino
+38852ff9ce60 25 StoreIC:ino
+38852ff9cf00 a8 Stub:size
+38852ff9d020 25 StoreIC:size
+38852ff9d0c0 a8 Stub:blocks
+38852ff9d1e0 25 StoreIC:blocks
+38852ff9d280 23 Stub:Date
+38852ff9d320 25 LoadIC:Date
+38852ff9d3c0 e5 Stub:atime
+38852ff9d520 25 StoreIC:atime
+38852ff9d5c0 e5 Stub:mtime
+38852ff9d720 25 StoreIC:mtime
+38852ff9d7c0 e5 Stub:ctime
+38852ff9d920 25 StoreIC:ctime
+38852ff9d9c0 e5 Stub:birthtime
+38852ff9db20 25 StoreIC:birthtime
+38852ff9dbc0 c4 LazyCompile:~fs.Stats.isSymbolicLink fs.js:171
+38852ff9dd00 25 LoadIC:mode
+38852ff9dda0 25 LoadIC:symbol(hash 2f7edc50)
+38852ff9de40 25 LoadIC:length
+38852ff9dee0 25 StoreIC:lastIndex
+38852ff9df80 2e Stub:exec
+38852ff9e020 25 LoadIC:exec
+38852ff9e0c0 25 LoadIC:length
+38852ff9e160 25 StoreIC:lastIndex
+38852ff9e200 25 LoadIC:lastIndex
+38852ff9e2a0 25 LoadIC:prototype
+38852ff9e340 25 LoadIC:hasOwnProperty
+38852ff9e3e0 25 LoadIC:call
+38852ff9e480 18 Stub:LoadConstantStub
+38852ff9e500 25 LoadIC:lstatSync
+38852ff9e5a0 38 LoadPolymorphicIC:indexOf
+38852ff9e640 18 Stub:LoadConstantStub
+38852ff9e6c0 25 LoadIC:lstat
+38852ff9e760 25 LoadIC:_makeLong
+38852ff9e800 2e Stub:isSymbolicLink
+38852ff9e8a0 25 LoadIC:isSymbolicLink
+38852ff9e940 2e Stub:_checkModeProperty
+38852ff9e9e0 25 LoadIC:_checkModeProperty
+38852ff9ea80 1bc LazyCompile:~Module module.js:38
+38852ff9eca0 36c LazyCompile:~Module.load module.js:345
+38852ff9f080 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff9f100 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff9f180 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ff9f200 dc LazyCompile:~ok assert.js:117
+38852ff9f340 174 LazyCompile:~exports.dirname path.js:451
+38852ff9f520 e4 LazyCompile:~splitPath path.js:318
+38852ff9f680 990 RegExp:^(\/?|)([\s\S]*?)((?:\.{1,2}|[^\/]+?|)(\.[^.\/]*|))(?:[\/]*)$
+38852ffa0080 46c LazyCompile:~substr native string.js:489
+38852ffa0560 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ffa0620 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ffa06a0 580 LazyCompile:~Module._nodeModulePaths module.js:200
+38852ffa0c80 71c LazyCompile:~StringSplitOnRegExp native string.js:417
+38852ffa1400 cc LazyCompile:~DoRegExpExec native regexp.js:76
+38852ffa1540 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ffa1600 22 KeyedStoreIC:
+38852ffa16a0 c2 Stub:CompareICStub
+38852ffa17e0 f Stub:DoRegExpExec
+38852ffa1860 25 LoadIC:DoRegExpExec
+38852ffa1900 25 LoadIC:length
+38852ffa19a0 25 LoadIC:length
+38852ffa1a40 70 Stub:CompareNilICStub(NullValue)(Null,MonomorphicMap)
+38852ffa1b20 70 Stub:CompareNilICStub(NullValue)(Null,MonomorphicMap)
+38852ffa1c00 2e0 LazyCompile:~ArrayConcatJS native array.js:344
+38852ffa1f40 2e Stub:slice
+38852ffa1fe0 25 LoadIC:slice
+38852ffa2080 2e Stub:concat
+38852ffa2120 25 LoadIC:concat
+38852ffa21c0 25 LoadIC:join
+38852ffa2260 25 LoadIC:sep
+38852ffa2300 25 LoadIC:push
+38852ffa23a0 a4 LazyCompile:~exports.extname path.js:480
+38852ffa24c0 25 LoadIC:exec
+38852ffa2560 25 LoadIC:slice
+38852ffa2600 11c LazyCompile:~Module._extensions..js module.js:476
+38852ffa2780 be8 LazyCompile:fs.readFileSync fs.js:300
+38852ffa33e0 134 LazyCompile:~assertEncoding fs.js:97
+38852ffa3580 364 LazyCompile:~Buffer.isEncoding buffer.js:161
+38852ffa3960 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ffa39e0 1a4 LazyCompile:~toLowerCase native string.js:513
+38852ffa3c00 16c LazyCompile:~fs.openSync fs.js:452
+38852ffa3de0 1a4 LazyCompile:~modeNum fs.js:431
+38852ffa4000 ac LazyCompile:~isNumber util.js:529
+38852ffa4120 77c LazyCompile:~stringToFlags fs.js:379
+38852ffa4900 b4 LazyCompile:~fs.fstatSync fs.js:710
+38852ffa4a20 c60 LazyCompile:~Buffer buffer.js:48
+38852ffa56e0 b4 LazyCompile:~isBuffer util.js:585
+38852ffa5800 122 Stub:FastNewContextStub
+38852ffa59a0 3d4 LazyCompile:~fs.readSync fs.js:488
+38852ffa5de0 23 Stub:Buffer
+38852ffa5e80 25 LoadIC:Buffer
+38852ffa5f20 b4 LazyCompile:~fs.closeSync fs.js:427
+38852ffa6040 870 LazyCompile:~Buffer.toString buffer.js:237
+38852ffa6920 f Stub:$NaN
+38852ffa69a0 25 LoadIC:$NaN
+38852ffa6a40 114 LazyCompile:~stripBOM module.js:464
+38852ffa6bc0 50c LazyCompile:~charCodeAt native string.js:31
+38852ffa7140 d90 LazyCompile:~Module._compile module.js:378
+38852ffa7f40 31f RegExp:^\#\!.*
+38852ffa82c0 38 LoadPolymorphicIC:get
+38852ffa8360 25 LoadIC:setGet
+38852ffa8400 25 StoreIC:get_
+38852ffa84a0 25 StoreIC:hasGetter_
+38852ffa8540 25 LoadIC:hasWritable
+38852ffa85e0 25 LoadIC:hasGetter
+38852ffa8680 25 LoadIC:getGet
+38852ffa8720 25 LoadIC:get_
+38852ffa87c0 25 LoadIC:hasSetter
+38852ffa8860 53 Stub:substr
+38852ffa8920 25 LoadIC:substr
+38852ffa89c0 25 LoadIC:length
+38852ffa8a60 25 LoadIC:length
+38852ffa8b00 25 LoadIC:length
+38852ffa8ba0 dc LazyCompile:~exports.runInThisContext vm.js:72
+38852ffa8ce0 414 Function:~ /Users/thlorenz/dev/js/benchmarks/errors.js:1
+38852ffa9160 b4 Script:~/Users/thlorenz/dev/js/benchmarks/errors.js
+38852ffa9280 8bc LazyCompile:~indexOf native array.js:954
+38852ffa9ba0 25 LoadIC:setSet
+38852ffa9c40 25 StoreIC:set_
+38852ffa9ce0 25 StoreIC:hasSetter_
+38852ffa9d80 25 LoadIC:setValue
+38852ffa9e20 25 LoadIC:setWritable
+38852ffa9ec0 25 LoadIC:setEnumerable
+38852ffa9f60 25 LoadIC:setConfigurable
+38852ffaa000 25 LoadIC:isConfigurable
+38852ffaa0a0 25 LoadIC:isEnumerable
+38852ffaa140 25 LoadIC:getSet
+38852ffaa1e0 25 LoadIC:set_
+38852ffaa280 bc LazyCompile:~ node.js:216
+38852ffaa3a0 4fc Function:~ console.js:1
+38852ffaa900 b4 Script:~console.js
+38852ffaaa20 1cc LazyCompile:~ node.js:536
+38852ffaac60 1b6 Stub:FastCloneShallowObjectStub
+38852ffaae80 664 LazyCompile:~createWritableStdioStream node.js:471
+38852ffab560 7c4 Function:~ tty.js:1
+38852ffabda0 b4 Script:~tty.js
+38852ffabec0 33a Stub:FastNewContextStub
+38852ffac260 1e6c Function:~ net.js:1
+38852ffae140 b4 Script:~net.js
+38852ffae260 24a Stub:FastNewContextStub
+38852ffae520 e6c Function:~ timers.js:1
+38852ffaf400 b4 Script:~timers.js
+38852ffaf520 1ac Function:~ _linklist.js:1
+38852ffaf740 b4 Script:~_linklist.js
+38852ffaf860 373 RegExp:\bTIMER\b
+38852ffafc40 a4 LazyCompile:~init _linklist.js:22
+38852ffafd60 374 RegExp:\bNET\b
+38852ffb0140 25 LoadIC:setGet
+38852ffb01e0 25 LoadIC:setEnumerable
+38852ffb0280 25 LoadIC:setConfigurable
+38852ffb0320 24c LazyCompile:~WriteStream tty.js:73
+38852ffb05e0 9b4 LazyCompile:~Socket net.js:131
+38852ffb1000 2f4 LazyCompile:~Duplex _stream_duplex.js:41
+38852ffb1360 154 LazyCompile:~Readable _stream_readable.js:98
+38852ffb1520 5f4 LazyCompile:~ReadableState _stream_readable.js:33
+38852ffb1b80 227 Stub:CompareICStub
+38852ffb1e20 ac LazyCompile:~Stream stream.js:42
+38852ffb1f40 13f Stub:domain
+38852ffb20e0 38 StorePolymorphicIC:domain
+38852ffb2180 ba Stub:_events
+38852ffb22a0 38 LoadPolymorphicIC:_events
+38852ffb2340 13f Stub:_events
+38852ffb24e0 25 StoreIC:_events
+38852ffb2580 ba Stub:_maxListeners
+38852ffb26a0 38 LoadPolymorphicIC:_maxListeners
+38852ffb2740 f Stub:undefined
+38852ffb27c0 38 LoadPolymorphicIC:undefined
+38852ffb2860 13f Stub:_maxListeners
+38852ffb2a00 38 StorePolymorphicIC:_maxListeners
+38852ffb2aa0 194 LazyCompile:~Writable _stream_writable.js:126
+38852ffb2ca0 55c LazyCompile:~WritableState _stream_writable.js:40
+38852ffb3260 25 LoadIC:call
+38852ffb3300 4b StorePolymorphicIC:domain
+38852ffb33c0 4b LoadPolymorphicIC:_events
+38852ffb3480 25 LoadIC:_events
+38852ffb3520 25 LoadIC:getPrototypeOf
+38852ffb35c0 9e Stub:_events
+38852ffb36c0 25 LoadIC:_events
+38852ffb3760 4b LoadPolymorphicIC:_maxListeners
+38852ffb3820 4b StorePolymorphicIC:_maxListeners
+38852ffb38e0 234 LazyCompile:~once events.js:188
+38852ffb3b80 39c LazyCompile:~Readable.on _stream_readable.js:669
+38852ffb3f80 38 LoadPolymorphicIC:_events
+38852ffb4020 38 LoadPolymorphicIC:_events
+38852ffb40c0 31 Stub:symbol(hash 38fff430)
+38852ffb4160 38 LoadPolymorphicIC:newListener
+38852ffb4200 38 LoadPolymorphicIC:_events
+38852ffb42a0 38 LoadPolymorphicIC:_events
+38852ffb4340 38 LoadPolymorphicIC:_events
+38852ffb43e0 25 LoadIC:prototype
+38852ffb4480 2e Stub:on
+38852ffb4520 25 LoadIC:on
+38852ffb45c0 25 LoadIC:call
+38852ffb4660 4b LoadPolymorphicIC:newListener
+38852ffb4720 5e LoadPolymorphicIC:newListener
+38852ffb47e0 18c LazyCompile:~initSocketHandle net.js:115
+38852ffb49e0 ac Stub:LoadFastElementStub
+38852ffb4b00 25 KeyedLoadIC:
+38852ffb4ba0 404 LazyCompile:~process.on.process.addListener node.js:696
+38852ffb5020 164 LazyCompile:~isSignal node.js:690
+38852ffb5200 25 LoadIC:length
+38852ffb52a0 10c LazyCompile:~startup.lazyConstants node.js:224
+38852ffb5420 25 LoadIC:_lazyConstants
+38852ffb54c0 68 Stub:ToBooleanStub(Null,SpecObject)
+38852ffb55a0 25 LoadIC:_lazyConstants
+38852ffb5640 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+38852ffb5700 38 KeyedLoadPolymorphicIC:
+38852ffb57a0 4b LoadPolymorphicIC:_events
+38852ffb5860 4b LoadPolymorphicIC:_events
+38852ffb5920 4b LoadPolymorphicIC:_events
+38852ffb59e0 4b LoadPolymorphicIC:_events
+38852ffb5aa0 4b LoadPolymorphicIC:_events
+38852ffb5b60 154 LazyCompile:~ node.js:551
+38852ffb5d20 25 LoadIC:symbol(hash 2f7edc50)
+38852ffb5dc0 25 LoadIC:guessHandleType
+38852ffb5e60 25 LoadIC:require
+38852ffb5f00 25 LoadIC:WriteStream
+38852ffb5fa0 25 LoadIC:Socket
+38852ffb6040 25 LoadIC:call
+38852ffb60e0 26 Stub:handle
+38852ffb6180 25 StoreIC:handle
+38852ffb6220 15d Stub:_connecting
+38852ffb63e0 25 StoreIC:_connecting
+38852ffb6480 15d Stub:_hadError
+38852ffb6640 25 StoreIC:_hadError
+38852ffb66e0 15d Stub:_handle
+38852ffb68a0 25 StoreIC:_handle
+38852ffb6940 15d Stub:_host
+38852ffb6b00 25 StoreIC:_host
+38852ffb6ba0 25 LoadIC:isNumber
+38852ffb6c40 25 LoadIC:isUndefined
+38852ffb6ce0 25 LoadIC:Duplex
+38852ffb6d80 25 LoadIC:call
+38852ffb6e20 25 LoadIC:call
+38852ffb6ec0 25 LoadIC:objectMode
+38852ffb6f60 d1 Stub:objectMode
+38852ffb70a0 25 StoreIC:objectMode
+38852ffb7140 25 LoadIC:Duplex
+38852ffb71e0 25 LoadIC:objectMode
+38852ffb7280 25 LoadIC:readableObjectMode
+38852ffb7320 25 StoreIC:objectMode
+38852ffb73c0 25 LoadIC:highWaterMark
+38852ffb7460 25 LoadIC:objectMode
+38852ffb7500 a8 Stub:highWaterMark
+38852ffb7620 25 StoreIC:highWaterMark
+38852ffb76c0 25 LoadIC:highWaterMark
+38852ffb7760 40 Stub:StoreFieldStub
+38852ffb7800 25 StoreIC:highWaterMark
+38852ffb78a0 d1 Stub:buffer
+38852ffb79e0 25 StoreIC:buffer
+38852ffb7a80 a8 Stub:length
+38852ffb7ba0 25 StoreIC:length
+38852ffb7c40 d1 Stub:pipes
+38852ffb7d80 25 StoreIC:pipes
+38852ffb7e20 a8 Stub:pipesCount
+38852ffb7f40 25 StoreIC:pipesCount
+38852ffb7fe0 d1 Stub:flowing
+38852ffb8120 25 StoreIC:flowing
+38852ffb81c0 d1 Stub:ended
+38852ffb8300 25 StoreIC:ended
+38852ffb83a0 d1 Stub:endEmitted
+38852ffb84e0 25 StoreIC:endEmitted
+38852ffb8580 d1 Stub:reading
+38852ffb86c0 25 StoreIC:reading
+38852ffb8760 d1 Stub:sync
+38852ffb88a0 25 StoreIC:sync
+38852ffb8940 d1 Stub:needReadable
+38852ffb8a80 25 StoreIC:needReadable
+38852ffb8b20 d1 Stub:emittedReadable
+38852ffb8c60 25 StoreIC:emittedReadable
+38852ffb8d00 d1 Stub:readableListening
+38852ffb8e40 25 StoreIC:readableListening
+38852ffb8ee0 25 LoadIC:defaultEncoding
+38852ffb8f80 d7 Stub:defaultEncoding
+38852ffb90c0 25 StoreIC:defaultEncoding
+38852ffb9160 d7 Stub:ranOut
+38852ffb92a0 25 StoreIC:ranOut
+38852ffb9340 ab Stub:awaitDrain
+38852ffb9460 25 StoreIC:awaitDrain
+38852ffb9500 d7 Stub:readingMore
+38852ffb9640 25 StoreIC:readingMore
+38852ffb96e0 d7 Stub:decoder
+38852ffb9820 25 StoreIC:decoder
+38852ffb98c0 d7 Stub:encoding
+38852ffb9a00 25 StoreIC:encoding
+38852ffb9aa0 25 LoadIC:encoding
+38852ffb9b40 171 Stub:_readableState
+38852ffb9d20 25 StoreIC:_readableState
+38852ffb9dc0 15d Stub:readable
+38852ffb9f80 25 StoreIC:readable
+38852ffba020 25 LoadIC:call
+38852ffba0c0 25 LoadIC:call
+38852ffba160 25 LoadIC:Duplex
+38852ffba200 25 LoadIC:objectMode
+38852ffba2a0 d1 Stub:objectMode
+38852ffba3e0 25 StoreIC:objectMode
+38852ffba480 25 LoadIC:Duplex
+38852ffba520 25 LoadIC:objectMode
+38852ffba5c0 25 LoadIC:writableObjectMode
+38852ffba660 25 StoreIC:objectMode
+38852ffba700 25 LoadIC:highWaterMark
+38852ffba7a0 25 LoadIC:objectMode
+38852ffba840 a8 Stub:highWaterMark
+38852ffba960 25 StoreIC:highWaterMark
+38852ffbaa00 25 LoadIC:highWaterMark
+38852ffbaaa0 25 StoreIC:highWaterMark
+38852ffbab40 d1 Stub:needDrain
+38852ffbac80 25 StoreIC:needDrain
+38852ffbad20 d1 Stub:ending
+38852ffbae60 25 StoreIC:ending
+38852ffbaf00 d1 Stub:ended
+38852ffbb040 25 StoreIC:ended
+38852ffbb0e0 d1 Stub:finished
+38852ffbb220 25 StoreIC:finished
+38852ffbb2c0 25 LoadIC:decodeStrings
+38852ffbb360 d1 Stub:decodeStrings
+38852ffbb4a0 25 StoreIC:decodeStrings
+38852ffbb540 25 LoadIC:defaultEncoding
+38852ffbb5e0 d1 Stub:defaultEncoding
+38852ffbb720 25 StoreIC:defaultEncoding
+38852ffbb7c0 a8 Stub:length
+38852ffbb8e0 25 StoreIC:length
+38852ffbb980 d1 Stub:writing
+38852ffbbac0 25 StoreIC:writing
+38852ffbbb60 a8 Stub:corked
+38852ffbbc80 25 StoreIC:corked
+38852ffbbd20 d1 Stub:sync
+38852ffbbe60 25 StoreIC:sync
+38852ffbbf00 d1 Stub:bufferProcessing
+38852ffbc040 25 StoreIC:bufferProcessing
+38852ffbc0e0 d1 Stub:onwrite
+38852ffbc220 25 StoreIC:onwrite
+38852ffbc2c0 d7 Stub:writecb
+38852ffbc400 25 StoreIC:writecb
+38852ffbc4a0 ab Stub:writelen
+38852ffbc5c0 25 StoreIC:writelen
+38852ffbc660 d7 Stub:buffer
+38852ffbc7a0 25 StoreIC:buffer
+38852ffbc840 ab Stub:pendingcb
+38852ffbc960 25 StoreIC:pendingcb
+38852ffbca00 d7 Stub:prefinished
+38852ffbcb40 25 StoreIC:prefinished
+38852ffbcbe0 d7 Stub:errorEmitted
+38852ffbcd20 25 StoreIC:errorEmitted
+38852ffbcdc0 15d Stub:_writableState
+38852ffbcf80 25 StoreIC:_writableState
+38852ffbd020 11c Stub:writable
+38852ffbd1a0 25 StoreIC:writable
+38852ffbd240 25 LoadIC:call
+38852ffbd2e0 25 LoadIC:readable
+38852ffbd380 25 StoreIC:readable
+38852ffbd420 25 LoadIC:writable
+38852ffbd4c0 67c Stub:RecordWriteStub
+38852ffbdba0 161 Stub:allowHalfOpen
+38852ffbdd80 25 StoreIC:allowHalfOpen
+38852ffbde20 25 LoadIC:allowHalfOpen
+38852ffbdec0 ba Stub:once
+38852ffbdfe0 25 LoadIC:once
+38852ffbe080 25 LoadIC:isFunction
+38852ffbe120 b2 Stub:listener
+38852ffbe240 25 StoreIC:listener
+38852ffbe2e0 82 Stub:on
+38852ffbe3e0 25 LoadIC:on
+38852ffbe480 25 LoadIC:handle
+38852ffbe520 25 LoadIC:handle
+38852ffbe5c0 25 StoreIC:_handle
+38852ffbe660 25 LoadIC:on
+38852ffbe700 4b LoadPolymorphicIC:newListener
+38852ffbe7c0 25 LoadIC:on
+38852ffbe860 5e LoadPolymorphicIC:newListener
+38852ffbe920 161 Stub:destroyed
+38852ffbeb00 25 StoreIC:destroyed
+38852ffbeba0 11c Stub:bytesRead
+38852ffbed20 25 StoreIC:bytesRead
+38852ffbedc0 138 Stub:_bytesDispatched
+38852ffbef60 25 StoreIC:_bytesDispatched
+38852ffbf000 25 LoadIC:_handle
+38852ffbf0a0 25 LoadIC:_handle
+38852ffbf140 e9 Stub:owner
+38852ffbf2a0 25 StoreIC:owner
+38852ffbf340 25 LoadIC:_handle
+38852ffbf3e0 b2 Stub:onread
+38852ffbf500 25 StoreIC:onread
+38852ffbf5a0 25 LoadIC:_handle
+38852ffbf640 4f Stub:symbol(hash 38fff430)
+38852ffbf700 25 LoadIC:writev
+38852ffbf7a0 d3 Stub:_writev
+38852ffbf8e0 25 StoreIC:_writev
+38852ffbf980 11c Stub:_pendingData
+38852ffbfb00 25 StoreIC:_pendingData
+38852ffbfba0 161 Stub:_pendingEncoding
+38852ffbfd80 25 StoreIC:_pendingEncoding
+38852ffbfe20 25 LoadIC:_writableState
+38852ffbfec0 25 StoreIC:decodeStrings
+38852ffbff60 25 LoadIC:allowHalfOpen
+38852ffc0000 a16 Stub:RecordWriteStub
+38852ffc0a80 68 Stub:StoreFieldStub
+38852ffc0b60 25 StoreIC:allowHalfOpen
+38852ffc0c00 25 LoadIC:_handle
+38852ffc0ca0 25 LoadIC:readable
+38852ffc0d40 25 LoadIC:_handle
+38852ffc0de0 2e Stub:getWindowSize
+38852ffc0e80 25 LoadIC:getWindowSize
+38852ffc0f20 138 Stub:columns
+38852ffc10c0 25 StoreIC:columns
+38852ffc1160 11c Stub:rows
+38852ffc12e0 25 StoreIC:rows
+38852ffc1380 161 Stub:_type
+38852ffc1560 25 StoreIC:_type
+38852ffc1600 25 LoadIC:_handle
+38852ffc16a0 25 LoadIC:_handle
+38852ffc1740 2e Stub:unref
+38852ffc17e0 25 LoadIC:unref
+38852ffc1880 25 LoadIC:_handle
+38852ffc1920 25 LoadIC:unref
+38852ffc19c0 138 Stub:fd
+38852ffc1b60 25 StoreIC:fd
+38852ffc1c00 11c Stub:_isStdio
+38852ffc1d80 25 StoreIC:_isStdio
+38852ffc1e20 1c6 Stub:FastCloneShallowObjectStub
+38852ffc2060 4c8 LazyCompile:~Console console.js:24
+38852ffc25a0 5e LoadPolymorphicIC:enumerable
+38852ffc2660 4b LoadPolymorphicIC:configurable
+38852ffc2720 5e LoadPolymorphicIC:value
+38852ffc27e0 4b LoadPolymorphicIC:writable
+38852ffc28a0 2e4 LazyCompile:~bind native v8natives.js:1282
+38852ffc2c00 134 LazyCompile:~Console.log console.js:54
+38852ffc2da0 25 LoadIC:length
+38852ffc2e40 2e Stub:info
+38852ffc2ee0 38 KeyedLoadIC:info
+38852ffc2f80 2e Stub:bind
+38852ffc3020 25 LoadIC:bind
+38852ffc30c0 33 Stub:length
+38852ffc3160 25 LoadIC:length
+38852ffc3200 2e Stub:warn
+38852ffc32a0 134 LazyCompile:~Console.warn console.js:62
+38852ffc3440 15c LazyCompile:~Console.dir console.js:70
+38852ffc3600 d4 LazyCompile:~Console.time console.js:77
+38852ffc3740 1ac LazyCompile:~Console.timeEnd console.js:82
+38852ffc3960 1e4 LazyCompile:~Console.trace console.js:92
+38852ffc3bc0 1e4 LazyCompile:~Console.assert console.js:103
+38852ffc3e20 4b4 LazyCompile:~b native v8natives.js:1286
+38852ffc4340 25 LoadIC:ToUint32
+38852ffc43e0 25 LoadIC:length
+38852ffc4480 4b KeyedLoadPolymorphicIC:
+38852ffc4540 6a4 LazyCompile:~exports.format util.js:23
+38852ffc4c60 80c LazyCompile:~StringReplaceGlobalRegExpWithFunction native string.js:268
+38852ffc54e0 2f7 RegExp:%[sdj%]
+38852ffc5840 25 KeyedLoadIC:
+38852ffc58e0 9c LazyCompile:~isNull util.js:519
+38852ffc59e0 f Stub:ToPrimitive
+38852ffc5a60 25 LoadIC:ToPrimitive
+38852ffc5b00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+38852ffc5b80 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ffc5c00 25 KeyedLoadIC:
+38852ffc5ca0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+38852ffc5d20 1cc LazyCompile:~Socket.write net.js:614
+38852ffc5f60 38 LoadPolymorphicIC:length
+38852ffc6000 5e KeyedLoadPolymorphicIC:
+38852ffc60c0 2dc LazyCompile:~Writable.write _stream_writable.js:176
+38852ffc6400 2bc LazyCompile:~validChunk _stream_writable.js:160
+38852ffc6720 304 LazyCompile:~writeOrBuffer _stream_writable.js:245
+38852ffc6aa0 164 LazyCompile:~decodeChunk _stream_writable.js:233
+38852ffc6c80 1ac LazyCompile:~doWrite _stream_writable.js:266
+38852ffc6ea0 bc LazyCompile:~Socket._write net.js:690
+38852ffc6fc0 818 LazyCompile:~Socket._writeGeneric net.js:622
+38852ffc7840 8a0 LazyCompile:~exports._unrefActive timers.js:517
+38852ffc8140 444 LazyCompile:~createWriteReq net.js:694
+38852ffc8600 9c LazyCompile:~WritableState.onwrite _stream_writable.js:102
+38852ffc8700 3a4 LazyCompile:~onwrite _stream_writable.js:300
+38852ffc8b20 104 LazyCompile:~onwriteStateUpdate _stream_writable.js:293
+38852ffc8ca0 1dc LazyCompile:~needFinish _stream_writable.js:435
+38852ffc8ee0 234 LazyCompile:~nextTick node.js:428
+38852ffc9180 162 Stub:LoadFastElementStub
+38852ffc9360 25 KeyedLoadIC:
+38852ffc9400 56 Stub:DoubleToIStub
+38852ffc94c0 10c Stub:StoreFastElementStub
+38852ffc9640 22 KeyedStoreIC:
+38852ffc96e0 124 LazyCompile:~global.setTimeout node.js:184
+38852ffc9880 3f4 LazyCompile:~exports.setTimeout timers.js:220
+38852ffc9ce0 10c LazyCompile:~Timeout timers.js:309
+38852ffc9e60 244 LazyCompile:~exports.active timers.js:196
+38852ffca120 25 KeyedLoadIC:
+38852ffca1c0 2e4 LazyCompile:~insert timers.js:69
+38852ffca520 a4 Stub:_idleNext
+38852ffca640 25 StoreIC:_idleNext
+38852ffca6e0 e9 Stub:_idlePrev
+38852ffca840 25 StoreIC:_idlePrev
+38852ffca8e0 ec Stub:StoreFastElementStub
+38852ffcaa40 22 KeyedStoreIC:
+38852ffcaae0 22 KeyedStoreIC:
+38852ffcab80 114 LazyCompile:~append _linklist.js:63
+38852ffcad00 16c LazyCompile:~remove _linklist.js:47
+38852ffcaee0 bc LazyCompile:~isEmpty _linklist.js:73
+38852ffcb000 6b Stub:CompareICStub
+38852ffcb0e0 428 LazyCompile:_tickCallback node.js:367
+38852ffcb580 18c LazyCompile:~scheduleMicrotasks node.js:344
+38852ffcb780 ac LazyCompile:~ _stream_writable.js:321
+38852ffcb8a0 12c LazyCompile:~afterWrite _stream_writable.js:330
+38852ffcba40 12c LazyCompile:~onwriteDrain _stream_writable.js:341
+38852ffcbbe0 74 LazyCompile:~cb _stream_writable.js:191
+38852ffcbcc0 1ac LazyCompile:~finishMaybe _stream_writable.js:450
+38852ffcbee0 25 LoadIC:ending
+38852ffcbf80 25 LoadIC:callback
+38852ffcc020 25 LoadIC:_asyncQueue
+38852ffcc0c0 144 LazyCompile:~runMicrotasksCallback node.js:357
+38852ffcc280 1f4 LazyCompile:~tickDone node.js:331
+38852ffcc4e0 8d8 LazyCompile:listOnTimeout timers.js:94
+38852ffcce20 dc LazyCompile:~peek _linklist.js:30
+38852ffccf60 6b Stub:CompareICStub
+38852ffcd040 25 LoadIC:_idleNext
+38852ffcd0e0 25 LoadIC:_idleNext
+38852ffcd180 25 LoadIC:_idlePrev
+38852ffcd220 44 Stub:StoreFieldStub
+38852ffcd2e0 25 StoreIC:_idlePrev
+38852ffcd380 25 LoadIC:_idlePrev
+38852ffcd420 25 LoadIC:_idlePrev
+38852ffcd4c0 25 LoadIC:_idleNext
+38852ffcd560 44 Stub:StoreFieldStub
+38852ffcd620 25 StoreIC:_idleNext
+38852ffcd6c0 25 StoreIC:_idleNext
+38852ffcd760 25 StoreIC:_idlePrev
+38852ffcd800 25 LoadIC:_idlePrev
+38852ffcd8a0 428 LazyCompile:~go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+38852ffcdd40 25 LoadIC:require
+38852ffcdde0 46c LazyCompile:~toExponential native v8natives.js:1161
+38852ffce2c0 c2 Stub:CompareICStub
+38852ffce400 25 LoadIC:length
+38852ffce4a0 25 LoadIC:_stdout
+38852ffce540 4a Stub:write
+38852ffce600 25 LoadIC:write
+38852ffce6a0 25 LoadIC:format
+38852ffce740 2e Stub:apply
+38852ffce7e0 25 LoadIC:apply
+38852ffce880 25 LoadIC:length
+38852ffce920 23 Stub:String
+38852ffce9c0 25 LoadIC:String
+38852ffcea60 53 Stub:replace
+38852ffceb20 25 LoadIC:replace
+38852ffcebc0 25 LoadIC:global
+38852ffcec60 f Stub:StringReplaceGlobalRegExpWithFunction
+38852ffcece0 25 LoadIC:StringReplaceGlobalRegExpWithFunction
+38852ffced80 f Stub:reusableReplaceArray
+38852ffcee00 25 LoadIC:reusableReplaceArray
+38852ffceea0 5c Stub:StoreGlobalStub
+38852ffcef60 5c Stub:StoreGlobalStub
+38852ffcf020 25 StoreIC:reusableReplaceArray
+38852ffcf0c0 25 StoreIC:lastIndex
+38852ffcf160 22 KeyedStoreIC:
+38852ffcf200 414 LazyCompile: util.js:35
+38852ffcf680 25 KeyedLoadIC:
+38852ffcf720 22 KeyedStoreIC:
+38852ffcf7c0 25 LoadIC:length
+38852ffcf860 25 LoadIC:isString
+38852ffcf900 25 LoadIC:Duplex
+38852ffcf9a0 25 LoadIC:write
+38852ffcfa40 25 LoadIC:apply
+38852ffcfae0 25 LoadIC:_writableState
+38852ffcfb80 25 LoadIC:isFunction
+38852ffcfc20 25 LoadIC:isBuffer
+38852ffcfcc0 25 LoadIC:isFunction
+38852ffcfd60 25 LoadIC:ended
+38852ffcfe00 25 LoadIC:isBuffer
+38852ffcfea0 25 LoadIC:isString
+38852ffcff40 10 Stub:LoadFieldStub
+38852ffcffc0 25 LoadIC:pendingcb
+38852ffd0060 44 Stub:StoreFieldStub
+38852ffd0120 25 StoreIC:pendingcb
+38852ffd01c0 25 LoadIC:objectMode
+38852ffd0260 25 LoadIC:decodeStrings
+38852ffd0300 25 LoadIC:isBuffer
+38852ffd03a0 25 LoadIC:objectMode
+38852ffd0440 25 LoadIC:length
+38852ffd04e0 25 LoadIC:length
+38852ffd0580 40 Stub:StoreFieldStub
+38852ffd0620 25 StoreIC:length
+38852ffd06c0 25 LoadIC:length
+38852ffd0760 25 LoadIC:highWaterMark
+38852ffd0800 25 LoadIC:writing
+38852ffd08a0 25 LoadIC:corked
+38852ffd0940 44 Stub:StoreFieldStub
+38852ffd0a00 25 StoreIC:writelen
+38852ffd0aa0 6c Stub:StoreFieldStub
+38852ffd0b80 25 StoreIC:writecb
+38852ffd0c20 25 StoreIC:writing
+38852ffd0cc0 25 StoreIC:sync
+38852ffd0d60 4a Stub:_write
+38852ffd0e20 25 LoadIC:_write
+38852ffd0ec0 10 Stub:LoadFieldStub
+38852ffd0f40 25 LoadIC:onwrite
+38852ffd0fe0 4a Stub:_writeGeneric
+38852ffd10a0 25 LoadIC:_writeGeneric
+38852ffd1140 25 LoadIC:_connecting
+38852ffd11e0 68 Stub:StoreFieldStub
+38852ffd12c0 25 StoreIC:_pendingData
+38852ffd1360 68 Stub:StoreFieldStub
+38852ffd1440 25 StoreIC:_pendingEncoding
+38852ffd14e0 25 LoadIC:_unrefActive
+38852ffd1580 db Stub:symbol(hash 38fff430)
+38852ffd16c0 25 LoadIC:_idleTimeout
+38852ffd1760 25 LoadIC:_handle
+38852ffd1800 25 StoreIC:oncomplete
+38852ffd18a0 25 LoadIC:isBuffer
+38852ffd1940 25 LoadIC:_handle
+38852ffd19e0 2e Stub:writeUtf8String
+38852ffd1a80 25 LoadIC:writeUtf8String
+38852ffd1b20 14 Stub:LoadFieldStub
+38852ffd1ba0 25 LoadIC:_bytesDispatched
+38852ffd1c40 25 LoadIC:bytes
+38852ffd1ce0 44 Stub:StoreFieldStub
+38852ffd1da0 25 StoreIC:_bytesDispatched
+38852ffd1e40 25 LoadIC:async
+38852ffd1ee0 25 LoadIC:_writableState
+38852ffd1f80 25 LoadIC:sync
+38852ffd2020 10 Stub:LoadFieldStub
+38852ffd20a0 25 LoadIC:writecb
+38852ffd2140 25 StoreIC:writing
+38852ffd21e0 25 StoreIC:writecb
+38852ffd2280 25 LoadIC:length
+38852ffd2320 10 Stub:LoadFieldStub
+38852ffd23a0 25 LoadIC:writelen
+38852ffd2440 25 StoreIC:length
+38852ffd24e0 25 StoreIC:writelen
+38852ffd2580 25 LoadIC:corked
+38852ffd2620 10 Stub:LoadFieldStub
+38852ffd26a0 25 LoadIC:bufferProcessing
+38852ffd2740 10 Stub:LoadFieldStub
+38852ffd27c0 25 LoadIC:buffer
+38852ffd2860 25 LoadIC:length
+38852ffd2900 25 LoadIC:process
+38852ffd29a0 25 StoreIC:callback
+38852ffd2a40 25 StoreIC:domain
+38852ffd2ae0 25 LoadIC:undefined
+38852ffd2b80 25 StoreIC:_asyncQueue
+38852ffd2c20 25 LoadIC:push
+38852ffd2cc0 25 StoreIC:sync
+38852ffd2d60 a4 LazyCompile:~runWithoutstack /Users/thlorenz/dev/js/benchmarks/errors.js:8
+38852ffd2e80 26 Stub:error
+38852ffd2f20 25 StoreIC:error
+38852ffd2fc0 25 LoadIC:code
+38852ffd3060 a4 LazyCompile:~runWithoutstack /Users/thlorenz/dev/js/benchmarks/errors.js:8
+38852ffd3180 13a LazyCompile:*runWithoutstack /Users/thlorenz/dev/js/benchmarks/errors.js:8
+38852ffd3320 428 LazyCompile:~go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+38852ffd37c0 f7 Stub:CallFunctionStub_Args0
+38852ffd3920 fd Stub:CallFunctionStub_Args4
+38852ffd3a80 9e7 Stub:RecordWriteStub
+38852ffd44e0 fd Stub:CallFunctionStub_Args1
+38852ffd4640 54c LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+38852ffd4c00 25 LoadIC:length
+38852ffd4ca0 f Stub:InternalPackedArray
+38852ffd4d20 25 LoadIC:InternalPackedArray
+38852ffd4dc0 25 KeyedLoadIC:
+38852ffd4e60 f Stub:ToNumber
+38852ffd4ee0 25 LoadIC:ToNumber
+38852ffd4f80 25 StoreIC:lastMatchInfoOverride
+38852ffd5020 23 Stub:Number
+38852ffd50c0 25 LoadIC:Number
+38852ffd5160 f Stub:NonStringToString
+38852ffd51e0 25 LoadIC:NonStringToString
+38852ffd5280 25 LoadIC:length
+38852ffd5320 25 StoreIC:length
+38852ffd53c0 25 LoadIC:defaultEncoding
+38852ffd5460 25 LoadIC:push
+38852ffd5500 25 LoadIC:peek
+38852ffd55a0 25 LoadIC:_idleNext
+38852ffd5640 25 LoadIC:push
+38852ffd56e0 25 StoreIC:callback
+38852ffd5780 38 LoadPolymorphicIC:callback
+38852ffd5820 38 LoadPolymorphicIC:_asyncQueue
+38852ffd58c0 25 LoadIC:length
+38852ffd5960 25 LoadIC:needDrain
+38852ffd5a00 25 LoadIC:pendingcb
+38852ffd5aa0 25 StoreIC:pendingcb
+38852ffd5b40 d4 LazyCompile:~ToInteger native runtime.js:356
+38852ffd5c80 25 LoadIC:isUndefined
+38852ffd5d20 d4 LazyCompile:~ToInt32 native runtime.js:369
