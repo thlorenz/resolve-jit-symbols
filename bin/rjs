@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+/*vim ft: js */
+
+var jitResolver = require('../')
+  , fs = require('fs')
+
+function printUsage() {
+  console.log('Usage: cat callstack.csv | rjs <perf-*.map>');
+  console.log(' Please provide a map file and pipe in a file containing a callstack');
+}
+
+var mapFile = process.argv[2];
+if (!mapFile) return printUsage();
+
+var resolver = jitResolver(fs.readFileSync(mapFile, 'utf8'));
+
+var bufs = [];
+process.stdin.on('data', ondata)
+process.stdin.on('data', onend)
+
+function ondata(d) { bufs.push(d) }
+function onend() {
+  var s = Buffer.concat(bufs).toString();
+  var res = resolver.resolveMulti(s);
+  process.stdout.write(res); 
+}

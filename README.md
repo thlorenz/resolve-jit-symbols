@@ -18,16 +18,23 @@ console.log(res);
   symbol         : 'LazyCompile    : *go' }
 ```
 
-## Status
+## Command Line
 
-Needs tests.
+```sh
+cat test/fixtures/callgraph.csv | node rjs test/fixtures/jit.map
+```
 
 ## Installation
 
     npm install resolve-jit-symbols
 
-## API
+## Usage
 
+```
+cat callstack.csv | rjs <perf-*.map>
+```
+
+## API
 
 <!-- START docme generated API please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN docme TO UPDATE -->
