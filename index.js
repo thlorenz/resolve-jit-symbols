@@ -43,11 +43,12 @@ var proto = JITResolver.prototype;
  *
  * @name JITResolver::resolve
  * @function
- * @param {String} hexAddress the hexadecimal address of the address to check
+ * @param {String|Number} hexAddress the hexadecimal address of the address to check
  * @return {Object} info of the matching symbol which includes address, size, symbol
  */
 proto.resolve = function resolve(hexAddress) {
   var match = null;
+  if (typeof hexAddress === 'number') hexAddress = hexAddress.toString(16);
   var a = parseInt(hexAddress, 16);
 
   for (var i = 0; i < this._len; i++) {
