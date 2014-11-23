@@ -19,7 +19,7 @@ test('\nresolving from string', function (t) {
     , { address: '38852ffd4640',
         size: '54c',
         decimalAddress: 62144686933568,
-        symbol: 'LazyCompile:*go' }
+        symbol: 'LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21' }
     , 'correctly resolves existing symbol when hex passed as number'
   )
 
@@ -28,7 +28,7 @@ test('\nresolving from string', function (t) {
     , { address: '38852ffd4640',
         size: '54c',
         decimalAddress: 62144686933568,
-        symbol: 'LazyCompile:*go' }
+        symbol: 'LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21' }
     , 'correctly resolves existing symbol when hex passed as string'
   )
   t.deepEqual(
@@ -36,7 +36,7 @@ test('\nresolving from string', function (t) {
     , { address: '38852ffd4640',
         size: '54c',
         decimalAddress: 62144686933568,
-        symbol: 'LazyCompile:*go' }
+        symbol: 'LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21' }
     , 'correctly resolves another existing symbol when hex passed as number'
   )
 
@@ -61,7 +61,7 @@ test('\nresolving from lines', function (t) {
     , { address: '38852ffd4640',
         size: '54c',
         decimalAddress: 62144686933568,
-        symbol: 'LazyCompile:*go' }
+        symbol: 'LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21' }
     , 'correctly resolves existing symbol when hex passed as number'
   )
 

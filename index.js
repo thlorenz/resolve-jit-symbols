@@ -1,6 +1,10 @@
 'use strict';
 var hexAddressRegex = /0x((\d|[abcdefABCDEF]){4}){2,4}/;
 
+function byDecimalAddress(a, b) {
+  return a.decimalAddress < b.decimalAddress ? -1 : 1;
+}
+
 /**
  * Instantiates a JIT resolver for the given map.
  * 
@@ -26,11 +30,13 @@ function JITResolver(map) {
         { address        : parts[0]
         , size           : parts[1]
         , decimalAddress : decimal
-        , symbol         : parts[2]
+        , symbol         : parts.slice(2).join(' ')
         }
       )
     }, [])
+  .sort(byDecimalAddress)
 
+  require('fs').writeFileSync(__dirname + '/test/review/jits.json', JSON.stringify(this._addresses, null, 2), 'utf8');
   this._len = this._addresses.length;
 }
 

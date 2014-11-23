@@ -10,9 +10,9 @@ Running Time,Self,,Symbol Name
 67.0ms   97.1%,0, ,        v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)
 67.0ms   97.1%,0, ,         Stub:JSEntryStub
 67.0ms   97.1%,0, ,          Builtin:JSEntryTrampoline
-67.0ms   97.1%,0, ,           LazyCompile:listOnTimeout
-7.0ms   10.1%,7, ,            LazyCompile:*go
-7.0ms   10.1%,0, ,            LazyCompile:*go
+67.0ms   97.1%,0, ,           LazyCompile:listOnTimeout timers.js:94
+7.0ms   10.1%,7, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+7.0ms   10.1%,0, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 7.0ms   10.1%,0, ,             Stub:CEntryStub
 7.0ms   10.1%,0, ,              v8::internal::Runtime_AllocateInTargetSpace(int, v8::internal::Object**, v8::internal::Isolate*)
 7.0ms   10.1%,0, ,               v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationSpace)
@@ -29,14 +29,14 @@ Running Time,Self,,Symbol Name
 4.0ms    5.7%,0, ,            Stub:StoreBufferOverflowStub
 4.0ms    5.7%,0, ,             v8::internal::StoreBuffer::StoreBufferOverflow(v8::internal::Isolate*)
 4.0ms    5.7%,4, ,              v8::internal::StoreBuffer::Compact()
-3.0ms    4.3%,3, ,            LazyCompile:*go
-3.0ms    4.3%,3, ,            LazyCompile:*go
-2.0ms    2.8%,2, ,            LazyCompile:*go
-2.0ms    2.8%,2, ,            LazyCompile:*go
-2.0ms    2.8%,2, ,            LazyCompile:*go
+3.0ms    4.3%,3, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+3.0ms    4.3%,3, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+2.0ms    2.8%,2, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+2.0ms    2.8%,2, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+2.0ms    2.8%,2, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 2.0ms    2.8%,2, ,            Stub:CompareICStub
-2.0ms    2.8%,2, ,            LazyCompile:*go
-2.0ms    2.8%,0, ,            LazyCompile:~go
+2.0ms    2.8%,2, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+2.0ms    2.8%,0, ,            LazyCompile:~go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 1.0ms    1.4%,0, ,             Builtin:InOptimizationQueue
 1.0ms    1.4%,0, ,              Stub:CEntryStub
 1.0ms    1.4%,0, ,               v8::internal::Runtime_TryInstallOptimizedCode(int, v8::internal::Object**, v8::internal::Isolate*)
@@ -47,13 +47,13 @@ Running Time,Self,,Symbol Name
 1.0ms    1.4%,0, ,                    v8::internal::LCodeGen::GenerateCode()
 1.0ms    1.4%,0, ,                     v8::internal::LCodeGen::GenerateJumpTable()
 1.0ms    1.4%,1, ,                      v8::internal::LCodeGenBase::Comment(char const*, ...)
-1.0ms    1.4%,1, ,             LazyCompile:*runWithoutstack
-2.0ms    2.8%,2, ,            LazyCompile:*go
-2.0ms    2.8%,2, ,            LazyCompile:*go
-2.0ms    2.8%,2, ,            LazyCompile:*go
-2.0ms    2.8%,2, ,            LazyCompile:*go
-1.0ms    1.4%,1, ,            LazyCompile:*go
-1.0ms    1.4%,0, ,            LazyCompile:~go
+1.0ms    1.4%,1, ,             LazyCompile:*runWithoutstack /Users/thlorenz/dev/js/benchmarks/errors.js:8
+2.0ms    2.8%,2, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+2.0ms    2.8%,2, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+2.0ms    2.8%,2, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+2.0ms    2.8%,2, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+1.0ms    1.4%,0, ,            LazyCompile:~go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 1.0ms    1.4%,0, ,             Builtin:ArgumentsAdaptorTrampoline
 1.0ms    1.4%,0, ,              Builtin:CompileLazy
 1.0ms    1.4%,0, ,               Stub:CEntryStub
@@ -87,25 +87,25 @@ Running Time,Self,,Symbol Name
 1.0ms    1.4%,0, ,                                           v8::internal::ParserBase<v8::internal::ParserTraits>::ParseUnaryExpression(bool*)
 1.0ms    1.4%,0, ,                                            v8::internal::ParserBase<v8::internal::ParserTraits>::ParsePostfixExpression(bool*)
 1.0ms    1.4%,1, ,                                             v8::internal::ParserBase<v8::internal::ParserTraits>::ParseLeftHandSideExpression(bool*)
-1.0ms    1.4%,0, ,            LazyCompile:~go
+1.0ms    1.4%,0, ,            LazyCompile:~go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 1.0ms    1.4%,0, ,             Builtin:ArgumentsAdaptorTrampoline
-1.0ms    1.4%,0, ,              LazyCompile:~b
+1.0ms    1.4%,0, ,              LazyCompile:~b native v8natives.js:1286
 1.0ms    1.4%,0, ,               Stub:CEntryStub
 1.0ms    1.4%,0, ,                v8::internal::Runtime_Apply(int, v8::internal::Object**, v8::internal::Isolate*)
 1.0ms    1.4%,0, ,                 v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)
 1.0ms    1.4%,0, ,                  Stub:JSEntryStub
 1.0ms    1.4%,0, ,                   Builtin:JSEntryTrampoline
 1.0ms    1.4%,0, ,                    Builtin:ArgumentsAdaptorTrampoline
-1.0ms    1.4%,0, ,                     LazyCompile:~Console.log
+1.0ms    1.4%,0, ,                     LazyCompile:~Console.log console.js:54
 1.0ms    1.4%,0, ,                      Builtin:ArgumentsAdaptorTrampoline
-1.0ms    1.4%,0, ,                       LazyCompile:~Socket.write
+1.0ms    1.4%,0, ,                       LazyCompile:~Socket.write net.js:614
 1.0ms    1.4%,0, ,                        Builtin:FunctionApply
 1.0ms    1.4%,0, ,                         Builtin:ArgumentsAdaptorTrampoline
-1.0ms    1.4%,0, ,                          LazyCompile:~Writable.write
-1.0ms    1.4%,0, ,                           LazyCompile:~writeOrBuffer
-1.0ms    1.4%,0, ,                            LazyCompile:~doWrite
-1.0ms    1.4%,0, ,                             LazyCompile:~Socket._write
-1.0ms    1.4%,0, ,                              LazyCompile:~Socket._writeGeneric
+1.0ms    1.4%,0, ,                          LazyCompile:~Writable.write _stream_writable.js:176
+1.0ms    1.4%,0, ,                           LazyCompile:~writeOrBuffer _stream_writable.js:245
+1.0ms    1.4%,0, ,                            LazyCompile:~doWrite _stream_writable.js:266
+1.0ms    1.4%,0, ,                             LazyCompile:~Socket._write net.js:690
+1.0ms    1.4%,0, ,                              LazyCompile:~Socket._writeGeneric net.js:622
 1.0ms    1.4%,0, ,                               Stub:CEntryStub
 1.0ms    1.4%,0, ,                                v8::internal::StoreIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)
 1.0ms    1.4%,0, ,                                 v8::internal::StoreIC::Store(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::Object>, v8::internal::Object::StoreFromKeyed)
@@ -117,22 +117,22 @@ Running Time,Self,,Symbol Name
 1.0ms    1.4%,0, ,                                       v8::internal::OptimizeGraph(v8::internal::HGraph*)
 1.0ms    1.4%,0, ,                                        v8::internal::HGraph::Optimize(v8::internal::BailoutReason*)
 1.0ms    1.4%,1, ,                                         void v8::internal::HGraph::Run<v8::internal::HDeadCodeEliminationPhase>()
-1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 1.0ms    1.4%,1, ,            Stub:RecordWriteStub
 1.0ms    1.4%,1, ,            Stub:CompareICStub
-1.0ms    1.4%,1, ,            LazyCompile:*go
-1.0ms    1.4%,1, ,            LazyCompile:*go
-1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 1.0ms    1.4%,1, ,            Stub:RecordWriteStub
-1.0ms    1.4%,1, ,            LazyCompile:*go
-1.0ms    1.4%,1, ,            LazyCompile:*go
-1.0ms    1.4%,1, ,            LazyCompile:*go
-1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 1.0ms    1.4%,1, ,            Stub:CompareICStub
-1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 1.0ms    1.4%,1, ,            Stub:CompareICStub
 1.0ms    1.4%,1, ,            Stub:CompareICStub
-1.0ms    1.4%,1, ,            LazyCompile:*go
+1.0ms    1.4%,1, ,            LazyCompile:*go /Users/thlorenz/dev/js/benchmarks/errors.js:21
 2.0ms    2.8%,0, ,   v8::internal::Isolate::TearDown()
 2.0ms    2.8%,0, ,    v8::internal::Isolate::Deinit()
 1.0ms    1.4%,0, ,     v8::internal::Heap::TearDown()
