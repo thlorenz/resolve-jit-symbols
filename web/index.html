@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Resolve JITS Symbols</title>
+  <link rel="stylesheet" href="index.css" type="text/css" media="screen" charset="utf-8"> 
+</head>
+<body>
+  <datalist id="hexaddresses"></datalist>
+  <section>
+    <div class="ui">
+      <input type="file" id="inputfile-button" name="inputfile" class="inputfile"/> 
+      <label>HexAddress</label>
+      <input type="text" id="input-hexaddress" class="inputaddress" list="hexaddresses" />
+      <label>Resolved Symbol</label>
+      <input type="text" id="address-resolved" class="resolved" readonly/>
+      <a id="help">Help</a>
+    </div>
+    <div id="instructions" class="instructions hidden">
+      <h2>How to Generate JIT Symbol Files</h2>
+      <p>Any tool that can generate <a href="https://github.com/torvalds/linux/blob/master/tools/perf/Documentation/jit-interface.txt">the format described
+      here</a> will work.</p>
+      <p>With Node.js <code>&gt;=v0.11.15</code> do the following:</p>
+      <pre><code class="lang-js">node --perf-basic-prof your-app.js</code></pre>
+      <p>This will create a map file at <code>/tmp/perf-&lt;pid&gt;.map</code>.</p>
+    </div>
+    <div class="stack">
+      <p>callgraphs or stacktraces pasted on left are resolved on right</p>
+      <textarea id="stack-original" class="original"></textarea>
+      <div id="stack-resolved" class="resolved"></div>
+    </div>
+    <a href="https://github.com/thlorenz/resolve-jit-symbols"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+  </section>
+  
+  <script type="text/javascript" src="bundle.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32151587-10', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

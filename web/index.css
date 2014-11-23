@@ -1,0 +1,89 @@
+body {
+  background: black;
+  color: white;
+}
+
+.ui {
+  background: rgb(41, 38, 36);
+  color: greenyellow;
+  width: 95%;
+
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.ui .inputfile {
+  width: 180px;
+}
+
+.ui .inputaddress {
+  cursor: pointer;
+}
+
+.ui .resolved {
+  color: black;
+  background: antiquewhite;
+  min-width: 350px;
+}
+
+.ui #help {
+  cursor: pointer;
+}
+
+.instructions {
+  color: white;
+  background: rgb(41, 38, 36);
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+}
+
+.hidden {
+  display: none;
+}
+
+.instructions code {
+  background: gray;
+  color: black;
+  padding: 5px;
+}
+
+.stack {
+  color: greenyellow;
+  background: rgb(41, 38, 36);
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+  height: 850px;
+}
+
+.stack .original {
+  color: black;
+  width: 49%;
+  height: 800px;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: left;
+  font-family: monospace;
+  font-size: 13px;
+  overflow: auto;
+}
+
+.stack .resolved {
+  color: black;
+  background: antiquewhite;
+
+  width: 49%;
+  height: 800px;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  float: left;
+  padding-top: 4px;
+  font-family: monospace;
+  font-size: 13px;
+  overflow: auto;
+}
