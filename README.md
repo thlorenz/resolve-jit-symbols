@@ -34,6 +34,19 @@ cat test/fixtures/callgraph.csv | rjs test/fixtures/jit.map
 cat callstack.csv | rjs <perf-*.map>
 ```
 
+## How to Generate JIT Symbol Files
+
+Any tool that can generate [the format described
+here](https://github.com/torvalds/linux/blob/master/tools/perf/Documentation/jit-interface.txt) will work.
+
+With Node.js `>=v0.11.15` do the following:
+
+```js
+node --perf-basic-prof your-app.js
+```
+
+This will create a map file at `/tmp/perf-<pid>.map`.
+
 ## API
 
 <!-- START docme generated API please keep comment here to allow auto update -->
