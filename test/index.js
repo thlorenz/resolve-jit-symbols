@@ -78,3 +78,14 @@ test('\nresolving an entire stack', function (t) {
   t.equal(s, expected, 'adds resolved symbols correctly')
   t.end()
 })
+
+test('\nresolving a very large stack', function (t) {
+  var largemap = fs.readFileSync(__dirname + '/fixtures-large/jit.map', 'utf8')
+  var stack = fs.readFileSync(__dirname + '/fixtures-large/callgraph.csv', 'utf8')
+    , expected = fs.readFileSync(__dirname + '/fixtures-large/callgraph-resolved.csv', 'utf8')
+
+  var resolver = jitResolver(largemap);
+  var s = resolver.resolveMulti(stack);
+  t.equal(s, expected, 'adds resolved symbols correctly')
+  t.end()
+})

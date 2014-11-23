@@ -1,8 +1,26 @@
 'use strict';
-var hexAddressRegex = /0x((\d|[abcdefABCDEF]){4}){2,4}/;
+var hexAddressRegex = /0x((\d|[abcdefABCDEF]){0,2})+/;
 
 function byDecimalAddress(a, b) {
   return a.decimalAddress < b.decimalAddress ? -1 : 1;
+}
+
+function processLine(acc, x) {
+  if (!x.trim().length) return acc;
+
+  var parts = x.split(/ +/);
+  if (parts.length < 3) return acc;
+
+  var decimal = parseInt(parts[0], 16)
+
+  var item = { 
+      address        : parts[0]
+    , size           : parts[1]
+    , decimalAddress : decimal
+    , symbol         : parts.slice(2).join(' ') }
+
+  acc.push(item);
+  return acc;
 }
 
 /**
@@ -18,25 +36,9 @@ function JITResolver(map) {
   
   var lines = Array.isArray(map) ? map : map.split('\n')
   this._addresses = lines
-    .reduce(function processLine(acc, x) {
-      if (!x.trim().length) return acc;
+    .reduce(processLine, [])
+    .sort(byDecimalAddress)
 
-      var parts = x.split(/ +/);
-      if (parts.length < 3) return acc;
-
-      var decimal = parseInt(parts[0], 16)
-
-      return acc.concat(
-        { address        : parts[0]
-        , size           : parts[1]
-        , decimalAddress : decimal
-        , symbol         : parts.slice(2).join(' ')
-        }
-      )
-    }, [])
-  .sort(byDecimalAddress)
-
-  require('fs').writeFileSync(__dirname + '/test/review/jits.json', JSON.stringify(this._addresses, null, 2), 'utf8');
   this._len = this._addresses.length;
 }
 
