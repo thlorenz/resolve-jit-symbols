@@ -1,5 +1,6 @@
 'use strict';
-var hexAddressRegex = /0x((\d|[abcdefABCDEF]){0,2})+/;
+var hexAddressRegex = /0x((\d|[abcdefABCDEF]){0,2})+/
+  , lldb_backtraceRegex = /(:?0x((\d|[abcdefABCDEF]){0,2})+) +in +(:?0x((\d|[abcdefABCDEF]){0,2})+)/
 
 function byDecimalAddress(a, b) {
   return a.decimalAddress < b.decimalAddress ? -1 : 1;
@@ -72,7 +73,15 @@ proto.resolve = function resolve(hexAddress) {
 
 function defaultGetHexAddress(line) {
   var m = line.match(hexAddressRegex);
-  return m && m[0];
+  if (!m) return null;
+  
+  var matchStackTrace = line.match(lldb_backtraceRegex);
+  var res;
+  if (matchStackTrace) { 
+    // lldb backtrace
+    return matchStackTrace[4];
+  }
+  return m &&  m[0];
 }
 
 /**
@@ -92,6 +101,7 @@ proto.resolveMulti = function resolveMulti(stack, getHexAddress) {
   var lines = isLines ? stack : stack.split('\n')
 
   function processLine(line) {
+    var replacement;
     var address = getHexAddress(line);
     if (!address) return line;
 
@@ -105,3 +115,19 @@ proto.resolveMulti = function resolveMulti(stack, getHexAddress) {
 
   return isLines ? processedLines : processedLines.join('\n');
 }
+
+/**
+ * RegExp used to match memory addresses.
+ * 
+ * @name JITResolver::hexAddressRegex
+ */
+proto.hexAddressRegex     = hexAddressRegex;
+
+/**
+ * RegExp used to match memory lldb backtraces of the form `#1 0x001 in 0x001 ()`
+ * When calling `var m = s.match(regex)` 
+ * `m[1]` contains first matched address and `m[4]` contains second matched address.
+ * 
+ * @name JITResolver::lldb_backtraceRegex
+ */
+proto.lldb_backtraceRegex = lldb_backtraceRegex;
