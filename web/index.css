@@ -62,7 +62,7 @@ body {
 
 .stack .original {
   color: black;
-  width: 49%;
+  width: 29%;
   height: 800px;
   border: 1px solid black;
   border-radius: 5px;
@@ -76,7 +76,7 @@ body {
   color: black;
   background: antiquewhite;
 
-  width: 49%;
+  width: 69%;
   height: 800px;
 
   border: 1px solid black;
@@ -86,4 +86,32 @@ body {
   font-family: monospace;
   font-size: 13px;
   overflow: auto;
+
+  line-height: 16px;
+  white-space: pre;
+}
+
+.stack-raw {
+  color: black;
+}
+
+.stack-number {
+  color: blue;
+}
+
+.stack-address {
+  color: gray;
+}
+
+.stack-symbol {
+  color: darkgreen;
+}
+
+.stack-location {
+  color: gray;
+  font-style: italic;
+}
+
+.stack-line-break {
+  margin: 5px;
 }

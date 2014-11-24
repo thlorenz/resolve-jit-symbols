@@ -2,16 +2,17 @@
 /*jshint browser:true*/
 
 var jitResolver = require('../');
+var pretty = require('pretty-trace');
 var resolver, helped = 0;
 
-var inputfileEl       = document.getElementById('inputfile-button')
-  , stackOriginalEl   = document.getElementById('stack-original')
-  , stackResolvedEl   = document.getElementById('stack-resolved')
-  , addressesDataEl   = document.getElementById('hexaddresses')
-  , addressesEl       = document.getElementById('input-hexaddress')
-  , resolvedAddressEl = document.getElementById('address-resolved')
-  , helpEl            = document.getElementById('help')
-  , instructionsEl    = document.getElementsByClassName('instructions')[0]
+var inputfileEl           = document.getElementById('inputfile-button')
+  , stackOriginalEl       = document.getElementById('stack-original')
+  , stackResolvedEl       = document.getElementById('stack-resolved')
+  , addressesDataEl       = document.getElementById('hexaddresses')
+  , addressesEl           = document.getElementById('input-hexaddress')
+  , resolvedAddressEl     = document.getElementById('address-resolved')
+  , helpEl                = document.getElementById('help')
+  , instructionsEl        = document.getElementsByClassName('instructions')[0]
 
 
 function readFile(file, cb) {
@@ -22,14 +23,20 @@ function readFile(file, cb) {
   }
 }
 
+function prettyStack(stackLines) {
+  var prettyLines = pretty.lines(stackLines, pretty.htmlTheme);
+  return prettyLines.join('<p class="stack-line-break"></p>');
+}
+
+
 function resolveStack(stack) {
-  var res;
+  var res
   try {
-    res = resolver.resolveMulti(stack);
+    res = resolver.resolveMulti(stack.split('\n'));
   } catch(e) {
     res = e.toString();
   } finally {
-    stackResolvedEl.innerText = res;
+    stackResolvedEl.innerHTML = prettyStack(res);
   }
 }
 
@@ -66,7 +73,8 @@ function onFile(e) {
 
 function onStack(e) {
   if (!resolver) {
-    stackResolvedEl.innerText = 'Please load a map file to resolve symbols from the given stack';
+    stackResolvedEl.innerHTML = '<p>Please load a map file to resolve symbols for the given stack</p>'
+      + prettyStack(e.target.value.split('\n'));
     return;
   }
   resolveStack(e.target.value);
