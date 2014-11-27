@@ -25,7 +25,7 @@ function readFile(file, cb) {
 
 function prettyStack(stackLines) {
   var prettyLines = pretty.lines(stackLines, pretty.htmlTheme);
-  return prettyLines.join('<p class="stack-line-break"></p>');
+  return prettyLines.join('<p class="trace-line-break"></p>');
 }
 
 

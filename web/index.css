@@ -3,6 +3,14 @@ body {
   color: white;
 }
 
+a { 
+  color: yellowgreen;
+}
+
+a:visited {
+  color: green;
+}
+
 .ui {
   background: rgb(41, 38, 36);
   color: greenyellow;
@@ -29,6 +37,8 @@ body {
 
 .ui #help {
   cursor: pointer;
+  float: right;
+  margin-right: 90px;
 }
 
 .instructions {
@@ -45,9 +55,11 @@ body {
 }
 
 .instructions code {
-  background: gray;
+  background: #dddddd;
   color: black;
-  padding: 5px;
+  padding: 1px 3px;
+  border: solid 1px #dddddd;
+  border-radius: 3px;
 }
 
 .stack {
@@ -91,27 +103,27 @@ body {
   white-space: pre;
 }
 
-.stack-raw {
+.trace-raw {
   color: black;
 }
 
-.stack-number {
+.trace-number {
   color: blue;
 }
 
-.stack-address {
+.trace-address {
   color: gray;
 }
 
-.stack-symbol {
+.trace-symbol {
   color: darkgreen;
 }
 
-.stack-location {
+.trace-location {
   color: gray;
   font-style: italic;
 }
 
-.stack-line-break {
+.trace-line-break {
   margin: 5px;
 }
