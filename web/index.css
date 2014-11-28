@@ -1,7 +1,12 @@
 body {
-  background: black;
-  color: white;
+  background: rgb(90, 90, 90);
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: 400;
 }
+
 
 a { 
   color: yellowgreen;
@@ -12,40 +17,74 @@ a:visited {
 }
 
 .ui {
-  background: rgb(41, 38, 36);
-  color: greenyellow;
-  width: 95%;
-
-  border: 1px solid silver;
-  border-radius: 5px;
-  padding: 10px;
+  background: rgb(60, 60, 60);
+  color: rgb(250, 250, 250);
+  border-bottom: 1px solid silver;
+  padding: 20px;
 }
 
 .ui .inputfile {
-  width: 180px;
+  width: 200px;
+  font-style: italic;
 }
 
 .ui .inputaddress {
-  cursor: pointer;
+  color:  #3a3a3a;
+
+  border: 1px;
+  background: #e1edff;
+  border-width: 150px;
+  border-radius: 1px;
+
+  padding: 5px;
 }
 
+
 .ui .resolved {
-  color: black;
-  background: antiquewhite;
-  min-width: 350px;
+  color: #f2f2f2;
+
+  border-width: 200px;
+  border: 1px;
+  border-radius: 1px;
+
+  padding: 5px;
+}
+
+
+.ui input[readonly="readonly"]
+{
+    background-color: white;
+    color: #7f7f7f;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.ui .labelresolved  { 
+  padding-left: 50px;
+  padding-right: 10px;
+}
+
+.ui .labelhexaddress  { 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ui .labeljitmap  { 
+  padding-right: 10px;
 }
 
 .ui #help {
   cursor: pointer;
   float: right;
-  margin-right: 90px;
+  margin-right: 150px;
+  color: #f2f2f2;
+  font: verdana;
+  font-size: 13px;
 }
 
 .instructions {
   color: white;
   background: rgb(41, 38, 36);
-  border: 1px solid silver;
-  border-radius: 5px;
   padding: 10px;
   width: 95%;
 }
@@ -58,49 +97,52 @@ a:visited {
   background: #dddddd;
   color: black;
   padding: 1px 3px;
-  border: solid 1px #dddddd;
   border-radius: 3px;
 }
 
 .stack {
-  color: greenyellow;
-  background: rgb(41, 38, 36);
-  border: 1px solid silver;
-  border-radius: 5px;
-  padding: 10px;
+  color: #f2f2f2;
+  padding: 10px 20px;
   width: 95%;
   height: 850px;
 }
 
 .stack .original {
-  color: black;
+  color:  #3a3a3a;
   width: 29%;
   height: 800px;
-  border: 1px solid black;
+
   border-radius: 5px;
+  background: #e1edff;
+
   float: left;
   font-family: monospace;
   font-size: 13px;
   overflow: auto;
+
+  padding-top: 10px;
+  padding-left: 2px;
 }
 
 .stack .resolved {
-  color: black;
-  background: antiquewhite;
+  color:  #3a3a3a;
+  background: #ffffff;
 
-  width: 69%;
+  width: 70%;
   height: 800px;
 
-  border: 1px solid black;
   border-radius: 5px;
-  float: left;
-  padding-top: 4px;
+  float: right;
+
   font-family: monospace;
   font-size: 13px;
   overflow: auto;
 
   line-height: 16px;
   white-space: pre;
+
+  padding-top: 10px;
+  padding-left: 2px;
 }
 
 .trace-raw {
@@ -108,15 +150,17 @@ a:visited {
 }
 
 .trace-number {
-  color: blue;
+  color: #1e78fe;
+  font-style: bold;
+
 }
 
 .trace-address {
-  color: gray;
+  color: #d9d9d9;
 }
 
 .trace-symbol {
-  color: darkgreen;
+  color: #e46c0a;
 }
 
 .trace-location {
@@ -127,3 +171,22 @@ a:visited {
 .trace-line-break {
   margin: 5px;
 }
+
+.design-kudos {
+  float: right;
+  margin-right: 40px;
+  color: #f8f8f8;
+  font-style: italic;
+}
+
+.design-kudos a { 
+  color: #448ffe;
+  text-decoration: none;
+
+}
+
+.design-kudos a:visited {
+  color: #1e78fe;
+  text-decoration: none;
+}
+

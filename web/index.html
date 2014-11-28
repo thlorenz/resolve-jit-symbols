@@ -5,34 +5,51 @@
   <title>Resolve JITS Symbols</title>
   <link rel="stylesheet" href="index.css" type="text/css" media="screen" charset="utf-8"> 
 </head>
+
 <body>
   <datalist id="hexaddresses"></datalist>
   <section>
     <div class="ui">
-      <label>JIT map</label>
+      <label class='labeljitmap'>JIT map</label>
       <input type="file" id="inputfile-button" name="inputfile" class="inputfile"/> 
-      <label>HexAddress</label>
+    
+      <label class='labelhexaddress'>HexAddress</label>
       <input type="text" id="input-hexaddress" class="inputaddress" list="hexaddresses" />
-      <label>Resolved Symbol</label>
-      <input type="text" id="address-resolved" class="resolved" readonly/>
+    
+      <label class='labelresolved'>Resolved Symbol</label>
+      <input type="text" id="address-resolved" class="resolved" readonly="readonly"/>
+    
       <a id="help">Help</a>
     </div>
+    
     <div id="instructions" class="instructions hidden">
       <h2>How to Generate JIT Symbol Files</h2>
+      
       <p>Any tool that can generate <a href="https://github.com/torvalds/linux/blob/master/tools/perf/Documentation/jit-interface.txt">the format described
       here</a> will work.</p>
+      
       <p>With Node.js <code>&gt;=v0.11.3</code> do the following:</p>
+      
       <pre><code class="lang-js">node --perf-basic-prof your-app.js</code></pre> and ensure to exit your process cleanly or use
+      
       <a href="https://github.com/thlorenz/flush-all">flush-all</a> to to ensure that your map file is written completely.
       <p>The map file is created at <code>/tmp/perf-&lt;pid&gt;.map</code>.</p>
     </div>
+    
     <div class="stack">
-      <p>callgraphs or stacktraces pasted on left are resolved on right</p>
-      <textarea id="stack-original" class="original"></textarea>
+      <p>Paste callgraphs or stacktraces on left pane. See resolved on the right pane.</p>
+      
+      <textarea id="stack-original" class="original" spellcheck="false"></textarea>
+      
       <div id="stack-resolved" class="resolved"></div>
     </div>
+    
     <a href="https://github.com/thlorenz/resolve-jit-symbols"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
   </section>
+
+  <footer>
+    <span class="design-kudos">Design by <a href="https://github.com/rscapistrano">Riva S. Capistrano</a><span>
+  </footer>
   
   <script type="text/javascript" src="bundle.js"></script>
   <script>
