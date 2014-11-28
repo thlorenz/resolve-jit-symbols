@@ -84,9 +84,8 @@ a:visited {
 
 .instructions {
   color: white;
-  background: rgb(41, 38, 36);
-  padding: 10px;
-  width: 95%;
+  padding: 20px;
+  border-bottom: 1px solid silver;
 }
 
 .hidden {
@@ -95,8 +94,8 @@ a:visited {
 
 .instructions code {
   background: #dddddd;
-  color: black;
-  padding: 1px 3px;
+  color: #3a3a3a;
+  padding: 3px 3px;
   border-radius: 3px;
 }
 
@@ -104,13 +103,14 @@ a:visited {
   color: #f2f2f2;
   padding: 10px 20px;
   width: 95%;
-  height: 850px;
+  height: auto;
 }
 
 .stack .original {
   color:  #3a3a3a;
   width: 29%;
   height: 800px;
+  min-height: 
 
   border-radius: 5px;
   background: #e1edff;
@@ -186,7 +186,6 @@ a:visited {
 }
 
 .design-kudos a:visited {
-  color: #1e78fe;
-  text-decoration: none;
+  color: #448ffe;
 }
 
