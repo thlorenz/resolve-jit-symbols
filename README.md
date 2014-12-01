@@ -72,9 +72,9 @@ This will create a map file at `/tmp/perf-<pid>.map`.
 <dt class="tag-source">Source:</dt>
 <dd class="tag-source"><ul class="dummy">
 <li>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L124">lineno 124</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js#L124">lineno 124</a>
 </li>
 </ul></dd>
 </dl>
@@ -92,9 +92,9 @@ When calling <code>var m = s.match(regex)</code>
 <dt class="tag-source">Source:</dt>
 <dd class="tag-source"><ul class="dummy">
 <li>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L131">lineno 131</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js#L131">lineno 131</a>
 </li>
 </ul></dd>
 </dl>
@@ -133,9 +133,9 @@ When calling <code>var m = s.match(regex)</code>
 <dt class="tag-source">Source:</dt>
 <dd class="tag-source"><ul class="dummy">
 <li>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L31">lineno 31</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js#L31">lineno 31</a>
 </li>
 </ul></dd>
 </dl>
@@ -184,9 +184,9 @@ Type
 <dt class="tag-source">Source:</dt>
 <dd class="tag-source"><ul class="dummy">
 <li>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L54">lineno 54</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js#L54">lineno 54</a>
 </li>
 </ul></dd>
 </dl>
@@ -248,9 +248,9 @@ Type
 <dt class="tag-source">Source:</dt>
 <dd class="tag-source"><ul class="dummy">
 <li>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L92">lineno 92</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js#L92">lineno 92</a>
 </li>
 </ul></dd>
 </dl>
