@@ -74,7 +74,7 @@ This will create a map file at `/tmp/perf-<pid>.map`.
 <li>
 <a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L119">lineno 119</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L124">lineno 124</a>
 </li>
 </ul></dd>
 </dl>
@@ -94,7 +94,7 @@ When calling <code>var m = s.match(regex)</code>
 <li>
 <a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L126">lineno 126</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L131">lineno 131</a>
 </li>
 </ul></dd>
 </dl>
@@ -135,7 +135,7 @@ When calling <code>var m = s.match(regex)</code>
 <li>
 <a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L27">lineno 27</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L31">lineno 31</a>
 </li>
 </ul></dd>
 </dl>
@@ -186,7 +186,7 @@ Type
 <li>
 <a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L50">lineno 50</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L54">lineno 54</a>
 </li>
 </ul></dd>
 </dl>
@@ -240,7 +240,7 @@ Type
 <td class="attributes">
 &lt;optional><br>
 </td>
-<td class="description last"><p>allows overriding the function used to find a hex address on each line</p></td>
+<td class="description last"><p>allows overriding the function used to find a hex address on each line, returns <code>{ address: 0x000, include: true|false }</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -250,7 +250,7 @@ Type
 <li>
 <a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L87">lineno 87</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L92">lineno 92</a>
 </li>
 </ul></dd>
 </dl>

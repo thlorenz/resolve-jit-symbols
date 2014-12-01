@@ -1,4 +1,8 @@
 'use strict';
+var prettyTrace = require('pretty-trace');
+
+var instrumentsCsvRegex = prettyTrace.regexes.instruments.csv.regex;
+
 var hexAddressRegex = /0x((\d|[abcdefABCDEF]){0,2})+/
   , lldb_backtraceRegex = /(:?0x(?:(?:\d|[abcdefABCDEF]){0,2})+) +in +(:?0x(?:(?:\d|[abcdefABCDEF]){0,2})+)/
 
@@ -79,9 +83,10 @@ function defaultGetHexAddress(line) {
   var res;
   if (matchStackTrace) { 
     // lldb backtrace
-    return matchStackTrace[2];
+    return { address: matchStackTrace[2], include: false }
   }
-  return m &&  m[0];
+  var include = !instrumentsCsvRegex.test(line);
+  return m && { address: m[0], include: include }
 }
 
 /**
@@ -90,7 +95,7 @@ function defaultGetHexAddress(line) {
  * @name JITResolver::resolveMulti
  * @function
  * @param {Array.<String>|String} stack string of stack or lines of stack
- * @param {function=} getHexAddress allows overriding the function used to find a hex address on each line
+ * @param {function=} getHexAddress allows overriding the function used to find a hex address on each line, returns `{ address: 0x000, include: true|false }`
  * @return {Array.<String>|String} the stack with symbols resolved in the same format that the stack was given, either as lines or one string
  */
 proto.resolveMulti = function resolveMulti(stack, getHexAddress) {
@@ -102,13 +107,13 @@ proto.resolveMulti = function resolveMulti(stack, getHexAddress) {
 
   function processLine(line) {
     var replacement;
-    var address = getHexAddress(line);
-    if (!address) return line;
+    var match = getHexAddress(line);
+    if (!match || !match.address) return line;
 
-    var resolved = self.resolve(address);
+    var resolved = self.resolve(match.address);
     if (!resolved) return line;
 
-    return line.replace(address, resolved.symbol);
+    return line.replace(match.address, match.include ? match.address + ' ' + resolved.symbol : resolved.symbol);
   }
   
   var processedLines = lines.map(processLine);
@@ -121,7 +126,7 @@ proto.resolveMulti = function resolveMulti(stack, getHexAddress) {
  * 
  * @name JITResolver::hexAddressRegex
  */
-proto.hexAddressRegex     = hexAddressRegex;
+proto.hexAddressRegex  = hexAddressRegex;
 
 /**
  * RegExp used to match memory lldb backtraces of the form `#1 0x001 in 0x001 ()`
