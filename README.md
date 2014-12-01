@@ -62,6 +62,46 @@ This will create a map file at `/tmp/perf-<pid>.map`.
 </div>
 <dl>
 <dt>
+<h4 class="name" id="JITResolver::hexAddressRegex"><span class="type-signature"></span>JITResolver::hexAddressRegex<span class="type-signature"></span></h4>
+</dt>
+<dd>
+<div class="description">
+<p>RegExp used to match memory addresses.</p>
+</div>
+<dl class="details">
+<dt class="tag-source">Source:</dt>
+<dd class="tag-source"><ul class="dummy">
+<li>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
+<span>, </span>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L119">lineno 119</a>
+</li>
+</ul></dd>
+</dl>
+</dd>
+<dt>
+<h4 class="name" id="JITResolver::lldb_backtraceRegex"><span class="type-signature"></span>JITResolver::lldb_backtraceRegex<span class="type-signature"></span></h4>
+</dt>
+<dd>
+<div class="description">
+<p>RegExp used to match memory lldb backtraces of the form <code>#1 0x001 in 0x001 ()</code>
+When calling <code>var m = s.match(regex)</code>
+<code>m[1]</code> contains first matched address and <code>m[2]</code> contains second matched address.</p>
+</div>
+<dl class="details">
+<dt class="tag-source">Source:</dt>
+<dd class="tag-source"><ul class="dummy">
+<li>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
+<span>, </span>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L126">lineno 126</a>
+</li>
+</ul></dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dt>
 <h4 class="name" id="JITResolver"><span class="type-signature"></span>JITResolver<span class="signature">(map)</span><span class="type-signature"> &rarr; {Object}</span></h4>
 </dt>
 <dd>
@@ -93,9 +133,9 @@ This will create a map file at `/tmp/perf-<pid>.map`.
 <dt class="tag-source">Source:</dt>
 <dd class="tag-source"><ul class="dummy">
 <li>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js">index.js</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js#L4">lineno 4</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L27">lineno 27</a>
 </li>
 </ul></dd>
 </dl>
@@ -144,9 +184,9 @@ Type
 <dt class="tag-source">Source:</dt>
 <dd class="tag-source"><ul class="dummy">
 <li>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js">index.js</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js#L41">lineno 41</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L50">lineno 50</a>
 </li>
 </ul></dd>
 </dl>
@@ -208,9 +248,9 @@ Type
 <dt class="tag-source">Source:</dt>
 <dd class="tag-source"><ul class="dummy">
 <li>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js">index.js</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/master/index.js#L70">lineno 70</a>
+<a href="https://github.com/thlorenz/resolve-jit-symbols/blob/gh-pages/index.js#L87">lineno 87</a>
 </li>
 </ul></dd>
 </dl>

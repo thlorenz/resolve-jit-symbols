@@ -1,6 +1,6 @@
 'use strict';
 var hexAddressRegex = /0x((\d|[abcdefABCDEF]){0,2})+/
-  , lldb_backtraceRegex = /(:?0x((\d|[abcdefABCDEF]){0,2})+) +in +(:?0x((\d|[abcdefABCDEF]){0,2})+)/
+  , lldb_backtraceRegex = /(:?0x(?:(?:\d|[abcdefABCDEF]){0,2})+) +in +(:?0x(?:(?:\d|[abcdefABCDEF]){0,2})+)/
 
 function byDecimalAddress(a, b) {
   return a.decimalAddress < b.decimalAddress ? -1 : 1;
@@ -79,7 +79,7 @@ function defaultGetHexAddress(line) {
   var res;
   if (matchStackTrace) { 
     // lldb backtrace
-    return matchStackTrace[4];
+    return matchStackTrace[2];
   }
   return m &&  m[0];
 }
@@ -126,7 +126,7 @@ proto.hexAddressRegex     = hexAddressRegex;
 /**
  * RegExp used to match memory lldb backtraces of the form `#1 0x001 in 0x001 ()`
  * When calling `var m = s.match(regex)` 
- * `m[1]` contains first matched address and `m[4]` contains second matched address.
+ * `m[1]` contains first matched address and `m[2]` contains second matched address.
  * 
  * @name JITResolver::lldb_backtraceRegex
  */
