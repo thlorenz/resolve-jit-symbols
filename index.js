@@ -3,8 +3,11 @@ var prettyTrace = require('pretty-trace');
 
 var instrumentsCsvRegex = prettyTrace.regexes.instruments.csv.regex;
 
-var hexAddressRegex = /0x((\d|[abcdefABCDEF]){0,2})+/
+
+var hexAddressRegex = /0x([0-9A-Fa-f]{2,12})/
   , lldb_backtraceRegex = /(:?0x(?:(?:\d|[abcdefABCDEF]){0,2})+) +in +(:?0x(?:(?:\d|[abcdefABCDEF]){0,2})+)/
+// TODO:  faster IMO, not working currently ATM
+//  , lldb_backtraceRegex = /0x[0-9A-Fa-f]{2,12} +in 0x[0-9A-Fa-f]{2,12}/
 
 function byDecimalAddress(a, b) {
   return a.decimalAddress < b.decimalAddress ? -1 : 1;
@@ -86,6 +89,7 @@ function defaultGetHexAddress(line) {
     return { address: matchStackTrace[2], include: false }
   }
   var include = !instrumentsCsvRegex.test(line);
+
   return m && { address: m[0], include: include }
 }
 
