@@ -1,16 +1,29 @@
 #!/usr/bin/env node
 /*vim ft: js */
+'use strict';
 
 var jitResolver = require('../')
-  , fs = require('fs')
+  , path        = require('path')
+  , fs          = require('fs')
 
 function printUsage() {
-  console.log('Usage: cat callstack.csv | rjs <perf-*.map>');
-  console.log(' Please provide a map file and pipe in a file containing a callstack');
+  console.error('Usage: cat callstack.csv | rjs <perf-*.map>');
+  console.error(' Please provide a map file and pipe in a file containing a callstack');
+}
+
+function resolveMapFileForPid(pid) {
+  return path.join('/tmp', 'perf-' + pid + '.map');
 }
 
 var mapFile = process.argv[2];
 if (!mapFile) return printUsage();
+
+if (!isNaN(mapFile)) mapFile = resolveMapFileForPid(mapFile);
+
+if (!fs.existsSync(mapFile)) {
+  console.error('The map file %s does not exist.', mapFile);
+  return printUsage();
+}
 
 var resolver = jitResolver(fs.readFileSync(mapFile, 'utf8'));
 

@@ -31,7 +31,11 @@ cat test/fixtures/callgraph.csv | rjs test/fixtures/jit.map
 ## Usage
 
 ```
-cat callstack.csv | rjs <perf-*.map>
+# Supply path to map file
+cat callstack.csv | rjs /tmp/<perf-*.map>
+
+# Or pid of process whose map file to use (resolved from /tmp/perf-<pid>.map)
+cat callstack.csv | rjs <pid>
 ```
 
 ## How to Generate JIT Symbol Files
